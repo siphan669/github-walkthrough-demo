@@ -5,3 +5,4 @@ out/*.mp4
 node_modules/
 .hyperframes/
 out/work-*/
+out/.*/
