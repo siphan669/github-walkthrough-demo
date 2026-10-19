@@ -1,7 +1,7 @@
 // Inlined into every chapter sub-composition. Builds one paused, seek-safe GSAP timeline
 // from the data-* animation hooks the generator writes. Deterministic: no clocks, no random.
 (function (ID) {
-  const root = document.querySelector(`[data-composition-id="${ID}"]`);
+  const root = document.querySelector("[data-composition-id=\"" + ID + "\"]");
   const tl = gsap.timeline({ paused: true });
   const num = (v, d = 0) => (v === undefined || v === "" ? d : parseFloat(v));
   const reps = (d, p) => Math.max(0, Math.floor(d / p) - 1);
@@ -18,14 +18,12 @@
       tl.fromTo(cam, from, { ...to, duration: d, ease: "sine.inOut" }, s);
     }
 
-    q("[data-rot]").forEach((el) => {
+    q("[data-swing]").forEach((el) => {
+      // Static pose is baked into the transform attribute; swing tweens that attribute string.
       const base = num(el.dataset.rot), org = el.dataset.org;
-      tl.set(el, { rotation: base, svgOrigin: org }, 0);
-      if (el.dataset.swing) {
-        const [amp, period, phase] = el.dataset.swing.split(",").map(Number);
-        const a = phase ? base + amp : base - amp, b = phase ? base - amp : base + amp;
-        tl.fromTo(el, { rotation: a, svgOrigin: org }, { rotation: b, svgOrigin: org, duration: period, ease: "sine.inOut", yoyo: true, repeat: reps(d, period) }, s);
-      }
+      const [amp, period, phase] = el.dataset.swing.split(",").map(Number);
+      const a = phase ? base + amp : base - amp, b = phase ? base - amp : base + amp;
+      tl.fromTo(el, { attr: { transform: "rotate(" + a + " " + org + ")" } }, { attr: { transform: "rotate(" + b + " " + org + ")" }, duration: period, ease: "sine.inOut", yoyo: true, repeat: reps(d, period) }, s);
     });
     q("[data-walk]").forEach((el) => {
       const dx = Math.abs(num(el.dataset.walk));

@@ -123,13 +123,13 @@ function limb(id, ox, oy, len1, len2, [a1, a2], color, w, swing) {
   // upper segment rotates about (ox,oy); lower about the elbow/knee.
   const ex = ox, ey = oy + len1;
   const sw = swing ? ` data-swing="${swing.amp},${swing.period},${swing.phase || 0}"` : "";
-  return `<g data-rot="${a1}" data-org="${ox} ${oy}"${sw}><line x1="${ox}" y1="${oy}" x2="${ex}" y2="${ey}" stroke="${color}" stroke-width="${w}" stroke-linecap="round"/>` +
-    `<g data-rot="${a2}" data-org="${ex} ${ey}"${swing?.lower ? ` data-swing="${swing.lower},${swing.period},${swing.phase || 0}"` : ""}><line x1="${ex}" y1="${ey}" x2="${ex}" y2="${ey + len2}" stroke="${color}" stroke-width="${w}" stroke-linecap="round"/></g></g>`;
+  return `<g transform="rotate(${a1} ${ox} ${oy})" data-rot="${a1}" data-org="${ox} ${oy}"${sw}><line x1="${ox}" y1="${oy}" x2="${ex}" y2="${ey}" stroke="${color}" stroke-width="${w}" stroke-linecap="round"/>` +
+    `<g transform="rotate(${a2} ${ex} ${ey})" data-rot="${a2}" data-org="${ex} ${ey}"${swing?.lower ? ` data-swing="${swing.lower},${swing.period},${swing.phase || 0}"` : ""}><line x1="${ex}" y1="${ey}" x2="${ex}" y2="${ey + len2}" stroke="${color}" stroke-width="${w}" stroke-linecap="round"/></g></g>`;
 }
 export function character(spec, xray, i) {
   const cast = CAST[spec.c];
   const p = POSES[spec.pose] || POSES.stand;
-  const s = cast.scale * (spec.kid ? 0.68 : 1) * (spec.c === "guest" ? 0.95 : 1);
+  const s = 1.3 * cast.scale * (spec.kid ? 0.68 : 1) * (spec.c === "guest" ? 0.95 : 1);
   const face = spec.face || 1;
   const col = xray ? "rgba(95,227,255,0.35)" : cast.color;
   const w = 9;
@@ -320,7 +320,7 @@ export function obj(v, seed) {
     }
     case "fireworks": {
       let s = crates(820, 600) + `<text x="1010" y="690" text-anchor="middle" class="mono" font-size="40" fill="${C.warm}" data-in="fade" data-delay="0.5">400 KG + 2 T SPEAKERS</text>`;
-      s += `<line x1="1010" x2="1010" y1="720" y2="1000" stroke="${C.danger}" stroke-width="10" data-in="draw" data-delay="0.9"/><path d="M980 970 l30 40 l30 -40" stroke="${C.danger}" stroke-width="10" fill="none" data-in="fade" data-delay="1.4"/><text x="1080" y="990" class="mono" font-size="32" fill="${C.danger}" data-in="fade" data-delay="1.4">COLUMN C</text>`;
+      s += `<line x1="1010" x2="1010" y1="720" y2="850" stroke="${C.danger}" stroke-width="10" data-in="draw" data-delay="0.9"/><path d="M980 830 l30 40 l30 -40" stroke="${C.danger}" stroke-width="10" fill="none" data-in="fade" data-delay="1.4"/><text x="1080" y="860" class="mono" font-size="32" fill="${C.danger}" data-in="fade" data-delay="1.4">COLUMN C</text>`;
       return frame(s, { label: v.label });
     }
     case "chest": {
@@ -356,10 +356,10 @@ export function obj(v, seed) {
     }
     case "drawing": {
       let s = `<rect width="${W}" height="${H}" fill="#120d0a"/><g${v.folded ? ' data-unfold="1"' : ""}><rect x="420" y="120" width="1080" height="840" fill="#f4ecd8" transform="rotate(-2 960 540)"/>`;
-      s += `<g transform="rotate(-2 960 540)" stroke="#3a3a8a" stroke-width="10" stroke-linecap="round" fill="none"><circle cx="760" cy="420" r="80"/><line x1="760" x2="760" y1="500" y2="720"/><line x1="760" x2="660" y1="560" y2="640"/><line x1="760" x2="870" y1="560" y2="620"/><line x1="760" x2="690" y1="720" y2="840"/><line x1="760" x2="840" y1="720" y2="840"/></g>`;
-      s += `<g transform="rotate(-2 960 540)"><circle cx="735" cy="410" r="14" fill="${C.nora}"/><circle cx="785" cy="410" r="14" fill="${C.nora}"/><path d="M735 410 l-160 -60 M735 410 l-170 10 M785 410 l170 -60 M785 410 l180 10" stroke="${C.nora}" stroke-width="8" data-pulse="1.2"/><path d="M1180 420 l20 -60 l20 60 l-50 -36 h60 z" fill="#e05a5a"/></g>`;
+      s += `<g transform="translate(0 -70) rotate(-2 960 540)" stroke="#3a3a8a" stroke-width="10" stroke-linecap="round" fill="none"><circle cx="760" cy="420" r="80"/><line x1="760" x2="760" y1="500" y2="720"/><line x1="760" x2="660" y1="560" y2="640"/><line x1="760" x2="870" y1="560" y2="620"/><line x1="760" x2="690" y1="720" y2="840"/><line x1="760" x2="840" y1="720" y2="840"/></g>`;
+      s += `<g transform="translate(0 -70) rotate(-2 960 540)"><circle cx="735" cy="410" r="14" fill="${C.nora}"/><circle cx="785" cy="410" r="14" fill="${C.nora}"/><path d="M735 410 l-160 -60 M735 410 l-170 10 M785 410 l170 -60 M785 410 l180 10" stroke="${C.nora}" stroke-width="8" data-pulse="1.2"/><path d="M1180 420 l20 -60 l20 60 l-50 -36 h60 z" fill="#e05a5a"/></g>`;
       const msg = "my brother can see everything";
-      s += `<g transform="rotate(-3 960 540)">${[...msg].map((ch, i) => `<text x="${520 + i * 31}" y="${890 + Math.sin(i * 1.3) * 8}" font-size="54" class="kid" fill="#c0392b" transform="rotate(${(Math.sin(i * 2.1) * 6).toFixed(1)} ${520 + i * 31} 890)">${ch === " " ? "" : ch}</text>`).join("")}</g></g>`;
+      s += `<g transform="translate(0 -45) rotate(-3 960 540)" data-layout-allow-overlap>${[...msg].map((ch, i) => `<text x="${520 + i * 31}" y="${890 + Math.sin(i * 1.3) * 8}" font-size="54" class="kid" fill="#c0392b" transform="rotate(${(Math.sin(i * 2.1) * 6).toFixed(1)} ${520 + i * 31} 890)">${ch === " " ? "" : ch}</text>`).join("")}</g></g>`;
       return frame(s, { grid: false, scan: false, bg: "#120d0a" });
     }
   }

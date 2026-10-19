@@ -3,53 +3,710 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="assets/vendor/gsap.min.js"></script>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      html,
-      body {
-        margin: 0;
-        width: 1920px;
-        height: 1080px;
-        overflow: hidden;
-        background: #0a0a0a;
-      }
-      #root {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-      }
-      #title {
-        color: #f4f4f5;
-        font-size: 72px;
-        font-weight: 600;
-        letter-spacing: -0.03em;
-      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #060a13; }
+      #root { width: 100%; height: 100%; position: relative; background: #060a13; }
+      .cap { position: absolute; left: 0; right: 0; bottom: 70px; display: flex; justify-content: center; z-index: 20; }
+      .cap span { font-family: "League Gothic", sans-serif; font-size: 92px; line-height: 1; text-transform: uppercase; color: #ffffff; letter-spacing: 0.02em; padding: 6px 26px 10px; background: rgba(3,6,12,0.62); border-radius: 10px; }
+      .cap b { color: #5fe3ff; font-weight: 400; }
     </style>
   </head>
   <body>
-    <div
-      id="root"
-      data-composition-id="main"
-      data-start="0"
-      data-duration="10"
-      data-width="1920"
-      data-height="1080"
-    >
-      <h1 id="title" class="clip" data-start="0" data-duration="10" data-track-index="0">Title</h1>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="562.261" data-width="1920" data-height="1080">
+      <div id="c00" class="clip" data-composition-id="c00" data-composition-src="compositions/c00.html" data-start="0" data-duration="26.904" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c01" class="clip" data-composition-id="c01" data-composition-src="compositions/c01.html" data-start="26.904" data-duration="62.633" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c02" class="clip" data-composition-id="c02" data-composition-src="compositions/c02.html" data-start="89.537" data-duration="63.061" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c03" class="clip" data-composition-id="c03" data-composition-src="compositions/c03.html" data-start="152.598" data-duration="78.913" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c04" class="clip" data-composition-id="c04" data-composition-src="compositions/c04.html" data-start="231.511" data-duration="22.722" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c05" class="clip" data-composition-id="c05" data-composition-src="compositions/c05.html" data-start="254.233" data-duration="43.578" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c06" class="clip" data-composition-id="c06" data-composition-src="compositions/c06.html" data-start="297.811" data-duration="85.277" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c07" class="clip" data-composition-id="c07" data-composition-src="compositions/c07.html" data-start="383.088" data-duration="84.749" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c08" class="clip" data-composition-id="c08" data-composition-src="compositions/c08.html" data-start="467.837" data-duration="38.137" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div id="c09" class="clip" data-composition-id="c09" data-composition-src="compositions/c09.html" data-start="505.974" data-duration="56.287" data-track-index="0" data-width="1920" data-height="1080"></div>
+      <div class="cap clip" id="cap0" data-start="0.000" data-duration="1.330" data-track-index="6"><span>You can see <b>through</b></span></div>
+      <div class="cap clip" id="cap1" data-start="1.330" data-duration="0.697" data-track-index="6"><span><b>anything.</b></span></div>
+      <div class="cap clip" id="cap2" data-start="2.327" data-duration="0.564" data-track-index="6"><span><b>Walls.</b></span></div>
+      <div class="cap clip" id="cap3" data-start="2.891" data-duration="0.493" data-track-index="6"><span><b>Skin.</b></span></div>
+      <div class="cap clip" id="cap4" data-start="3.384" data-duration="0.564" data-track-index="6"><span><b>Steel.</b></span></div>
+      <div class="cap clip" id="cap5" data-start="4.248" data-duration="0.820" data-track-index="6"><span>And <b>tonight,</b></span></div>
+      <div class="cap clip" id="cap6" data-start="5.068" data-duration="1.113" data-track-index="6"><span>you see <b>something</b></span></div>
+      <div class="cap clip" id="cap7" data-start="6.181" data-duration="1.054" data-track-index="6"><span>no one <b>else</b> can.</span></div>
+      <div class="cap clip" id="cap8" data-start="7.635" data-duration="0.607" data-track-index="6"><span>A <b>crack…</b></span></div>
+      <div class="cap clip" id="cap9" data-start="8.242" data-duration="1.276" data-track-index="6"><span><b>inside</b> a tower full</span></div>
+      <div class="cap clip" id="cap10" data-start="9.518" data-duration="1.154" data-track-index="6"><span>of three <b>thousand</b></span></div>
+      <div class="cap clip" id="cap11" data-start="10.672" data-duration="0.547" data-track-index="6"><span><b>people.</b></span></div>
+      <div class="cap clip" id="cap12" data-start="11.869" data-duration="1.050" data-track-index="6"><span>Who is <b>going</b> to</span></div>
+      <div class="cap clip" id="cap13" data-start="12.919" data-duration="1.173" data-track-index="6"><span><b>believe</b> a boy who</span></div>
+      <div class="cap clip" id="cap14" data-start="14.092" data-duration="1.297" data-track-index="6"><span>sees <b>through</b> walls?</span></div>
+      <div class="cap clip" id="cap15" data-start="16.039" data-duration="0.826" data-track-index="6"><span>Six <b>clues.</b></span></div>
+      <div class="cap clip" id="cap16" data-start="16.865" data-duration="1.102" data-track-index="6"><span>Forty <b>minutes.</b></span></div>
+      <div class="cap clip" id="cap17" data-start="17.967" data-duration="0.895" data-track-index="6"><span>One <b>sister,</b></span></div>
+      <div class="cap clip" id="cap18" data-start="18.862" data-duration="1.377" data-track-index="6"><span><b>fifty-eight</b> floors</span></div>
+      <div class="cap clip" id="cap19" data-start="20.239" data-duration="0.344" data-track-index="6"><span><b>up.</b></span></div>
+      <div class="cap clip" id="cap20" data-start="20.983" data-duration="1.377" data-track-index="6"><span>And nobody <b>believes</b></span></div>
+      <div class="cap clip" id="cap21" data-start="22.360" data-duration="0.394" data-track-index="6"><span><b>you.</b></span></div>
+      <div class="cap clip" id="cap22" data-start="29.504" data-duration="0.824" data-track-index="6"><span><b>You're</b> Eli.</span></div>
+      <div class="cap clip" id="cap23" data-start="30.328" data-duration="1.459" data-track-index="6"><span><b>Twenty-two</b> years old.</span></div>
+      <div class="cap clip" id="cap24" data-start="32.087" data-duration="1.129" data-track-index="6"><span><b>Since</b> you were nine,</span></div>
+      <div class="cap clip" id="cap25" data-start="33.216" data-duration="1.129" data-track-index="6"><span>you've seen <b>straight</b></span></div>
+      <div class="cap clip" id="cap26" data-start="34.345" data-duration="1.027" data-track-index="6"><span><b>through</b> the world.</span></div>
+      <div class="cap clip" id="cap27" data-start="35.772" data-duration="1.488" data-track-index="6"><span><b>Bricks</b> turn to glass.</span></div>
+      <div class="cap clip" id="cap28" data-start="37.260" data-duration="1.423" data-track-index="6"><span><b>People</b> turn to bones</span></div>
+      <div class="cap clip" id="cap29" data-start="38.683" data-duration="1.100" data-track-index="6"><span>and <b>heartbeats.</b></span></div>
+      <div class="cap clip" id="cap30" data-start="40.183" data-duration="1.331" data-track-index="6"><span>So you wear <b>these.</b></span></div>
+      <div class="cap clip" id="cap31" data-start="41.514" data-duration="1.331" data-track-index="6"><span><b>Lead-lined</b> lenses.</span></div>
+      <div class="cap clip" id="cap32" data-start="42.845" data-duration="1.398" data-track-index="6"><span>They make the <b>world</b></span></div>
+      <div class="cap clip" id="cap33" data-start="44.243" data-duration="0.932" data-track-index="6"><span>look <b>normal.</b></span></div>
+      <div class="cap clip" id="cap34" data-start="45.575" data-duration="1.365" data-track-index="6"><span><b>Normal</b> is the only</span></div>
+      <div class="cap clip" id="cap35" data-start="46.941" data-duration="1.365" data-track-index="6"><span>way you can <b>sleep.</b></span></div>
+      <div class="cap clip" id="cap36" data-start="48.606" data-duration="1.524" data-track-index="6"><span>At six <b>forty</b> p.m.,</span></div>
+      <div class="cap clip" id="cap37" data-start="50.130" data-duration="1.600" data-track-index="6"><span>you walk past <b>Crane</b></span></div>
+      <div class="cap clip" id="cap38" data-start="51.730" data-duration="0.609" data-track-index="6"><span><b>Spire.</b></span></div>
+      <div class="cap clip" id="cap39" data-start="52.739" data-duration="1.766" data-track-index="6"><span>Sixty <b>floors</b> of glass.</span></div>
+      <div class="cap clip" id="cap40" data-start="54.505" data-duration="1.178" data-track-index="6"><span><b>Opening</b> night.</span></div>
+      <div class="cap clip" id="cap41" data-start="55.983" data-duration="1.494" data-track-index="6"><span>Three <b>thousand</b> guests.</span></div>
+      <div class="cap clip" id="cap42" data-start="57.477" data-duration="1.432" data-track-index="6"><span><b>Fireworks</b> on the roof</span></div>
+      <div class="cap clip" id="cap43" data-start="58.909" data-duration="0.871" data-track-index="6"><span>at <b>midnight.</b></span></div>
+      <div class="cap clip" id="cap44" data-start="60.180" data-duration="0.836" data-track-index="6"><span>And up <b>there,</b></span></div>
+      <div class="cap clip" id="cap45" data-start="61.016" data-duration="1.170" data-track-index="6"><span>on the <b>fifty-eighth</b></span></div>
+      <div class="cap clip" id="cap46" data-start="62.185" data-duration="0.446" data-track-index="6"><span><b>floor,</b></span></div>
+      <div class="cap clip" id="cap47" data-start="62.631" data-duration="0.557" data-track-index="6"><span>is <b>Nora.</b></span></div>
+      <div class="cap clip" id="cap48" data-start="63.588" data-duration="1.416" data-track-index="6"><span>Your <b>little</b> sister.</span></div>
+      <div class="cap clip" id="cap49" data-start="65.004" data-duration="0.674" data-track-index="6"><span><b>Sixteen.</b></span></div>
+      <div class="cap clip" id="cap50" data-start="65.678" data-duration="1.416" data-track-index="6"><span><b>Volunteering</b> at the</span></div>
+      <div class="cap clip" id="cap51" data-start="67.094" data-duration="0.472" data-track-index="6"><span><b>gala,</b></span></div>
+      <div class="cap clip" id="cap52" data-start="67.566" data-duration="1.483" data-track-index="6"><span>in a <b>borrowed</b> dress.</span></div>
+      <div class="cap clip" id="cap53" data-start="69.699" data-duration="1.035" data-track-index="6"><span>Take a <b>picture</b> of</span></div>
+      <div class="cap clip" id="cap54" data-start="70.734" data-duration="1.035" data-track-index="6"><span>the <b>tower</b> for me,</span></div>
+      <div class="cap clip" id="cap55" data-start="71.769" data-duration="0.381" data-track-index="6"><span><b>okay?</b></span></div>
+      <div class="cap clip" id="cap56" data-start="72.150" data-duration="0.980" data-track-index="6"><span>I'll be the <b>tiny</b></span></div>
+      <div class="cap clip" id="cap57" data-start="73.130" data-duration="0.708" data-track-index="6"><span>dot <b>waving.</b></span></div>
+      <div class="cap clip" id="cap58" data-start="74.488" data-duration="0.761" data-track-index="6"><span>You <b>smile.</b></span></div>
+      <div class="cap clip" id="cap59" data-start="75.249" data-duration="1.204" data-track-index="6"><span>And for no <b>reason</b></span></div>
+      <div class="cap clip" id="cap60" data-start="76.453" data-duration="0.570" data-track-index="6"><span>at <b>all…</b></span></div>
+      <div class="cap clip" id="cap61" data-start="77.023" data-duration="1.458" data-track-index="6"><span>you take your <b>glasses</b></span></div>
+      <div class="cap clip" id="cap62" data-start="78.481" data-duration="0.380" data-track-index="6"><span><b>off.</b></span></div>
+      <div class="cap clip" id="cap63" data-start="79.261" data-duration="1.419" data-track-index="6"><span>Floor <b>thirty-one.</b></span></div>
+      <div class="cap clip" id="cap64" data-start="80.680" data-duration="0.821" data-track-index="6"><span><b>Column</b> C.</span></div>
+      <div class="cap clip" id="cap65" data-start="81.801" data-duration="1.111" data-track-index="6"><span><b>There's</b> a dark line</span></div>
+      <div class="cap clip" id="cap66" data-start="82.912" data-duration="1.111" data-track-index="6"><span><b>running</b> through the</span></div>
+      <div class="cap clip" id="cap67" data-start="84.023" data-duration="0.423" data-track-index="6"><span><b>steel.</b></span></div>
+      <div class="cap clip" id="cap68" data-start="84.846" data-duration="0.960" data-track-index="6"><span>A <b>crack.</b></span></div>
+      <div class="cap clip" id="cap69" data-start="86.106" data-duration="1.471" data-track-index="6"><span><b>Steel</b> never lies to</span></div>
+      <div class="cap clip" id="cap70" data-start="87.577" data-duration="0.420" data-track-index="6"><span><b>you.</b></span></div>
+      <div class="cap clip" id="cap71" data-start="87.997" data-duration="0.840" data-track-index="6"><span><b>People</b> do.</span></div>
+      <div class="cap clip" id="cap72" data-start="92.137" data-duration="1.387" data-track-index="6"><span>You've seen a <b>shadow</b></span></div>
+      <div class="cap clip" id="cap73" data-start="93.524" data-duration="1.514" data-track-index="6"><span>like this once <b>before.</b></span></div>
+      <div class="cap clip" id="cap74" data-start="95.438" data-duration="1.159" data-track-index="6"><span>You were <b>twelve.</b></span></div>
+      <div class="cap clip" id="cap75" data-start="96.597" data-duration="1.288" data-track-index="6"><span>It was <b>inside</b> your</span></div>
+      <div class="cap clip" id="cap76" data-start="97.885" data-duration="1.094" data-track-index="6"><span><b>father's</b> chest.</span></div>
+      <div class="cap clip" id="cap77" data-start="99.379" data-duration="1.226" data-track-index="6"><span>You <b>told</b> your mom.</span></div>
+      <div class="cap clip" id="cap78" data-start="100.605" data-duration="1.410" data-track-index="6"><span>You told the <b>doctors.</b></span></div>
+      <div class="cap clip" id="cap79" data-start="102.014" data-duration="1.226" data-track-index="6"><span>You told <b>everyone.</b></span></div>
+      <div class="cap clip" id="cap80" data-start="103.640" data-duration="1.536" data-track-index="6"><span>They <b>patted</b> your head.</span></div>
+      <div class="cap clip" id="cap81" data-start="105.176" data-duration="1.216" data-track-index="6"><span><b>They</b> said you had</span></div>
+      <div class="cap clip" id="cap82" data-start="106.392" data-duration="1.280" data-track-index="6"><span>a big <b>imagination.</b></span></div>
+      <div class="cap clip" id="cap83" data-start="108.072" data-duration="0.972" data-track-index="6"><span>A year <b>later,</b></span></div>
+      <div class="cap clip" id="cap84" data-start="109.044" data-duration="1.297" data-track-index="6"><span>the <b>scans</b> found it</span></div>
+      <div class="cap clip" id="cap85" data-start="110.341" data-duration="0.389" data-track-index="6"><span><b>too.</b></span></div>
+      <div class="cap clip" id="cap86" data-start="110.730" data-duration="0.713" data-track-index="6"><span>Too <b>late.</b></span></div>
+      <div class="cap clip" id="cap87" data-start="111.843" data-duration="0.950" data-track-index="6"><span><b>That</b> was the day</span></div>
+      <div class="cap clip" id="cap88" data-start="112.793" data-duration="1.109" data-track-index="6"><span>you <b>stopped</b> telling</span></div>
+      <div class="cap clip" id="cap89" data-start="113.902" data-duration="1.162" data-track-index="6"><span><b>people</b> what you see.</span></div>
+      <div class="cap clip" id="cap90" data-start="115.464" data-duration="0.941" data-track-index="6"><span>But <b>tonight,</b></span></div>
+      <div class="cap clip" id="cap91" data-start="116.405" data-duration="1.278" data-track-index="6"><span>Nora is up <b>there.</b></span></div>
+      <div class="cap clip" id="cap92" data-start="117.983" data-duration="1.093" data-track-index="6"><span>So you <b>call</b> the</span></div>
+      <div class="cap clip" id="cap93" data-start="119.076" data-duration="1.800" data-track-index="6"><span>city's building <b>inspector.</b></span></div>
+      <div class="cap clip" id="cap94" data-start="120.876" data-duration="1.221" data-track-index="6"><span>Floor <b>thirty-one,</b></span></div>
+      <div class="cap clip" id="cap95" data-start="122.097" data-duration="0.707" data-track-index="6"><span><b>column</b> C.</span></div>
+      <div class="cap clip" id="cap96" data-start="123.454" data-duration="0.649" data-track-index="6"><span><b>Thank</b> you,</span></div>
+      <div class="cap clip" id="cap97" data-start="124.103" data-duration="0.325" data-track-index="6"><span><b>sir.</b></span></div>
+      <div class="cap clip" id="cap98" data-start="124.428" data-duration="0.433" data-track-index="6"><span><b>We'll…</b></span></div>
+      <div class="cap clip" id="cap99" data-start="124.861" data-duration="0.812" data-track-index="6"><span><b>look</b> into it.</span></div>
+      <div class="cap clip" id="cap100" data-start="126.223" data-duration="1.411" data-track-index="6"><span>Twelve <b>minutes</b> later,</span></div>
+      <div class="cap clip" id="cap101" data-start="127.634" data-duration="1.533" data-track-index="6"><span>your <b>phone</b> rings again.</span></div>
+      <div class="cap clip" id="cap102" data-start="129.817" data-duration="0.454" data-track-index="6"><span><b>Eli,</b></span></div>
+      <div class="cap clip" id="cap103" data-start="130.271" data-duration="0.833" data-track-index="6"><span><b>isn't</b> it?</span></div>
+      <div class="cap clip" id="cap104" data-start="131.104" data-duration="1.742" data-track-index="6"><span>This is <b>Victor</b> Crane.</span></div>
+      <div class="cap clip" id="cap105" data-start="133.146" data-duration="1.323" data-track-index="6"><span>My <b>inspector</b> says</span></div>
+      <div class="cap clip" id="cap106" data-start="134.469" data-duration="1.463" data-track-index="6"><span>you've been <b>telling</b></span></div>
+      <div class="cap clip" id="cap107" data-start="135.932" data-duration="1.950" data-track-index="6"><span>stories about my <b>building.</b></span></div>
+      <div class="cap clip" id="cap108" data-start="138.282" data-duration="1.160" data-track-index="6"><span>He <b>works</b> for me,</span></div>
+      <div class="cap clip" id="cap109" data-start="139.442" data-duration="0.387" data-track-index="6"><span><b>son.</b></span></div>
+      <div class="cap clip" id="cap110" data-start="139.828" data-duration="1.224" data-track-index="6"><span>So <b>does</b> half this</span></div>
+      <div class="cap clip" id="cap111" data-start="141.052" data-duration="0.451" data-track-index="6"><span><b>city.</b></span></div>
+      <div class="cap clip" id="cap112" data-start="141.903" data-duration="1.367" data-track-index="6"><span><b>Stay</b> away from my</span></div>
+      <div class="cap clip" id="cap113" data-start="143.270" data-duration="0.576" data-track-index="6"><span><b>tower.</b></span></div>
+      <div class="cap clip" id="cap114" data-start="143.846" data-duration="1.223" data-track-index="6"><span>Or my <b>next</b> call</span></div>
+      <div class="cap clip" id="cap115" data-start="145.069" data-duration="1.655" data-track-index="6"><span>is about your <b>sister.</b></span></div>
+      <div class="cap clip" id="cap116" data-start="147.374" data-duration="1.237" data-track-index="6"><span>He <b>hangs</b> up.</span></div>
+      <div class="cap clip" id="cap117" data-start="148.911" data-duration="1.459" data-track-index="6"><span>And you <b>understand.</b></span></div>
+      <div class="cap clip" id="cap118" data-start="150.370" data-duration="1.528" data-track-index="6"><span>Crane <b>already</b> knows.</span></div>
+      <div class="cap clip" id="cap119" data-start="155.198" data-duration="1.086" data-track-index="6"><span>You <b>walk</b> into the</span></div>
+      <div class="cap clip" id="cap120" data-start="156.284" data-duration="1.315" data-track-index="6"><span>lobby like you <b>belong</b></span></div>
+      <div class="cap clip" id="cap121" data-start="157.600" data-duration="0.457" data-track-index="6"><span><b>there.</b></span></div>
+      <div class="cap clip" id="cap122" data-start="158.457" data-duration="1.116" data-track-index="6"><span>And you <b>take</b> the</span></div>
+      <div class="cap clip" id="cap123" data-start="159.573" data-duration="0.868" data-track-index="6"><span><b>glasses</b> off.</span></div>
+      <div class="cap clip" id="cap124" data-start="160.741" data-duration="1.183" data-track-index="6"><span>Ninety <b>seconds.</b></span></div>
+      <div class="cap clip" id="cap125" data-start="161.924" data-duration="1.322" data-track-index="6"><span>Six <b>things</b> nobody</span></div>
+      <div class="cap clip" id="cap126" data-start="163.246" data-duration="1.322" data-track-index="6"><span>was ever <b>meant</b> to</span></div>
+      <div class="cap clip" id="cap127" data-start="164.568" data-duration="0.418" data-track-index="6"><span><b>see.</b></span></div>
+      <div class="cap clip" id="cap128" data-start="165.386" data-duration="0.387" data-track-index="6"><span><b>One.</b></span></div>
+      <div class="cap clip" id="cap129" data-start="165.773" data-duration="1.547" data-track-index="6"><span>The crack runs <b>through</b></span></div>
+      <div class="cap clip" id="cap130" data-start="167.320" data-duration="0.709" data-track-index="6"><span>the <b>weld,</b></span></div>
+      <div class="cap clip" id="cap131" data-start="168.029" data-duration="0.967" data-track-index="6"><span>not the <b>beam.</b></span></div>
+      <div class="cap clip" id="cap132" data-start="168.995" data-duration="1.289" data-track-index="6"><span><b>Somebody</b> welded it</span></div>
+      <div class="cap clip" id="cap133" data-start="170.284" data-duration="0.451" data-track-index="6"><span><b>fast…</b></span></div>
+      <div class="cap clip" id="cap134" data-start="170.736" data-duration="0.773" data-track-index="6"><span>and <b>cheap.</b></span></div>
+      <div class="cap clip" id="cap135" data-start="171.909" data-duration="0.345" data-track-index="6"><span><b>Two.</b></span></div>
+      <div class="cap clip" id="cap136" data-start="172.254" data-duration="0.689" data-track-index="6"><span>The <b>bolts.</b></span></div>
+      <div class="cap clip" id="cap137" data-start="172.943" data-duration="1.091" data-track-index="6"><span><b>Twelve</b> per joint.</span></div>
+      <div class="cap clip" id="cap138" data-start="174.034" data-duration="1.091" data-track-index="6"><span><b>Eight</b> of them are</span></div>
+      <div class="cap clip" id="cap139" data-start="175.125" data-duration="0.517" data-track-index="6"><span><b>hollow.</b></span></div>
+      <div class="cap clip" id="cap140" data-start="176.042" data-duration="1.055" data-track-index="6"><span>To <b>your</b> eyes,</span></div>
+      <div class="cap clip" id="cap141" data-start="177.097" data-duration="1.758" data-track-index="6"><span>real <b>steel</b> glows solid.</span></div>
+      <div class="cap clip" id="cap142" data-start="178.856" data-duration="1.407" data-track-index="6"><span><b>Hollow</b> steel looks</span></div>
+      <div class="cap clip" id="cap143" data-start="180.262" data-duration="0.985" data-track-index="6"><span><b>like</b> a ring.</span></div>
+      <div class="cap clip" id="cap144" data-start="181.647" data-duration="0.506" data-track-index="6"><span><b>Three.</b></span></div>
+      <div class="cap clip" id="cap145" data-start="182.153" data-duration="1.264" data-track-index="6"><span><b>Behind</b> the marble,</span></div>
+      <div class="cap clip" id="cap146" data-start="183.416" data-duration="1.201" data-track-index="6"><span>the alarm <b>cables.</b></span></div>
+      <div class="cap clip" id="cap147" data-start="184.617" data-duration="0.379" data-track-index="6"><span><b>Cut.</b></span></div>
+      <div class="cap clip" id="cap148" data-start="185.396" data-duration="0.975" data-track-index="6"><span><b>Clean</b> cuts.</span></div>
+      <div class="cap clip" id="cap149" data-start="186.371" data-duration="1.350" data-track-index="6"><span>Not an <b>accident.</b></span></div>
+      <div class="cap clip" id="cap150" data-start="188.021" data-duration="0.458" data-track-index="6"><span><b>Four.</b></span></div>
+      <div class="cap clip" id="cap151" data-start="188.479" data-duration="1.047" data-track-index="6"><span>The <b>inspector,</b></span></div>
+      <div class="cap clip" id="cap152" data-start="189.526" data-duration="1.439" data-track-index="6"><span><b>laughing</b> at the bar.</span></div>
+      <div class="cap clip" id="cap153" data-start="191.365" data-duration="1.172" data-track-index="6"><span>In his <b>jacket,</b></span></div>
+      <div class="cap clip" id="cap154" data-start="192.537" data-duration="1.026" data-track-index="6"><span>an <b>envelope.</b></span></div>
+      <div class="cap clip" id="cap155" data-start="193.563" data-duration="1.026" data-track-index="6"><span><b>Forty</b> bills,</span></div>
+      <div class="cap clip" id="cap156" data-start="194.589" data-duration="1.539" data-track-index="6"><span>every <b>serial</b> number</span></div>
+      <div class="cap clip" id="cap157" data-start="196.127" data-duration="0.806" data-track-index="6"><span>in a <b>row.</b></span></div>
+      <div class="cap clip" id="cap158" data-start="197.333" data-duration="1.552" data-track-index="6"><span><b>Fresh</b> from one bank.</span></div>
+      <div class="cap clip" id="cap159" data-start="198.885" data-duration="0.987" data-track-index="6"><span>One <b>account.</b></span></div>
+      <div class="cap clip" id="cap160" data-start="200.172" data-duration="0.464" data-track-index="6"><span><b>Five.</b></span></div>
+      <div class="cap clip" id="cap161" data-start="200.636" data-duration="1.128" data-track-index="6"><span><b>Crane's</b> office,</span></div>
+      <div class="cap clip" id="cap162" data-start="201.764" data-duration="0.796" data-track-index="6"><span><b>floor</b> two.</span></div>
+      <div class="cap clip" id="cap163" data-start="202.560" data-duration="0.597" data-track-index="6"><span>A <b>safe.</b></span></div>
+      <div class="cap clip" id="cap164" data-start="203.157" data-duration="1.061" data-track-index="6"><span>And <b>inside</b> it,</span></div>
+      <div class="cap clip" id="cap165" data-start="204.219" data-duration="1.128" data-track-index="6"><span>a <b>second</b> set of</span></div>
+      <div class="cap clip" id="cap166" data-start="205.347" data-duration="0.862" data-track-index="6"><span><b>blueprints.</b></span></div>
+      <div class="cap clip" id="cap167" data-start="206.609" data-duration="1.265" data-track-index="6"><span>The real <b>numbers.</b></span></div>
+      <div class="cap clip" id="cap168" data-start="207.874" data-duration="1.265" data-track-index="6"><span>The <b>ones</b> the city</span></div>
+      <div class="cap clip" id="cap169" data-start="209.138" data-duration="0.799" data-track-index="6"><span><b>never</b> saw.</span></div>
+      <div class="cap clip" id="cap170" data-start="210.337" data-duration="0.459" data-track-index="6"><span><b>Six.</b></span></div>
+      <div class="cap clip" id="cap171" data-start="210.796" data-duration="0.842" data-track-index="6"><span>The <b>roof.</b></span></div>
+      <div class="cap clip" id="cap172" data-start="211.938" data-duration="1.460" data-track-index="6"><span>Four <b>hundred</b> kilos</span></div>
+      <div class="cap clip" id="cap173" data-start="213.398" data-duration="1.095" data-track-index="6"><span>of <b>fireworks.</b></span></div>
+      <div class="cap clip" id="cap174" data-start="214.493" data-duration="1.679" data-track-index="6"><span>Two tons of <b>speakers.</b></span></div>
+      <div class="cap clip" id="cap175" data-start="216.173" data-duration="1.533" data-track-index="6"><span><b>Sitting</b> right above</span></div>
+      <div class="cap clip" id="cap176" data-start="217.706" data-duration="0.803" data-track-index="6"><span><b>column</b> C.</span></div>
+      <div class="cap clip" id="cap177" data-start="218.909" data-duration="1.323" data-track-index="6"><span>You do the <b>math.</b></span></div>
+      <div class="cap clip" id="cap178" data-start="220.532" data-duration="1.338" data-track-index="6"><span>The <b>column</b> can hold</span></div>
+      <div class="cap clip" id="cap179" data-start="221.870" data-duration="1.083" data-track-index="6"><span><b>nine</b> more tons.</span></div>
+      <div class="cap clip" id="cap180" data-start="222.953" data-duration="1.211" data-track-index="6"><span>The <b>show</b> will hit</span></div>
+      <div class="cap clip" id="cap181" data-start="224.164" data-duration="1.083" data-track-index="6"><span>it with <b>eleven.</b></span></div>
+      <div class="cap clip" id="cap182" data-start="225.647" data-duration="0.911" data-track-index="6"><span>At <b>midnight,</b></span></div>
+      <div class="cap clip" id="cap183" data-start="226.558" data-duration="1.236" data-track-index="6"><span><b>Crane</b> Spire comes</span></div>
+      <div class="cap clip" id="cap184" data-start="227.794" data-duration="0.456" data-track-index="6"><span><b>down.</b></span></div>
+      <div class="cap clip" id="cap185" data-start="228.550" data-duration="1.330" data-track-index="6"><span>With Nora on <b>floor</b></span></div>
+      <div class="cap clip" id="cap186" data-start="229.880" data-duration="0.931" data-track-index="6"><span><b>fifty-eight.</b></span></div>
+      <div class="cap clip" id="cap187" data-start="234.111" data-duration="0.849" data-track-index="6"><span>The <b>police?</b></span></div>
+      <div class="cap clip" id="cap188" data-start="234.960" data-duration="1.567" data-track-index="6"><span>The mayor is <b>upstairs,</b></span></div>
+      <div class="cap clip" id="cap189" data-start="236.527" data-duration="1.893" data-track-index="6"><span>drinking Crane's <b>champagne.</b></span></div>
+      <div class="cap clip" id="cap190" data-start="238.820" data-duration="1.356" data-track-index="6"><span>The fire <b>alarm?</b></span></div>
+      <div class="cap clip" id="cap191" data-start="240.176" data-duration="0.479" data-track-index="6"><span><b>Cut.</b></span></div>
+      <div class="cap clip" id="cap192" data-start="240.955" data-duration="0.732" data-track-index="6"><span>The <b>truth?</b></span></div>
+      <div class="cap clip" id="cap193" data-start="241.687" data-duration="1.281" data-track-index="6"><span>You can't <b>prove</b> it.</span></div>
+      <div class="cap clip" id="cap194" data-start="242.969" data-duration="1.037" data-track-index="6"><span>Not with <b>words.</b></span></div>
+      <div class="cap clip" id="cap195" data-start="244.406" data-duration="1.216" data-track-index="6"><span>The only <b>proof</b> is</span></div>
+      <div class="cap clip" id="cap196" data-start="245.622" data-duration="0.960" data-track-index="6"><span><b>what</b> you see.</span></div>
+      <div class="cap clip" id="cap197" data-start="246.582" data-duration="1.344" data-track-index="6"><span>And nobody <b>believed</b></span></div>
+      <div class="cap clip" id="cap198" data-start="247.926" data-duration="1.024" data-track-index="6"><span>you at <b>twelve.</b></span></div>
+      <div class="cap clip" id="cap199" data-start="249.350" data-duration="1.130" data-track-index="6"><span>So you stop <b>trying</b></span></div>
+      <div class="cap clip" id="cap200" data-start="250.480" data-duration="0.961" data-track-index="6"><span>to be <b>believed.</b></span></div>
+      <div class="cap clip" id="cap201" data-start="251.741" data-duration="1.327" data-track-index="6"><span>You <b>decide</b> to show</span></div>
+      <div class="cap clip" id="cap202" data-start="253.068" data-duration="0.465" data-track-index="6"><span><b>them.</b></span></div>
+      <div class="cap clip" id="cap203" data-start="256.833" data-duration="1.073" data-track-index="6"><span>You walk the <b>whole</b></span></div>
+      <div class="cap clip" id="cap204" data-start="257.906" data-duration="1.234" data-track-index="6"><span>night <b>through</b> in your</span></div>
+      <div class="cap clip" id="cap205" data-start="259.140" data-duration="0.376" data-track-index="6"><span><b>head.</b></span></div>
+      <div class="cap clip" id="cap206" data-start="259.515" data-duration="0.429" data-track-index="6"><span><b>Again,</b></span></div>
+      <div class="cap clip" id="cap207" data-start="259.944" data-duration="0.644" data-track-index="6"><span>and <b>again.</b></span></div>
+      <div class="cap clip" id="cap208" data-start="260.988" data-duration="1.324" data-track-index="6"><span>A <b>hundred</b> ways in.</span></div>
+      <div class="cap clip" id="cap209" data-start="262.312" data-duration="1.523" data-track-index="6"><span><b>Almost</b> every one ends</span></div>
+      <div class="cap clip" id="cap210" data-start="263.836" data-duration="1.589" data-track-index="6"><span>with you in <b>handcuffs.</b></span></div>
+      <div class="cap clip" id="cap211" data-start="265.825" data-duration="1.421" data-track-index="6"><span>You keep <b>going</b> until</span></div>
+      <div class="cap clip" id="cap212" data-start="267.246" data-duration="0.904" data-track-index="6"><span>one <b>doesn't.</b></span></div>
+      <div class="cap clip" id="cap213" data-start="268.450" data-duration="1.229" data-track-index="6"><span>Three <b>things</b> have</span></div>
+      <div class="cap clip" id="cap214" data-start="269.679" data-duration="0.776" data-track-index="6"><span>to <b>happen.</b></span></div>
+      <div class="cap clip" id="cap215" data-start="270.755" data-duration="0.348" data-track-index="6"><span><b>One.</b></span></div>
+      <div class="cap clip" id="cap216" data-start="271.103" data-duration="1.450" data-track-index="6"><span>Get the real <b>blueprints</b></span></div>
+      <div class="cap clip" id="cap217" data-start="272.554" data-duration="1.102" data-track-index="6"><span>out of <b>that</b> safe.</span></div>
+      <div class="cap clip" id="cap218" data-start="274.056" data-duration="0.370" data-track-index="6"><span><b>Two.</b></span></div>
+      <div class="cap clip" id="cap219" data-start="274.426" data-duration="1.049" data-track-index="6"><span>Put <b>them</b> on the</span></div>
+      <div class="cap clip" id="cap220" data-start="275.475" data-duration="1.295" data-track-index="6"><span>giant <b>screen</b> in the</span></div>
+      <div class="cap clip" id="cap221" data-start="276.770" data-duration="0.679" data-track-index="6"><span><b>ballroom,</b></span></div>
+      <div class="cap clip" id="cap222" data-start="277.449" data-duration="1.172" data-track-index="6"><span>in <b>front</b> of three</span></div>
+      <div class="cap clip" id="cap223" data-start="278.621" data-duration="1.110" data-track-index="6"><span><b>thousand</b> people.</span></div>
+      <div class="cap clip" id="cap224" data-start="280.131" data-duration="0.542" data-track-index="6"><span><b>Three.</b></span></div>
+      <div class="cap clip" id="cap225" data-start="280.673" data-duration="1.424" data-track-index="6"><span>Get Nora out <b>before</b></span></div>
+      <div class="cap clip" id="cap226" data-start="282.097" data-duration="1.085" data-track-index="6"><span><b>anyone</b> panics.</span></div>
+      <div class="cap clip" id="cap227" data-start="283.582" data-duration="1.152" data-track-index="6"><span>And you <b>have</b> one</span></div>
+      <div class="cap clip" id="cap228" data-start="284.734" data-duration="1.408" data-track-index="6"><span>tool <b>nobody</b> can take</span></div>
+      <div class="cap clip" id="cap229" data-start="286.142" data-duration="0.704" data-track-index="6"><span><b>from</b> you.</span></div>
+      <div class="cap clip" id="cap230" data-start="287.246" data-duration="1.220" data-track-index="6"><span>You can see <b>through</b></span></div>
+      <div class="cap clip" id="cap231" data-start="288.466" data-duration="0.465" data-track-index="6"><span><b>doors.</b></span></div>
+      <div class="cap clip" id="cap232" data-start="288.931" data-duration="0.988" data-track-index="6"><span><b>Through</b> guards.</span></div>
+      <div class="cap clip" id="cap233" data-start="289.919" data-duration="1.220" data-track-index="6"><span><b>Through</b> the lock on</span></div>
+      <div class="cap clip" id="cap234" data-start="291.139" data-duration="0.523" data-track-index="6"><span>a <b>safe.</b></span></div>
+      <div class="cap clip" id="cap235" data-start="292.062" data-duration="1.026" data-track-index="6"><span>At ten <b>fifteen,</b></span></div>
+      <div class="cap clip" id="cap236" data-start="293.088" data-duration="1.267" data-track-index="6"><span>you walk in <b>through</b></span></div>
+      <div class="cap clip" id="cap237" data-start="294.355" data-duration="0.845" data-track-index="6"><span>the <b>kitchen,</b></span></div>
+      <div class="cap clip" id="cap238" data-start="295.200" data-duration="1.207" data-track-index="6"><span><b>carrying</b> a tray of</span></div>
+      <div class="cap clip" id="cap239" data-start="296.407" data-duration="0.604" data-track-index="6"><span><b>glasses.</b></span></div>
+      <div class="cap clip" id="cap240" data-start="300.411" data-duration="1.216" data-track-index="6"><span><b>Through</b> the walls,</span></div>
+      <div class="cap clip" id="cap241" data-start="301.627" data-duration="1.581" data-track-index="6"><span>the guards are <b>skeletons</b></span></div>
+      <div class="cap clip" id="cap242" data-start="303.208" data-duration="0.851" data-track-index="6"><span>with <b>radios.</b></span></div>
+      <div class="cap clip" id="cap243" data-start="304.459" data-duration="1.684" data-track-index="6"><span>You count their <b>heartbeats.</b></span></div>
+      <div class="cap clip" id="cap244" data-start="306.143" data-duration="1.452" data-track-index="6"><span>You learn their <b>rhythm.</b></span></div>
+      <div class="cap clip" id="cap245" data-start="307.995" data-duration="1.480" data-track-index="6"><span>Every eighty <b>seconds,</b></span></div>
+      <div class="cap clip" id="cap246" data-start="309.475" data-duration="1.416" data-track-index="6"><span>the <b>hallway</b> on floor</span></div>
+      <div class="cap clip" id="cap247" data-start="310.891" data-duration="0.965" data-track-index="6"><span>two is <b>empty.</b></span></div>
+      <div class="cap clip" id="cap248" data-start="312.256" data-duration="1.270" data-track-index="6"><span><b>Crane's</b> office.</span></div>
+      <div class="cap clip" id="cap249" data-start="313.526" data-duration="0.821" data-track-index="6"><span>The <b>safe.</b></span></div>
+      <div class="cap clip" id="cap250" data-start="314.647" data-duration="1.203" data-track-index="6"><span><b>Anyone</b> else would</span></div>
+      <div class="cap clip" id="cap251" data-start="315.850" data-duration="1.013" data-track-index="6"><span><b>need</b> the code.</span></div>
+      <div class="cap clip" id="cap252" data-start="316.863" data-duration="1.267" data-track-index="6"><span>You just <b>watch</b> the</span></div>
+      <div class="cap clip" id="cap253" data-start="318.130" data-duration="0.570" data-track-index="6"><span><b>wheels.</b></span></div>
+      <div class="cap clip" id="cap254" data-start="319.100" data-duration="1.555" data-track-index="6"><span>Four <b>wheels</b> inside.</span></div>
+      <div class="cap clip" id="cap255" data-start="320.655" data-duration="1.259" data-track-index="6"><span><b>Each</b> one with a</span></div>
+      <div class="cap clip" id="cap256" data-start="321.913" data-duration="0.963" data-track-index="6"><span>tiny <b>notch.</b></span></div>
+      <div class="cap clip" id="cap257" data-start="323.276" data-duration="0.443" data-track-index="6"><span><b>Left,</b></span></div>
+      <div class="cap clip" id="cap258" data-start="323.719" data-duration="1.457" data-track-index="6"><span><b>until</b> the first notch</span></div>
+      <div class="cap clip" id="cap259" data-start="325.176" data-duration="0.697" data-track-index="6"><span><b>lines</b> up.</span></div>
+      <div class="cap clip" id="cap260" data-start="325.873" data-duration="0.507" data-track-index="6"><span><b>Right,</b></span></div>
+      <div class="cap clip" id="cap261" data-start="326.380" data-duration="1.077" data-track-index="6"><span>for the <b>second.</b></span></div>
+      <div class="cap clip" id="cap262" data-start="327.857" data-duration="0.819" data-track-index="6"><span><b>Thirty-one.</b></span></div>
+      <div class="cap clip" id="cap263" data-start="328.676" data-duration="0.441" data-track-index="6"><span><b>Nine.</b></span></div>
+      <div class="cap clip" id="cap264" data-start="329.117" data-duration="0.882" data-track-index="6"><span><b>Fifty-eight.</b></span></div>
+      <div class="cap clip" id="cap265" data-start="329.999" data-duration="0.567" data-track-index="6"><span><b>Twelve.</b></span></div>
+      <div class="cap clip" id="cap266" data-start="330.866" data-duration="0.789" data-track-index="6"><span><b>Click.</b></span></div>
+      <div class="cap clip" id="cap267" data-start="331.955" data-duration="1.401" data-track-index="6"><span>The real <b>blueprints.</b></span></div>
+      <div class="cap clip" id="cap268" data-start="333.356" data-duration="0.955" data-track-index="6"><span>And a <b>ledger.</b></span></div>
+      <div class="cap clip" id="cap269" data-start="334.312" data-duration="1.338" data-track-index="6"><span>Every <b>payment</b> Crane</span></div>
+      <div class="cap clip" id="cap270" data-start="335.650" data-duration="0.764" data-track-index="6"><span><b>ever</b> made.</span></div>
+      <div class="cap clip" id="cap271" data-start="336.814" data-duration="1.792" data-track-index="6"><span>You <b>photograph</b> everything.</span></div>
+      <div class="cap clip" id="cap272" data-start="338.906" data-duration="0.382" data-track-index="6"><span><b>Then,</b></span></div>
+      <div class="cap clip" id="cap273" data-start="339.288" data-duration="1.200" data-track-index="6"><span><b>through</b> the ceiling,</span></div>
+      <div class="cap clip" id="cap274" data-start="340.488" data-duration="1.037" data-track-index="6"><span>you see <b>something</b></span></div>
+      <div class="cap clip" id="cap275" data-start="341.525" data-duration="1.200" data-track-index="6"><span>you <b>didn't</b> plan for.</span></div>
+      <div class="cap clip" id="cap276" data-start="343.125" data-duration="1.067" data-track-index="6"><span>The <b>crew</b> on the</span></div>
+      <div class="cap clip" id="cap277" data-start="344.192" data-duration="0.439" data-track-index="6"><span><b>roof.</b></span></div>
+      <div class="cap clip" id="cap278" data-start="344.631" data-duration="1.192" data-track-index="6"><span>A <b>tablet</b> in their</span></div>
+      <div class="cap clip" id="cap279" data-start="345.823" data-duration="0.502" data-track-index="6"><span><b>hands.</b></span></div>
+      <div class="cap clip" id="cap280" data-start="346.725" data-duration="1.387" data-track-index="6"><span>The <b>countdown</b> says</span></div>
+      <div class="cap clip" id="cap281" data-start="348.112" data-duration="1.179" data-track-index="6"><span><b>eleven</b> o'clock.</span></div>
+      <div class="cap clip" id="cap282" data-start="349.290" data-duration="1.040" data-track-index="6"><span>Not <b>midnight.</b></span></div>
+      <div class="cap clip" id="cap283" data-start="350.730" data-duration="1.507" data-track-index="6"><span><b>Crane</b> moved the show</span></div>
+      <div class="cap clip" id="cap284" data-start="352.237" data-duration="0.342" data-track-index="6"><span><b>up.</b></span></div>
+      <div class="cap clip" id="cap285" data-start="352.579" data-duration="1.301" data-track-index="6"><span><b>Before</b> anyone can</span></div>
+      <div class="cap clip" id="cap286" data-start="353.881" data-duration="0.753" data-track-index="6"><span><b>stop</b> him.</span></div>
+      <div class="cap clip" id="cap287" data-start="355.034" data-duration="1.782" data-track-index="6"><span>You have forty <b>minutes.</b></span></div>
+      <div class="cap clip" id="cap288" data-start="356.816" data-duration="0.927" data-track-index="6"><span>Not <b>ninety.</b></span></div>
+      <div class="cap clip" id="cap289" data-start="358.043" data-duration="1.305" data-track-index="6"><span>Floor <b>fifty-eight.</b></span></div>
+      <div class="cap clip" id="cap290" data-start="359.348" data-duration="0.978" data-track-index="6"><span>The <b>ballroom.</b></span></div>
+      <div class="cap clip" id="cap291" data-start="360.876" data-duration="0.322" data-track-index="6"><span><b>Eli?</b></span></div>
+      <div class="cap clip" id="cap292" data-start="361.198" data-duration="1.073" data-track-index="6"><span>What are you <b>doing</b></span></div>
+      <div class="cap clip" id="cap293" data-start="362.271" data-duration="0.376" data-track-index="6"><span><b>here?</b></span></div>
+      <div class="cap clip" id="cap294" data-start="363.197" data-duration="0.463" data-track-index="6"><span>No <b>time.</b></span></div>
+      <div class="cap clip" id="cap295" data-start="363.660" data-duration="1.158" data-track-index="6"><span>When that <b>screen</b> lights</span></div>
+      <div class="cap clip" id="cap296" data-start="364.818" data-duration="0.232" data-track-index="6"><span><b>up,</b></span></div>
+      <div class="cap clip" id="cap297" data-start="365.050" data-duration="0.973" data-track-index="6"><span>get <b>everyone</b> to the</span></div>
+      <div class="cap clip" id="cap298" data-start="366.023" data-duration="0.417" data-track-index="6"><span><b>stairs.</b></span></div>
+      <div class="cap clip" id="cap299" data-start="366.840" data-duration="0.974" data-track-index="6"><span><b>Floor</b> by floor.</span></div>
+      <div class="cap clip" id="cap300" data-start="367.814" data-duration="1.031" data-track-index="6"><span><b>Don't</b> look back.</span></div>
+      <div class="cap clip" id="cap301" data-start="369.395" data-duration="1.195" data-track-index="6"><span>What <b>about</b> you?</span></div>
+      <div class="cap clip" id="cap302" data-start="371.140" data-duration="1.324" data-track-index="6"><span>I'll be right <b>behind</b></span></div>
+      <div class="cap clip" id="cap303" data-start="372.464" data-duration="0.361" data-track-index="6"><span><b>you.</b></span></div>
+      <div class="cap clip" id="cap304" data-start="373.375" data-duration="0.399" data-track-index="6"><span><b>Hey!</b></span></div>
+      <div class="cap clip" id="cap305" data-start="373.774" data-duration="0.399" data-track-index="6"><span><b>You!</b></span></div>
+      <div class="cap clip" id="cap306" data-start="374.174" data-duration="1.398" data-track-index="6"><span><b>Staff</b> only up here!</span></div>
+      <div class="cap clip" id="cap307" data-start="376.122" data-duration="1.224" data-track-index="6"><span><b>Plans</b> are made of</span></div>
+      <div class="cap clip" id="cap308" data-start="377.346" data-duration="0.644" data-track-index="6"><span><b>guesses.</b></span></div>
+      <div class="cap clip" id="cap309" data-start="377.990" data-duration="1.417" data-track-index="6"><span>This one just <b>broke.</b></span></div>
+      <div class="cap clip" id="cap310" data-start="379.807" data-duration="0.799" data-track-index="6"><span>Six <b>guards.</b></span></div>
+      <div class="cap clip" id="cap311" data-start="380.606" data-duration="1.106" data-track-index="6"><span>And you let <b>them</b></span></div>
+      <div class="cap clip" id="cap312" data-start="381.712" data-duration="0.676" data-track-index="6"><span><b>take</b> you.</span></div>
+      <div class="cap clip" id="cap313" data-start="385.688" data-duration="1.222" data-track-index="6"><span>Ten <b>fifty-five.</b></span></div>
+      <div class="cap clip" id="cap314" data-start="386.910" data-duration="1.294" data-track-index="6"><span><b>They</b> drag you to</span></div>
+      <div class="cap clip" id="cap315" data-start="388.204" data-duration="0.791" data-track-index="6"><span>the <b>roof.</b></span></div>
+      <div class="cap clip" id="cap316" data-start="389.395" data-duration="1.283" data-track-index="6"><span>Crane is <b>waiting</b> by</span></div>
+      <div class="cap clip" id="cap317" data-start="390.678" data-duration="0.978" data-track-index="6"><span>the <b>fireworks.</b></span></div>
+      <div class="cap clip" id="cap318" data-start="392.206" data-duration="2.007" data-track-index="6"><span>You see through <b>everything,</b></span></div>
+      <div class="cap clip" id="cap319" data-start="394.213" data-duration="0.830" data-track-index="6"><span><b>don't</b> you?</span></div>
+      <div class="cap clip" id="cap320" data-start="395.343" data-duration="1.061" data-track-index="6"><span><b>Then</b> see this.</span></div>
+      <div class="cap clip" id="cap321" data-start="396.404" data-duration="1.194" data-track-index="6"><span>My men <b>have</b> your</span></div>
+      <div class="cap clip" id="cap322" data-start="397.599" data-duration="0.531" data-track-index="6"><span><b>phone.</b></span></div>
+      <div class="cap clip" id="cap323" data-start="398.129" data-duration="1.327" data-track-index="6"><span>Your <b>little</b> photos</span></div>
+      <div class="cap clip" id="cap324" data-start="399.456" data-duration="0.730" data-track-index="6"><span>are <b>gone.</b></span></div>
+      <div class="cap clip" id="cap325" data-start="400.586" data-duration="0.801" data-track-index="6"><span>No <b>proof.</b></span></div>
+      <div class="cap clip" id="cap326" data-start="401.387" data-duration="0.801" data-track-index="6"><span>No <b>story.</b></span></div>
+      <div class="cap clip" id="cap327" data-start="402.187" data-duration="1.164" data-track-index="6"><span><b>Just</b> a boy who</span></div>
+      <div class="cap clip" id="cap328" data-start="403.352" data-duration="1.601" data-track-index="6"><span>says he sees <b>through</b></span></div>
+      <div class="cap clip" id="cap329" data-start="404.953" data-duration="0.582" data-track-index="6"><span><b>walls.</b></span></div>
+      <div class="cap clip" id="cap330" data-start="405.935" data-duration="1.031" data-track-index="6"><span>Who is <b>going</b> to</span></div>
+      <div class="cap clip" id="cap331" data-start="406.966" data-duration="0.910" data-track-index="6"><span><b>believe</b> that?</span></div>
+      <div class="cap clip" id="cap332" data-start="408.426" data-duration="0.518" data-track-index="6"><span><b>Nobody.</b></span></div>
+      <div class="cap clip" id="cap333" data-start="408.944" data-duration="1.151" data-track-index="6"><span><b>That's</b> why I never</span></div>
+      <div class="cap clip" id="cap334" data-start="410.095" data-duration="0.806" data-track-index="6"><span>told <b>anyone.</b></span></div>
+      <div class="cap clip" id="cap335" data-start="411.201" data-duration="1.365" data-track-index="6"><span>I <b>just</b> show them.</span></div>
+      <div class="cap clip" id="cap336" data-start="413.116" data-duration="1.252" data-track-index="6"><span>The <b>guard</b> holds up</span></div>
+      <div class="cap clip" id="cap337" data-start="414.368" data-duration="0.814" data-track-index="6"><span>your <b>phone.</b></span></div>
+      <div class="cap clip" id="cap338" data-start="415.182" data-duration="0.814" data-track-index="6"><span>It's <b>blank.</b></span></div>
+      <div class="cap clip" id="cap339" data-start="416.396" data-duration="1.643" data-track-index="6"><span>You wiped it <b>yourself.</b></span></div>
+      <div class="cap clip" id="cap340" data-start="418.339" data-duration="1.652" data-track-index="6"><span>Because at ten <b>thirty-one,</b></span></div>
+      <div class="cap clip" id="cap341" data-start="419.991" data-duration="1.180" data-track-index="6"><span>in <b>Crane's</b> office,</span></div>
+      <div class="cap clip" id="cap342" data-start="421.171" data-duration="1.180" data-track-index="6"><span>you'd <b>already</b> sent</span></div>
+      <div class="cap clip" id="cap343" data-start="422.351" data-duration="0.767" data-track-index="6"><span><b>everything.</b></span></div>
+      <div class="cap clip" id="cap344" data-start="423.518" data-duration="1.056" data-track-index="6"><span>The <b>blueprints.</b></span></div>
+      <div class="cap clip" id="cap345" data-start="424.574" data-duration="0.808" data-track-index="6"><span>The <b>ledger.</b></span></div>
+      <div class="cap clip" id="cap346" data-start="425.382" data-duration="1.367" data-track-index="6"><span>And the forty <b>serial</b></span></div>
+      <div class="cap clip" id="cap347" data-start="426.749" data-duration="1.616" data-track-index="6"><span><b>numbers</b> you read through</span></div>
+      <div class="cap clip" id="cap348" data-start="428.365" data-duration="1.553" data-track-index="6"><span>the <b>inspector's</b> jacket.</span></div>
+      <div class="cap clip" id="cap349" data-start="430.318" data-duration="1.262" data-track-index="6"><span>To every <b>newsroom</b></span></div>
+      <div class="cap clip" id="cap350" data-start="431.580" data-duration="0.930" data-track-index="6"><span>in the <b>city.</b></span></div>
+      <div class="cap clip" id="cap351" data-start="432.509" data-duration="1.062" data-track-index="6"><span><b>And</b> to the one</span></div>
+      <div class="cap clip" id="cap352" data-start="433.572" data-duration="1.328" data-track-index="6"><span><b>screen</b> Crane never</span></div>
+      <div class="cap clip" id="cap353" data-start="434.899" data-duration="1.262" data-track-index="6"><span><b>thought</b> to guard.</span></div>
+      <div class="cap clip" id="cap354" data-start="436.161" data-duration="0.664" data-track-index="6"><span><b>His</b> own.</span></div>
+      <div class="cap clip" id="cap355" data-start="437.225" data-duration="1.259" data-track-index="6"><span><b>Fifty-eight</b> floors</span></div>
+      <div class="cap clip" id="cap356" data-start="438.484" data-duration="0.441" data-track-index="6"><span><b>down,</b></span></div>
+      <div class="cap clip" id="cap357" data-start="438.924" data-duration="1.322" data-track-index="6"><span>the <b>ballroom</b> screen</span></div>
+      <div class="cap clip" id="cap358" data-start="440.246" data-duration="0.755" data-track-index="6"><span><b>lights</b> up.</span></div>
+      <div class="cap clip" id="cap359" data-start="441.401" data-duration="1.343" data-track-index="6"><span>Three <b>thousand</b> phones</span></div>
+      <div class="cap clip" id="cap360" data-start="442.744" data-duration="1.110" data-track-index="6"><span><b>come</b> out at once.</span></div>
+      <div class="cap clip" id="cap361" data-start="444.154" data-duration="1.419" data-track-index="6"><span>And Nora is <b>already</b></span></div>
+      <div class="cap clip" id="cap362" data-start="445.573" data-duration="1.081" data-track-index="6"><span>at the <b>stairs,</b></span></div>
+      <div class="cap clip" id="cap363" data-start="446.654" data-duration="1.216" data-track-index="6"><span><b>waving</b> them out.</span></div>
+      <div class="cap clip" id="cap364" data-start="447.870" data-duration="1.148" data-track-index="6"><span><b>Floor</b> by floor.</span></div>
+      <div class="cap clip" id="cap365" data-start="449.668" data-duration="1.451" data-track-index="6"><span><b>Start</b> the show!</span></div>
+      <div class="cap clip" id="cap366" data-start="451.119" data-duration="0.512" data-track-index="6"><span><b>Now!</b></span></div>
+      <div class="cap clip" id="cap367" data-start="452.181" data-duration="1.000" data-track-index="6"><span>But you <b>came</b> up</span></div>
+      <div class="cap clip" id="cap368" data-start="453.181" data-duration="1.176" data-track-index="6"><span>here for a <b>reason.</b></span></div>
+      <div class="cap clip" id="cap369" data-start="454.657" data-duration="1.307" data-track-index="6"><span>The <b>fireworks</b> have</span></div>
+      <div class="cap clip" id="cap370" data-start="455.964" data-duration="0.980" data-track-index="6"><span>forty <b>cables.</b></span></div>
+      <div class="cap clip" id="cap371" data-start="456.944" data-duration="1.176" data-track-index="6"><span><b>Only</b> one of them</span></div>
+      <div class="cap clip" id="cap372" data-start="458.121" data-duration="0.653" data-track-index="6"><span>is <b>live.</b></span></div>
+      <div class="cap clip" id="cap373" data-start="459.174" data-duration="1.265" data-track-index="6"><span>You can see <b>which</b></span></div>
+      <div class="cap clip" id="cap374" data-start="460.439" data-duration="0.399" data-track-index="6"><span><b>one.</b></span></div>
+      <div class="cap clip" id="cap375" data-start="461.138" data-duration="1.045" data-track-index="6"><span>You <b>pull</b> it.</span></div>
+      <div class="cap clip" id="cap376" data-start="462.483" data-duration="1.472" data-track-index="6"><span><b>Eleven</b> o'clock.</span></div>
+      <div class="cap clip" id="cap377" data-start="464.255" data-duration="1.003" data-track-index="6"><span><b>Silence.</b></span></div>
+      <div class="cap clip" id="cap378" data-start="465.558" data-duration="1.579" data-track-index="6"><span><b>Column</b> C holds.</span></div>
+      <div class="cap clip" id="cap379" data-start="470.437" data-duration="1.025" data-track-index="6"><span>By <b>one</b> a.m.,</span></div>
+      <div class="cap clip" id="cap380" data-start="471.463" data-duration="1.758" data-track-index="6"><span>Crane is in <b>handcuffs,</b></span></div>
+      <div class="cap clip" id="cap381" data-start="473.221" data-duration="1.611" data-track-index="6"><span>still in his <b>tuxedo.</b></span></div>
+      <div class="cap clip" id="cap382" data-start="475.232" data-duration="1.503" data-track-index="6"><span>The <b>inspector</b> confesses</span></div>
+      <div class="cap clip" id="cap383" data-start="476.735" data-duration="1.142" data-track-index="6"><span>before <b>breakfast.</b></span></div>
+      <div class="cap clip" id="cap384" data-start="478.277" data-duration="1.265" data-track-index="6"><span>The <b>engineers</b> say</span></div>
+      <div class="cap clip" id="cap385" data-start="479.542" data-duration="1.265" data-track-index="6"><span><b>column</b> C had four</span></div>
+      <div class="cap clip" id="cap386" data-start="480.806" data-duration="0.799" data-track-index="6"><span><b>days</b> left.</span></div>
+      <div class="cap clip" id="cap387" data-start="482.005" data-duration="0.569" data-track-index="6"><span><b>And</b> you?</span></div>
+      <div class="cap clip" id="cap388" data-start="482.574" data-duration="1.138" data-track-index="6"><span>You <b>don't</b> put your</span></div>
+      <div class="cap clip" id="cap389" data-start="483.712" data-duration="1.024" data-track-index="6"><span><b>glasses</b> back on.</span></div>
+      <div class="cap clip" id="cap390" data-start="485.136" data-duration="1.173" data-track-index="6"><span>You <b>spend</b> the next</span></div>
+      <div class="cap clip" id="cap391" data-start="486.309" data-duration="1.467" data-track-index="6"><span>years doing what <b>nobody</b></span></div>
+      <div class="cap clip" id="cap392" data-start="487.776" data-duration="0.645" data-track-index="6"><span><b>else</b> can.</span></div>
+      <div class="cap clip" id="cap393" data-start="488.821" data-duration="1.127" data-track-index="6"><span>You walk <b>bridges,</b></span></div>
+      <div class="cap clip" id="cap394" data-start="489.948" data-duration="1.245" data-track-index="6"><span>and point at <b>cracks</b></span></div>
+      <div class="cap clip" id="cap395" data-start="491.193" data-duration="1.127" data-track-index="6"><span><b>before</b> they open.</span></div>
+      <div class="cap clip" id="cap396" data-start="492.720" data-duration="1.105" data-track-index="6"><span>You walk <b>hospital</b></span></div>
+      <div class="cap clip" id="cap397" data-start="493.825" data-duration="0.465" data-track-index="6"><span><b>halls,</b></span></div>
+      <div class="cap clip" id="cap398" data-start="494.290" data-duration="1.396" data-track-index="6"><span>and find <b>shadows</b> while</span></div>
+      <div class="cap clip" id="cap399" data-start="495.686" data-duration="1.279" data-track-index="6"><span><b>they're</b> still small.</span></div>
+      <div class="cap clip" id="cap400" data-start="497.365" data-duration="1.414" data-track-index="6"><span>After an <b>earthquake,</b></span></div>
+      <div class="cap clip" id="cap401" data-start="498.779" data-duration="1.221" data-track-index="6"><span>you find <b>fourteen</b></span></div>
+      <div class="cap clip" id="cap402" data-start="500.000" data-duration="1.671" data-track-index="6"><span><b>people</b> under the rubble.</span></div>
+      <div class="cap clip" id="cap403" data-start="501.672" data-duration="0.514" data-track-index="6"><span><b>Alive.</b></span></div>
+      <div class="cap clip" id="cap404" data-start="502.586" data-duration="1.568" data-track-index="6"><span>Not hiding <b>anymore.</b></span></div>
+      <div class="cap clip" id="cap405" data-start="504.154" data-duration="1.120" data-track-index="6"><span>Just <b>looking.</b></span></div>
+      <div class="cap clip" id="cap406" data-start="508.574" data-duration="1.449" data-track-index="6"><span>On the <b>anniversary,</b></span></div>
+      <div class="cap clip" id="cap407" data-start="510.023" data-duration="1.380" data-track-index="6"><span>you and Nora <b>visit</b></span></div>
+      <div class="cap clip" id="cap408" data-start="511.403" data-duration="0.414" data-track-index="6"><span><b>Dad.</b></span></div>
+      <div class="cap clip" id="cap409" data-start="512.467" data-duration="0.619" data-track-index="6"><span>I <b>saw</b> it,</span></div>
+      <div class="cap clip" id="cap410" data-start="513.086" data-duration="0.394" data-track-index="6"><span><b>Nora.</b></span></div>
+      <div class="cap clip" id="cap411" data-start="513.481" data-duration="0.732" data-track-index="6"><span><b>Inside</b> him.</span></div>
+      <div class="cap clip" id="cap412" data-start="514.213" data-duration="1.183" data-track-index="6"><span>A whole year <b>before</b></span></div>
+      <div class="cap clip" id="cap413" data-start="515.395" data-duration="0.507" data-track-index="6"><span><b>anyone.</b></span></div>
+      <div class="cap clip" id="cap414" data-start="516.302" data-duration="1.122" data-track-index="6"><span>I told <b>everyone.</b></span></div>
+      <div class="cap clip" id="cap415" data-start="517.424" data-duration="1.310" data-track-index="6"><span>Nobody <b>believed</b> me.</span></div>
+      <div class="cap clip" id="cap416" data-start="519.284" data-duration="1.344" data-track-index="6"><span><b>That's</b> not true.</span></div>
+      <div class="cap clip" id="cap417" data-start="521.178" data-duration="1.242" data-track-index="6"><span>She pulls a <b>folded</b></span></div>
+      <div class="cap clip" id="cap418" data-start="522.420" data-duration="1.118" data-track-index="6"><span><b>paper</b> out of her</span></div>
+      <div class="cap clip" id="cap419" data-start="523.538" data-duration="0.435" data-track-index="6"><span><b>coat.</b></span></div>
+      <div class="cap clip" id="cap420" data-start="524.373" data-duration="1.445" data-track-index="6"><span>A crayon <b>drawing.</b></span></div>
+      <div class="cap clip" id="cap421" data-start="525.818" data-duration="1.521" data-track-index="6"><span>A boy with <b>glowing</b></span></div>
+      <div class="cap clip" id="cap422" data-start="527.340" data-duration="0.532" data-track-index="6"><span><b>eyes.</b></span></div>
+      <div class="cap clip" id="cap423" data-start="528.272" data-duration="1.556" data-track-index="6"><span>And in a <b>six-year-old's</b></span></div>
+      <div class="cap clip" id="cap424" data-start="529.828" data-duration="0.871" data-track-index="6"><span><b>handwriting:</b></span></div>
+      <div class="cap clip" id="cap425" data-start="530.699" data-duration="1.244" data-track-index="6"><span>my <b>brother</b> can see</span></div>
+      <div class="cap clip" id="cap426" data-start="531.943" data-duration="0.809" data-track-index="6"><span><b>everything.</b></span></div>
+      <div class="cap clip" id="cap427" data-start="533.402" data-duration="0.759" data-track-index="6"><span>I <b>was</b> six.</span></div>
+      <div class="cap clip" id="cap428" data-start="534.161" data-duration="1.076" data-track-index="6"><span>I <b>believed</b> you.</span></div>
+      <div class="cap clip" id="cap429" data-start="535.537" data-duration="1.265" data-track-index="6"><span>I always <b>believed</b></span></div>
+      <div class="cap clip" id="cap430" data-start="536.802" data-duration="0.399" data-track-index="6"><span><b>you.</b></span></div>
+      <div class="cap clip" id="cap431" data-start="537.751" data-duration="1.707" data-track-index="6"><span>You never said <b>anything.</b></span></div>
+      <div class="cap clip" id="cap432" data-start="540.008" data-duration="0.918" data-track-index="6"><span>You <b>never</b> asked.</span></div>
+      <div class="cap clip" id="cap433" data-start="540.926" data-duration="0.969" data-track-index="6"><span>You <b>were</b> too busy</span></div>
+      <div class="cap clip" id="cap434" data-start="541.896" data-duration="0.459" data-track-index="6"><span><b>hiding.</b></span></div>
+      <div class="cap clip" id="cap435" data-start="543.005" data-duration="1.152" data-track-index="6"><span>For the <b>first</b> time</span></div>
+      <div class="cap clip" id="cap436" data-start="544.157" data-duration="0.864" data-track-index="6"><span>in ten <b>years,</b></span></div>
+      <div class="cap clip" id="cap437" data-start="545.022" data-duration="1.037" data-track-index="6"><span>you <b>look</b> at your</span></div>
+      <div class="cap clip" id="cap438" data-start="546.059" data-duration="1.210" data-track-index="6"><span>sister with <b>nothing</b></span></div>
+      <div class="cap clip" id="cap439" data-start="547.269" data-duration="0.749" data-track-index="6"><span>in <b>the</b> way.</span></div>
+      <div class="cap clip" id="cap440" data-start="548.668" data-duration="0.269" data-track-index="6"><span><b>So?</b></span></div>
+      <div class="cap clip" id="cap441" data-start="548.937" data-duration="0.861" data-track-index="6"><span><b>What</b> do I look</span></div>
+      <div class="cap clip" id="cap442" data-start="549.798" data-duration="1.131" data-track-index="6"><span>like on the <b>inside?</b></span></div>
+      <div class="cap clip" id="cap443" data-start="551.479" data-duration="1.357" data-track-index="6"><span><b>Exactly</b> the same as</span></div>
+      <div class="cap clip" id="cap444" data-start="552.836" data-duration="0.904" data-track-index="6"><span>the <b>outside.</b></span></div>
+      <div class="cap clip" id="cap445" data-start="554.040" data-duration="0.747" data-track-index="6"><span><b>Brave.</b></span></div>
+      <div class="cap clip" id="cap446" data-start="555.337" data-duration="1.422" data-track-index="6"><span>Who <b>believed</b> you when</span></div>
+      <div class="cap clip" id="cap447" data-start="556.759" data-duration="1.113" data-track-index="6"><span><b>nobody</b> else did?</span></div>
+      <div class="cap clip" id="cap448" data-start="557.871" data-duration="0.989" data-track-index="6"><span><b>Tell</b> us in the</span></div>
+      <div class="cap clip" id="cap449" data-start="558.860" data-duration="0.680" data-track-index="6"><span><b>comments.</b></span></div>
+      <div class="cap clip" id="cap450" data-start="559.940" data-duration="0.493" data-track-index="6"><span><b>Like,</b></span></div>
+      <div class="cap clip" id="cap451" data-start="560.433" data-duration="1.128" data-track-index="6"><span>and <b>subscribe.</b></span></div>
+      <audio id="vo-c00-00" src="assets/audio/vo/c00-00.wav" data-start="0.000" data-duration="2.027" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c00-01" src="assets/audio/vo/c00-01.wav" data-start="2.327" data-duration="1.621" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c00-02" src="assets/audio/vo/c00-02.wav" data-start="4.248" data-duration="2.987" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c00-03" src="assets/audio/vo/c00-03.wav" data-start="7.635" data-duration="3.584" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c00-04" src="assets/audio/vo/c00-04.wav" data-start="11.869" data-duration="3.520" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c00-05" src="assets/audio/vo/c00-05.wav" data-start="16.039" data-duration="4.544" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c00-06" src="assets/audio/vo/c00-06.wav" data-start="20.983" data-duration="1.771" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-00" src="assets/audio/vo/c01-00.wav" data-start="29.504" data-duration="2.283" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-01" src="assets/audio/vo/c01-01.wav" data-start="32.087" data-duration="3.285" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-02" src="assets/audio/vo/c01-02.wav" data-start="35.772" data-duration="4.011" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-03" src="assets/audio/vo/c01-03.wav" data-start="40.183" data-duration="4.992" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-04" src="assets/audio/vo/c01-04.wav" data-start="45.575" data-duration="2.731" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-05" src="assets/audio/vo/c01-05.wav" data-start="48.606" data-duration="3.733" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-06" src="assets/audio/vo/c01-06.wav" data-start="52.739" data-duration="2.944" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-07" src="assets/audio/vo/c01-07.wav" data-start="55.983" data-duration="3.797" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-08" src="assets/audio/vo/c01-08.wav" data-start="60.180" data-duration="3.008" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-09" src="assets/audio/vo/c01-09.wav" data-start="63.588" data-duration="5.461" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-10" src="assets/audio/vo/c01-10.wav" data-start="69.699" data-duration="4.139" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-11" src="assets/audio/vo/c01-11.wav" data-start="74.488" data-duration="4.373" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-12" src="assets/audio/vo/c01-12.wav" data-start="79.261" data-duration="2.240" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-13" src="assets/audio/vo/c01-13.wav" data-start="81.801" data-duration="2.645" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-14" src="assets/audio/vo/c01-14.wav" data-start="84.846" data-duration="0.960" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c01-15" src="assets/audio/vo/c01-15.wav" data-start="86.106" data-duration="2.731" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-00" src="assets/audio/vo/c02-00.wav" data-start="92.137" data-duration="2.901" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-01" src="assets/audio/vo/c02-01.wav" data-start="95.438" data-duration="3.541" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-02" src="assets/audio/vo/c02-02.wav" data-start="99.379" data-duration="3.861" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-03" src="assets/audio/vo/c02-03.wav" data-start="103.640" data-duration="4.032" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-04" src="assets/audio/vo/c02-04.wav" data-start="108.072" data-duration="3.371" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-05" src="assets/audio/vo/c02-05.wav" data-start="111.843" data-duration="3.221" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-06" src="assets/audio/vo/c02-06.wav" data-start="115.464" data-duration="2.219" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-07" src="assets/audio/vo/c02-07.wav" data-start="117.983" data-duration="4.821" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-08" src="assets/audio/vo/c02-08.wav" data-start="123.454" data-duration="2.219" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-09" src="assets/audio/vo/c02-09.wav" data-start="126.223" data-duration="2.944" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-10" src="assets/audio/vo/c02-10.wav" data-start="129.817" data-duration="3.029" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-11" src="assets/audio/vo/c02-11.wav" data-start="133.146" data-duration="4.736" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-12" src="assets/audio/vo/c02-12.wav" data-start="138.282" data-duration="3.221" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-13" src="assets/audio/vo/c02-13.wav" data-start="141.903" data-duration="4.821" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-14" src="assets/audio/vo/c02-14.wav" data-start="147.374" data-duration="1.237" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c02-15" src="assets/audio/vo/c02-15.wav" data-start="148.911" data-duration="2.987" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-00" src="assets/audio/vo/c03-00.wav" data-start="155.198" data-duration="2.859" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-01" src="assets/audio/vo/c03-01.wav" data-start="158.457" data-duration="1.984" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-02" src="assets/audio/vo/c03-02.wav" data-start="160.741" data-duration="4.245" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-03" src="assets/audio/vo/c03-03.wav" data-start="165.386" data-duration="6.123" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-04" src="assets/audio/vo/c03-04.wav" data-start="171.909" data-duration="3.733" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-05" src="assets/audio/vo/c03-05.wav" data-start="176.042" data-duration="5.205" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-06" src="assets/audio/vo/c03-06.wav" data-start="181.647" data-duration="3.349" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-07" src="assets/audio/vo/c03-07.wav" data-start="185.396" data-duration="2.325" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-08" src="assets/audio/vo/c03-08.wav" data-start="188.021" data-duration="2.944" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-09" src="assets/audio/vo/c03-09.wav" data-start="191.365" data-duration="5.568" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-10" src="assets/audio/vo/c03-10.wav" data-start="197.333" data-duration="2.539" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-11" src="assets/audio/vo/c03-11.wav" data-start="200.172" data-duration="6.037" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-12" src="assets/audio/vo/c03-12.wav" data-start="206.609" data-duration="3.328" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-13" src="assets/audio/vo/c03-13.wav" data-start="210.337" data-duration="1.301" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-14" src="assets/audio/vo/c03-14.wav" data-start="211.938" data-duration="6.571" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-15" src="assets/audio/vo/c03-15.wav" data-start="218.909" data-duration="1.323" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-16" src="assets/audio/vo/c03-16.wav" data-start="220.532" data-duration="4.715" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-17" src="assets/audio/vo/c03-17.wav" data-start="225.647" data-duration="2.603" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c03-18" src="assets/audio/vo/c03-18.wav" data-start="228.550" data-duration="2.261" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c04-00" src="assets/audio/vo/c04-00.wav" data-start="234.111" data-duration="4.309" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c04-01" src="assets/audio/vo/c04-01.wav" data-start="238.820" data-duration="1.835" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c04-02" src="assets/audio/vo/c04-02.wav" data-start="240.955" data-duration="3.051" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c04-03" src="assets/audio/vo/c04-03.wav" data-start="244.406" data-duration="4.544" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c04-04" src="assets/audio/vo/c04-04.wav" data-start="249.350" data-duration="2.091" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c04-05" src="assets/audio/vo/c04-05.wav" data-start="251.741" data-duration="1.792" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-00" src="assets/audio/vo/c05-00.wav" data-start="256.833" data-duration="3.755" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-01" src="assets/audio/vo/c05-01.wav" data-start="260.988" data-duration="4.437" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-02" src="assets/audio/vo/c05-02.wav" data-start="265.825" data-duration="2.325" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-03" src="assets/audio/vo/c05-03.wav" data-start="268.450" data-duration="2.005" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-04" src="assets/audio/vo/c05-04.wav" data-start="270.755" data-duration="2.901" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-05" src="assets/audio/vo/c05-05.wav" data-start="274.056" data-duration="5.675" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-06" src="assets/audio/vo/c05-06.wav" data-start="280.131" data-duration="3.051" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-07" src="assets/audio/vo/c05-07.wav" data-start="283.582" data-duration="3.264" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-08" src="assets/audio/vo/c05-08.wav" data-start="287.246" data-duration="4.416" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c05-09" src="assets/audio/vo/c05-09.wav" data-start="292.062" data-duration="4.949" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-00" src="assets/audio/vo/c06-00.wav" data-start="300.411" data-duration="3.648" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-01" src="assets/audio/vo/c06-01.wav" data-start="304.459" data-duration="3.136" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-02" src="assets/audio/vo/c06-02.wav" data-start="307.995" data-duration="3.861" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-03" src="assets/audio/vo/c06-03.wav" data-start="312.256" data-duration="2.091" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-04" src="assets/audio/vo/c06-04.wav" data-start="314.647" data-duration="4.053" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-05" src="assets/audio/vo/c06-05.wav" data-start="319.100" data-duration="3.776" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-06" src="assets/audio/vo/c06-06.wav" data-start="323.276" data-duration="4.181" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-07" src="assets/audio/vo/c06-07.wav" data-start="327.857" data-duration="2.709" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-08" src="assets/audio/vo/c06-08.wav" data-start="330.866" data-duration="0.789" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-09" src="assets/audio/vo/c06-09.wav" data-start="331.955" data-duration="4.459" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-10" src="assets/audio/vo/c06-10.wav" data-start="336.814" data-duration="1.792" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-11" src="assets/audio/vo/c06-11.wav" data-start="338.906" data-duration="3.819" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-12" src="assets/audio/vo/c06-12.wav" data-start="343.125" data-duration="3.200" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-13" src="assets/audio/vo/c06-13.wav" data-start="346.725" data-duration="3.605" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-14" src="assets/audio/vo/c06-14.wav" data-start="350.730" data-duration="3.904" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-15" src="assets/audio/vo/c06-15.wav" data-start="355.034" data-duration="2.709" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-16" src="assets/audio/vo/c06-16.wav" data-start="358.043" data-duration="2.283" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-17" src="assets/audio/vo/c06-17.wav" data-start="360.876" data-duration="1.771" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-18" src="assets/audio/vo/c06-18.wav" data-start="363.197" data-duration="3.243" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-19" src="assets/audio/vo/c06-19.wav" data-start="366.840" data-duration="2.005" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-20" src="assets/audio/vo/c06-20.wav" data-start="369.395" data-duration="1.195" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-21" src="assets/audio/vo/c06-21.wav" data-start="371.140" data-duration="1.685" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-22" src="assets/audio/vo/c06-22.wav" data-start="373.375" data-duration="2.197" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-23" src="assets/audio/vo/c06-23.wav" data-start="376.122" data-duration="3.285" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c06-24" src="assets/audio/vo/c06-24.wav" data-start="379.807" data-duration="2.581" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-00" src="assets/audio/vo/c07-00.wav" data-start="385.688" data-duration="3.307" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-01" src="assets/audio/vo/c07-01.wav" data-start="389.395" data-duration="2.261" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-02" src="assets/audio/vo/c07-02.wav" data-start="392.206" data-duration="2.837" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-03" src="assets/audio/vo/c07-03.wav" data-start="395.343" data-duration="4.843" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-04" src="assets/audio/vo/c07-04.wav" data-start="400.586" data-duration="4.949" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-05" src="assets/audio/vo/c07-05.wav" data-start="405.935" data-duration="1.941" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-06" src="assets/audio/vo/c07-06.wav" data-start="408.426" data-duration="2.475" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-07" src="assets/audio/vo/c07-07.wav" data-start="411.201" data-duration="1.365" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-08" src="assets/audio/vo/c07-08.wav" data-start="413.116" data-duration="2.880" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-09" src="assets/audio/vo/c07-09.wav" data-start="416.396" data-duration="1.643" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-10" src="assets/audio/vo/c07-10.wav" data-start="418.339" data-duration="4.779" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-11" src="assets/audio/vo/c07-11.wav" data-start="423.518" data-duration="6.400" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-12" src="assets/audio/vo/c07-12.wav" data-start="430.318" data-duration="6.507" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-13" src="assets/audio/vo/c07-13.wav" data-start="437.225" data-duration="3.776" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-14" src="assets/audio/vo/c07-14.wav" data-start="441.401" data-duration="2.453" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-15" src="assets/audio/vo/c07-15.wav" data-start="444.154" data-duration="4.864" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-16" src="assets/audio/vo/c07-16.wav" data-start="449.668" data-duration="1.963" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-17" src="assets/audio/vo/c07-17.wav" data-start="452.181" data-duration="2.176" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-18" src="assets/audio/vo/c07-18.wav" data-start="454.657" data-duration="4.117" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-19" src="assets/audio/vo/c07-19.wav" data-start="459.174" data-duration="1.664" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-20" src="assets/audio/vo/c07-20.wav" data-start="461.138" data-duration="1.045" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-21" src="assets/audio/vo/c07-21.wav" data-start="462.483" data-duration="1.472" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-22" src="assets/audio/vo/c07-22.wav" data-start="464.255" data-duration="1.003" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c07-23" src="assets/audio/vo/c07-23.wav" data-start="465.558" data-duration="1.579" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-00" src="assets/audio/vo/c08-00.wav" data-start="470.437" data-duration="4.395" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-01" src="assets/audio/vo/c08-01.wav" data-start="475.232" data-duration="2.645" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-02" src="assets/audio/vo/c08-02.wav" data-start="478.277" data-duration="3.328" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-03" src="assets/audio/vo/c08-03.wav" data-start="482.005" data-duration="2.731" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-04" src="assets/audio/vo/c08-04.wav" data-start="485.136" data-duration="3.285" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-05" src="assets/audio/vo/c08-05.wav" data-start="488.821" data-duration="3.499" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-06" src="assets/audio/vo/c08-06.wav" data-start="492.720" data-duration="4.245" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-07" src="assets/audio/vo/c08-07.wav" data-start="497.365" data-duration="4.821" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c08-08" src="assets/audio/vo/c08-08.wav" data-start="502.586" data-duration="2.688" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-00" src="assets/audio/vo/c09-00.wav" data-start="508.574" data-duration="3.243" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-01" src="assets/audio/vo/c09-01.wav" data-start="512.467" data-duration="3.435" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-02" src="assets/audio/vo/c09-02.wav" data-start="516.302" data-duration="2.432" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-03" src="assets/audio/vo/c09-03.wav" data-start="519.284" data-duration="1.344" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-04" src="assets/audio/vo/c09-04.wav" data-start="521.178" data-duration="2.795" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-05" src="assets/audio/vo/c09-05.wav" data-start="524.373" data-duration="3.499" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-06" src="assets/audio/vo/c09-06.wav" data-start="528.272" data-duration="4.480" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-07" src="assets/audio/vo/c09-07.wav" data-start="533.402" data-duration="1.835" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-08" src="assets/audio/vo/c09-08.wav" data-start="535.537" data-duration="1.664" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-09" src="assets/audio/vo/c09-09.wav" data-start="537.751" data-duration="1.707" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-10" src="assets/audio/vo/c09-10.wav" data-start="540.008" data-duration="2.347" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-11" src="assets/audio/vo/c09-11.wav" data-start="543.005" data-duration="5.013" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-12" src="assets/audio/vo/c09-12.wav" data-start="548.668" data-duration="2.261" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-13" src="assets/audio/vo/c09-13.wav" data-start="551.479" data-duration="2.261" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-14" src="assets/audio/vo/c09-14.wav" data-start="554.040" data-duration="0.747" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-15" src="assets/audio/vo/c09-15.wav" data-start="555.337" data-duration="4.203" data-track-index="2" data-volume="1"></audio>
+      <audio id="vo-c09-16" src="assets/audio/vo/c09-16.wav" data-start="559.940" data-duration="1.621" data-track-index="2" data-volume="1"></audio>
+      <audio id="mus-c00" src="assets/audio/music/c00.wav" data-start="0" data-duration="26.904" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c01" src="assets/audio/music/c01.wav" data-start="26.904" data-duration="62.633" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c02" src="assets/audio/music/c02.wav" data-start="89.537" data-duration="63.061" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c03" src="assets/audio/music/c03.wav" data-start="152.598" data-duration="78.913" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c04" src="assets/audio/music/c04.wav" data-start="231.511" data-duration="22.722" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c05" src="assets/audio/music/c05.wav" data-start="254.233" data-duration="43.578" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c06" src="assets/audio/music/c06.wav" data-start="297.811" data-duration="85.277" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c07" src="assets/audio/music/c07.wav" data-start="383.088" data-duration="84.749" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c08" src="assets/audio/music/c08.wav" data-start="467.837" data-duration="38.137" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="mus-c09" src="assets/audio/music/c09.wav" data-start="505.974" data-duration="56.287" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="sfx0" src="assets/audio/sfx/whoosh.wav" data-start="0.300" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx1" src="assets/audio/sfx/hum.wav" data-start="2.727" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx2" src="assets/audio/sfx/hum.wav" data-start="4.648" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx3" src="assets/audio/sfx/blip.wav" data-start="16.189" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx4" src="assets/audio/sfx/boom.wav" data-start="23.854" data-duration="3.000" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx5" src="assets/audio/sfx/whoosh.wav" data-start="26.954" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx6" src="assets/audio/sfx/whoosh.wav" data-start="32.387" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx7" src="assets/audio/sfx/hum.wav" data-start="36.172" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx8" src="assets/audio/sfx/tick.wav" data-start="48.706" data-duration="0.015" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx9" src="assets/audio/sfx/blip.wav" data-start="56.133" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx10" src="assets/audio/sfx/whoosh.wav" data-start="74.788" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx11" src="assets/audio/sfx/hum.wav" data-start="79.661" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx12" src="assets/audio/sfx/whoosh.wav" data-start="89.587" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx13" src="assets/audio/sfx/ring.wav" data-start="126.223" data-duration="2.400" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx14" src="assets/audio/sfx/whoosh.wav" data-start="152.648" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx15" src="assets/audio/sfx/whoosh.wav" data-start="158.757" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx16" src="assets/audio/sfx/blip.wav" data-start="160.891" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx17" src="assets/audio/sfx/blip.wav" data-start="165.686" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx18" src="assets/audio/sfx/blip.wav" data-start="172.209" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx19" src="assets/audio/sfx/blip.wav" data-start="181.947" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx20" src="assets/audio/sfx/blip.wav" data-start="191.665" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx21" src="assets/audio/sfx/blip.wav" data-start="200.472" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx22" src="assets/audio/sfx/hum.wav" data-start="210.737" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx23" src="assets/audio/sfx/blip.wav" data-start="212.238" data-duration="0.180" data-track-index="5" data-volume="0.7"></audio>
+      <audio id="sfx24" src="assets/audio/sfx/rumble.wav" data-start="225.847" data-duration="2.500" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx25" src="assets/audio/sfx/hum.wav" data-start="226.047" data-duration="1.600" data-track-index="5" data-volume="0.7"></audio>
+      <audio id="sfx26" src="assets/audio/sfx/whoosh.wav" data-start="231.561" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx27" src="assets/audio/sfx/whoosh.wav" data-start="249.650" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx28" src="assets/audio/sfx/whoosh.wav" data-start="252.041" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx29" src="assets/audio/sfx/whoosh.wav" data-start="254.283" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx30" src="assets/audio/sfx/hum.wav" data-start="257.233" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx31" src="assets/audio/sfx/blip.wav" data-start="261.138" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx32" src="assets/audio/sfx/blip.wav" data-start="268.600" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx33" src="assets/audio/sfx/blip.wav" data-start="271.055" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx34" src="assets/audio/sfx/whoosh.wav" data-start="283.882" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx35" src="assets/audio/sfx/tick.wav" data-start="292.162" data-duration="0.015" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx36" src="assets/audio/sfx/whoosh.wav" data-start="297.861" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx37" src="assets/audio/sfx/hum.wav" data-start="300.811" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx38" src="assets/audio/sfx/heartbeat.wav" data-start="304.459" data-duration="3.000" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx39" src="assets/audio/sfx/blip.wav" data-start="308.145" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx40" src="assets/audio/sfx/ticks.wav" data-start="314.947" data-duration="3.500" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx41" src="assets/audio/sfx/blip.wav" data-start="328.007" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx42" src="assets/audio/sfx/click.wav" data-start="330.966" data-duration="0.120" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx43" src="assets/audio/sfx/hum.wav" data-start="339.306" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx44" src="assets/audio/sfx/tick.wav" data-start="346.825" data-duration="0.015" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx45" src="assets/audio/sfx/blip.wav" data-start="355.184" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx46" src="assets/audio/sfx/whoosh.wav" data-start="383.138" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx47" src="assets/audio/sfx/tick.wav" data-start="385.788" data-duration="0.015" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx48" src="assets/audio/sfx/whoosh.wav" data-start="411.501" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx49" src="assets/audio/sfx/tick.wav" data-start="418.439" data-duration="0.015" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx50" src="assets/audio/sfx/whoosh.wav" data-start="452.481" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx51" src="assets/audio/sfx/zap.wav" data-start="461.138" data-duration="0.700" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx52" src="assets/audio/sfx/tick.wav" data-start="462.583" data-duration="0.015" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx53" src="assets/audio/sfx/hum.wav" data-start="465.958" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx54" src="assets/audio/sfx/whoosh.wav" data-start="467.887" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx55" src="assets/audio/sfx/siren.wav" data-start="470.437" data-duration="3.000" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx56" src="assets/audio/sfx/blip.wav" data-start="478.427" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx57" src="assets/audio/sfx/whoosh.wav" data-start="482.305" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx58" src="assets/audio/sfx/blip.wav" data-start="485.286" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx59" src="assets/audio/sfx/hum.wav" data-start="489.221" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx60" src="assets/audio/sfx/hum.wav" data-start="497.765" data-duration="1.600" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx61" src="assets/audio/sfx/whoosh.wav" data-start="506.024" data-duration="0.900" data-track-index="4" data-volume="0.7"></audio>
+      <audio id="sfx62" src="assets/audio/sfx/blip.wav" data-start="555.487" data-duration="0.180" data-track-index="4" data-volume="0.7"></audio>
     </div>
     <script>
       const tl = gsap.timeline({ paused: true });
-      // Example: tl.fromTo("#title", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6 }, 0);
+      document.querySelectorAll(".cap span").forEach((el) => {
+        const cap = el.parentElement;
+        tl.fromTo(el, { scale: 0.86, opacity: 0.4 }, { scale: 1, opacity: 1, duration: 0.12, ease: "back.out(2)" }, parseFloat(cap.dataset.start));
+      });
       window.__timelines["main"] = tl;
-      tl.seek(0);
     </script>
   </body>
 </html>

@@ -38,7 +38,7 @@ const CSS = `
 #root .chapnum { font-family:"Space Mono", monospace; font-size:36px; color:${C.xray}; letter-spacing:0.4em; }
 #root .chaptitle { font-size:170px; color:${C.ink}; }
 #root .rule { width:520px; height:4px; background:${C.xray}; }
-#root .rows { position:absolute; left:220px; right:220px; top:300px; display:flex; flex-direction:column; gap:90px; }
+#root .rows { position:absolute; left:220px; right:220px; top:150px; display:flex; flex-direction:column; gap:50px; }
 #root .row .lbl { font-family:"Space Mono", monospace; font-size:40px; color:${C.dim}; letter-spacing:0.1em; }
 #root .row .track { position:relative; height:70px; margin-top:16px; border:3px solid #24344f; }
 #root .row .fill { position:absolute; left:0; top:0; bottom:0; width:0%; }
@@ -183,14 +183,33 @@ for (const c of captions) {
 const hosts = chapters.map((ch, i) => `<div id="${ch.id}" class="clip" data-composition-id="${ch.id}" data-composition-src="compositions/${ch.id}.html" data-start="${ch.start}" data-duration="${ch.dur}" data-track-index="0" data-width="1920" data-height="1080"></div>`).join("\n      ");
 const vo = voice.map((v) => `<audio id="vo-${v.id}" src="${v.file}" data-start="${v.t.toFixed(3)}" data-duration="${v.dur.toFixed(3)}" data-track-index="2" data-volume="1"></audio>`).join("\n      ");
 const music = chapters.map((ch) => `<audio id="mus-${ch.id}" src="assets/audio/music/${ch.id}.wav" data-start="${ch.start}" data-duration="${ch.dur}" data-track-index="3" data-volume="0.55"></audio>`).join("\n      ");
-const sfxEls = sfx.map((s, i) => `<audio id="sfx${i}" src="assets/audio/sfx/${s.name}.wav" data-start="${s.t.toFixed(3)}" data-track-index="4" data-volume="0.7"></audio>`).join("\n      ");
+// WAV length from the header (data chunk bytes / byte rate).
+function wavDur(path) {
+  const b = readFileSync(path);
+  const byteRate = b.readUInt32LE(28);
+  let o = 12;
+  while (o < b.length - 8) {
+    const id = b.toString("ascii", o, o + 4), size = b.readUInt32LE(o + 4);
+    if (id === "data") return size / byteRate;
+    o += 8 + size + (size % 2);
+  }
+  throw new Error("no data chunk in " + path);
+}
+const trackEnd = [0, 0];
+const sfxEls = sfx.sort((a, b) => a.t - b.t).map((s, i) => {
+  const file = `assets/audio/sfx/${s.name}.wav`;
+  const d = wavDur(file);
+  const lane = trackEnd[0] <= s.t ? 0 : 1;
+  trackEnd[lane] = s.t + d;
+  return `<audio id="sfx${i}" src="${file}" data-start="${s.t.toFixed(3)}" data-duration="${d.toFixed(3)}" data-track-index="${4 + lane}" data-volume="0.7"></audio>`;
+}).join("\n      ");
 
 writeFileSync("index.html", `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="assets/vendor/gsap.min.js"></script>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: ${C.bg0}; }
