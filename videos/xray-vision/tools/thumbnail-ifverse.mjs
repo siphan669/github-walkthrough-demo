@@ -1,4 +1,4 @@
-// Ifverse-style thumbnails (1280x720): black round-head character with a smug glint,
+// Channel thumbnails (1280x720): house-style egg-head character with a smug lid,
 // glowing x-ray eye beaming at the cracked tower, chunky outlined text top-left.
 // Bottom-right stays clear for YouTube's duration badge.
 import { readFileSync } from "node:fs";
@@ -36,23 +36,20 @@ function tower() {
 }
 
 function character() {
-  // hood + shoulders, then head, then smug face looking right
+  // House style: navy egg head with a cyan rim light, white pill eyes (smug lid), teal hoodie.
   return `
-  <path d="M60 720 Q80 560 230 540 L440 540 Q590 560 610 720 Z" fill="#1d6fe0"/>
-  <circle cx="335" cy="425" r="222" fill="#1d6fe0"/>
-  <circle cx="335" cy="425" r="222" fill="none" stroke="#4f9bff" stroke-width="10"/>
-  <circle cx="345" cy="440" r="190" fill="#0b0b0d"/>
-  <path d="M190 360 a190 190 0 0 1 150 -110" stroke="#ffffff" stroke-opacity="0.12" stroke-width="16" fill="none" stroke-linecap="round"/>
-  <g transform="translate(370 440) scale(1.4) translate(-370 -440)">
-  <!-- left eye: narrow smug squint -->
-  <path d="M262 418 Q300 400 342 410 Q302 430 262 418 Z" fill="#ffffff"/>
-  <circle cx="320" cy="414" r="8" fill="#0b0b0d"/>
-  <!-- right eye: glowing x-ray -->
-  <path d="M392 408 Q440 386 486 400 Q442 428 392 408 Z" fill="#ffffff"/>
-  <circle cx="452" cy="404" r="12" fill="#5fe3ff"/>
-  <!-- smirk -->
-  <path d="M340 520 Q400 540 452 500" stroke="#ffffff" stroke-width="12" fill="none" stroke-linecap="round"/>
-  <path d="M447 494 l14 6" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+  <path d="M60 720 Q80 570 230 548 L450 548 Q600 570 620 720 Z" fill="#14b8a6"/>
+  <path d="M250 560 Q340 610 440 560" stroke="#0e8f80" stroke-width="10" fill="none"/>
+  <ellipse cx="345" cy="420" rx="190" ry="206" fill="#121826" stroke="rgba(200,215,240,0.55)" stroke-width="8"/>
+  <path d="M225 260 A190 206 0 0 0 205 560" stroke="#5fe3ff" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+  <clipPath id="headclip"><ellipse cx="345" cy="420" rx="186" ry="202"/></clipPath>
+  <g clip-path="url(#headclip)">
+  <rect x="368" y="330" width="52" height="92" rx="26" fill="#ffffff"/>
+  <rect x="456" y="330" width="52" height="92" rx="26" fill="#ffffff"/>
+  <circle cx="400" cy="392" r="15" fill="#121826"/>
+  <circle cx="488" cy="392" r="17" fill="#5fe3ff"/>
+  <polygon points="356,310 530,310 530,350 356,362" fill="#121826"/>
+  <path d="M396 500 Q450 524 506 482" stroke="#ffffff" stroke-width="14" fill="none" stroke-linecap="round"/>
   </g>`;
 }
 
@@ -63,7 +60,7 @@ function sparkle(x, y, r) {
 function page({ big, bigColor, sub, tag }) {
   const r = rng(11);
   const t = tower();
-  const eyeX = 485, eyeY = 390; // right eye after the 1.4x face scale
+  const eyeX = 488, eyeY = 392;
   let stars = "";
   for (let i = 0; i < 60; i++) stars += `<circle cx="${(r() * 1280) | 0}" cy="${(r() * 420) | 0}" r="${(r() * 1.6 + 0.4).toFixed(1)}" fill="#cfe3ff" opacity="${(0.3 + r() * 0.5).toFixed(2)}"/>`;
   const svg = `<svg viewBox="0 0 1280 720" width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
@@ -82,15 +79,15 @@ function page({ big, bigColor, sub, tag }) {
   ${character()}
   <circle cx="${eyeX}" cy="${eyeY}" r="30" fill="#5fe3ff" opacity="0.5" filter="url(#glow)"/>
   ${sparkle(eyeX + 4, eyeY - 4, 30)}
-  ${sparkle(280, 398, 16)}
+  
   </svg>`;
   return `<html><head><style>
   @font-face { font-family: Lilita; src: url(data:font/woff2;base64,${lilita}); }
   body { margin:0; width:1280px; height:720px; position:relative; overflow:hidden; background:#000; }
   svg { position:absolute; inset:0; }
   .txt { position:absolute; left:34px; top:22px; font-family:Lilita; line-height:0.92; paint-order: stroke fill; -webkit-text-stroke: 14px #000; }
-  .big { font-size:150px; color:${bigColor}; text-shadow: 0 7px 0 #000; letter-spacing:1px; }
-  .sub { font-size:60px; color:#ff3b3b; margin-top:4px; -webkit-text-stroke: 10px #000; text-shadow: 0 5px 0 #000; }
+  .big { font-size:150px; color:${bigColor}; text-shadow: 0 7px 0 #000, 0 0 40px rgba(95,227,255,0.55); letter-spacing:1px; }
+  .sub { font-size:60px; color:#5fe3ff; margin-top:4px; -webkit-text-stroke: 10px #000; text-shadow: 0 5px 0 #000; }
   .tag { position:absolute; left:${t.x0 - 215}px; top:${t.crackY - 26}px; font-family:Lilita; font-size:34px; color:#fff; background:#ff3b3b; padding:4px 14px 6px; border:4px solid #000; transform:rotate(-4deg); }
   </style></head><body>${svg}
   <div class="txt"><div class="big">${big}</div><div class="sub">${sub}</div></div>
@@ -99,7 +96,7 @@ function page({ big, bigColor, sub, tag }) {
 }
 
 const variants = [
-  { file: "out/thumbnail.png", big: "X-RAY", bigColor: "#ffd400", sub: "I SAW IT.", tag: "FLOOR 31" },
+  { file: "out/thumbnail.png", big: "X-RAY", bigColor: "#ffffff", sub: "I SAW IT.", tag: "FLOOR 31" },
   { file: "out/thumbnail-alt.png", big: "CRACKED.", bigColor: "#ffffff", sub: "3,000 INSIDE.", tag: "FLOOR 31" },
 ];
 const b = await chromium.launch();

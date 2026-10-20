@@ -1,4 +1,4 @@
-// SVG art for the X-ray story: backgrounds, stickman characters, close-up objects.
+// SVG art for the X-ray story: backgrounds, characters, close-up objects.
 // Everything is generated deterministically (seeded PRNG) so renders are repeatable.
 // Animation hooks are data-* attributes consumed by the runtime in tools/runtime.js.
 
@@ -89,85 +89,122 @@ function crates(x, base) {
   return s + `<rect x="${x - 170}" y="${base - 250}" width="130" height="250" fill="#141414" stroke="#444" stroke-width="5"/><circle cx="${x - 105}" cy="${base - 170}" r="40" fill="none" stroke="#555" stroke-width="8"/><circle cx="${x - 105}" cy="${base - 70}" r="28" fill="none" stroke="#555" stroke-width="8"/>`;
 }
 
-// ---------- stickman characters ----------
-// Limb angles in degrees (0 = straight down, negative swings forward for a right-facing body).
+// ---------- characters ----------
+// House style: navy egg-shaped head with a colored rim light, white pill eyes with lids,
+// short colored jacket, thick rounded limbs. Limb angles in degrees (0 = straight down,
+// negative swings forward for a right-facing body).
 const POSES = {
   stand: { aF: [-10, -8], aB: [12, 6], lF: [-6, 4], lB: [6, 4] },
   walk: { aF: [-22, -15], aB: [22, -10], lF: [-22, 14], lB: [22, 6], swing: 22, period: 0.5 },
   run: { aF: [-50, -80], aB: [40, -70], lF: [-38, 30], lB: [34, 20], swing: 38, period: 0.32 },
-  talk: { aF: [-45, -55], aB: [12, 6], lF: [-6, 4], lB: [6, 4], gesture: true },
-  point: { aF: [-88, -2], aB: [12, 6], lF: [-8, 4], lB: [8, 4] },
-  wave: { aF: [-165, -25], aB: [12, 6], lF: [-6, 4], lB: [6, 4], wave: true },
-  sad: { aF: [3, 2], aB: [6, 2], lF: [-4, 2], lB: [4, 2], head: [8, 12] },
-  phone: { aF: [-100, -134], aB: [12, 6], lF: [-6, 4], lB: [6, 4], head: [4, 0] },
-  hold: { aF: [-70, -25], aB: [-55, -30], lF: [-10, 4], lB: [10, 4] },
-  grabbed: { aF: [40, 25], aB: [50, 25], lF: [-10, 6], lB: [12, 6], head: [6, 10] },
-  cuffed: { aF: [28, -20], aB: [34, -20], lF: [-4, 2], lB: [4, 2], head: [6, 10] },
-  hug: { aF: [-75, -70], aB: [-62, -80], lF: [-6, 4], lB: [6, 4] },
+  talk: { aF: [-45, -55], aB: [12, 6], lF: [-6, 4], lB: [6, 4], gesture: true, face: "talk" },
+  point: { aF: [-88, -2], aB: [12, 6], lF: [-8, 4], lB: [8, 4], face: "smug" },
+  wave: { aF: [-120, -55], aB: [12, 6], lF: [-6, 4], lB: [6, 4], wave: true, face: "happy" },
+  sad: { aF: [3, 2], aB: [6, 2], lF: [-4, 2], lB: [4, 2], head: [6, 10], face: "sad" },
+  phone: { aF: [-100, -134], aB: [12, 6], lF: [-6, 4], lB: [6, 4], head: [4, 0], face: "talk" },
+  hold: { aF: [-70, -25], aB: [-55, -30], lF: [-10, 4], lB: [10, 4], face: "angry" },
+  grabbed: { aF: [40, 25], aB: [50, 25], lF: [-10, 6], lB: [12, 6], head: [6, 8], face: "smug" },
+  cuffed: { aF: [28, -20], aB: [34, -20], lF: [-4, 2], lB: [4, 2], head: [6, 10], face: "sad" },
+  hug: { aF: [-75, -70], aB: [-62, -80], lF: [-6, 4], lB: [6, 4], face: "happy" },
 };
+// jacket = torso color, rim = head rim light, skin = head/limb ink
 const CAST = {
-  eli: { color: C.ink, accent: C.xray, scale: 1 },
-  nora: { color: C.ink, accent: C.nora, scale: 0.86 },
-  crane: { color: "#d8dde6", accent: C.danger, scale: 1.12 },
-  guard: { color: "#9fb0c8", accent: "#2c3e5c", scale: 1.05 },
-  ruiz: { color: "#c9c2b5", accent: "#7a5a3a", scale: 1 },
-  mayor: { color: "#d8dde6", accent: "#e0b84a", scale: 1.02 },
-  guest: { color: "#5f6d84", accent: "#5f6d84", scale: 0.95 },
-  tech: { color: "#9fb0c8", accent: C.warm, scale: 1 },
-  police: { color: "#9fb0c8", accent: "#3a6fd8", scale: 1.05 },
-  dad: { color: "#e8d8c4", accent: "#9a6a4a", scale: 1.05 },
-  patient: { color: "#5a6a7a", accent: "#7aa6d0", scale: 0.95 },
+  eli: { jacket: "#14b8a6", rim: C.xray, scale: 1 },
+  nora: { jacket: C.nora, rim: C.nora, scale: 0.86, dress: true },
+  crane: { jacket: "#2a2f3a", rim: C.danger, scale: 1.1, tie: C.danger },
+  guard: { jacket: "#26385a", rim: "#7d8ba3", scale: 1.05, cap: "#1a2740" },
+  ruiz: { jacket: "#6b4f35", rim: C.warm, scale: 1, hat: "#4a3420" },
+  mayor: { jacket: "#3a2f55", rim: "#e0b84a", scale: 1.02, chain: "#e0b84a" },
+  guest: { jacket: "#3a4458", rim: "#5f6d84", scale: 0.95, dim: true },
+  tech: { jacket: "#3b4a5e", rim: C.warm, scale: 1, headset: C.warm },
+  police: { jacket: "#1f3f8a", rim: "#3a6fd8", scale: 1.05, cap: "#14306e" },
+  dad: { jacket: "#7a5a3a", rim: C.warm, scale: 1.05, mustache: true },
+  patient: { jacket: "#7aa6d0", rim: "#7aa6d0", scale: 0.95 },
 };
-let uid = 0;
-function limb(id, ox, oy, len1, len2, [a1, a2], color, w, swing) {
-  // upper segment rotates about (ox,oy); lower about the elbow/knee.
+const INK = "#121826";
+const HIP = -100, SHOULDER = -188, HEAD = -262;
+
+const HALO = "rgba(200,215,240,0.45)";
+function limb(ox, oy, len1, len2, [a1, a2], color, w, swing) {
+  // upper segment rotates about (ox,oy); lower about the elbow/knee; static pose baked in.
   const ex = ox, ey = oy + len1;
   const sw = swing ? ` data-swing="${swing.amp},${swing.period},${swing.phase || 0}"` : "";
   return `<g transform="rotate(${a1} ${ox} ${oy})" data-rot="${a1}" data-org="${ox} ${oy}"${sw}><line x1="${ox}" y1="${oy}" x2="${ex}" y2="${ey}" stroke="${color}" stroke-width="${w}" stroke-linecap="round"/>` +
-    `<g transform="rotate(${a2} ${ex} ${ey})" data-rot="${a2}" data-org="${ex} ${ey}"${swing?.lower ? ` data-swing="${swing.lower},${swing.period},${swing.phase || 0}"` : ""}><line x1="${ex}" y1="${ey}" x2="${ex}" y2="${ey + len2}" stroke="${color}" stroke-width="${w}" stroke-linecap="round"/></g></g>`;
+    `<g transform="rotate(${a2} ${ex} ${ey})" data-rot="${a2}" data-org="${ex} ${ey}"${swing?.lower ? ` data-swing="${swing.lower},${swing.period},${swing.phase || 0}"` : ""}><line x1="${ex}" y1="${ey}" x2="${ex}" y2="${ey + len2}" stroke="${color}" stroke-width="${w}" stroke-linecap="round"/><circle cx="${ex}" cy="${ey + len2}" r="${w * 0.62}" fill="${color}"/></g></g>`;
 }
+
+function face(hx, hy, mood, xrayEyes) {
+  const eye = (x) => `<rect x="${x - 7}" y="${hy - 22}" width="14" height="24" rx="7" fill="#fff"/><circle cx="${x + 2}" cy="${hy - 9}" r="${xrayEyes ? 5 : 4.5}" fill="${xrayEyes ? C.xray : INK}"/>`;
+  const e1 = hx + 4, e2 = hx + 28;
+  let s = eye(e1) + eye(e2);
+  // lids: head-colored shapes that cut the top of the eyes
+  if (mood === "smug") s += `<rect x="${e1 - 9}" y="${hy - 26}" width="${e2 - e1 + 18}" height="12" fill="${INK}"/>`;
+  if (mood === "sad") s += `<path d="M${e1 - 10} ${hy - 28} L${e1 + 9} ${hy - 20} L${e1 + 9} ${hy - 30} Z M${e2 + 10} ${hy - 28} L${e2 - 9} ${hy - 20} L${e2 - 9} ${hy - 30} Z" fill="${INK}"/>`;
+  if (mood === "angry") s += `<path d="M${e1 - 10} ${hy - 20} L${e1 + 9} ${hy - 28} L${e1 - 10} ${hy - 30} Z M${e2 + 10} ${hy - 20} L${e2 - 9} ${hy - 28} L${e2 + 10} ${hy - 30} Z" fill="${INK}"/>`;
+  const mx = hx + 16, my = hy + 18;
+  if (mood === "talk") s += `<ellipse cx="${mx}" cy="${my}" rx="8" ry="6" fill="#fff" data-pulse="0.3"/>`;
+  else if (mood === "sad") s += `<path d="M${mx - 9} ${my + 4} q9 -8 18 0" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>`;
+  else if (mood === "smug") s += `<path d="M${mx - 8} ${my} q10 6 18 -4" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>`;
+  else if (mood === "happy") s += `<path d="M${mx - 9} ${my - 2} q9 10 18 0" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>`;
+  else s += `<line x1="${mx - 6}" x2="${mx + 6}" y1="${my}" y2="${my}" stroke="#fff" stroke-width="4" stroke-linecap="round"/>`;
+  return s;
+}
+
 export function character(spec, xray, i) {
   const cast = CAST[spec.c];
   const p = POSES[spec.pose] || POSES.stand;
-  const s = 1.3 * cast.scale * (spec.kid ? 0.68 : 1) * (spec.c === "guest" ? 0.95 : 1);
-  const face = spec.face || 1;
-  const col = xray ? "rgba(95,227,255,0.35)" : cast.color;
-  const w = 9;
+  const s = 1.3 * cast.scale * (spec.kid ? 0.72 : 1);
+  const fc = spec.face || 1;
   const x = (spec.x / 100) * W;
-  const [hx, hy] = p.head || [0, 0];
+  const [hdx, hdy] = p.head || [0, 0];
+  const hx = hdx, hy = HEAD + hdy;
+  const w = 15;
+  const ink = xray ? "rgba(95,227,255,0.35)" : INK;
   const sw = p.swing ? { amp: p.swing, period: p.period } : null;
   const armSwing = sw ? { ...sw, phase: 0.5 } : p.gesture ? { amp: 12, period: 0.7, lower: 14 } : p.wave ? { amp: 4, period: 0.4, lower: 24 } : null;
+  const op = cast.dim ? ' opacity="0.75"' : "";
+  const jacketFill = xray ? "rgba(95,227,255,0.08)" : cast.jacket;
+  const jacketStroke = xray ? ` stroke="${C.xray}" stroke-width="3"` : "";
+  const torso = cast.dress
+    ? `<path d="M-14 ${SHOULDER - 8} Q0 ${SHOULDER - 14} 14 ${SHOULDER - 8} L46 ${HIP + 12} Q0 ${HIP + 22} -46 ${HIP + 12} Z" fill="${jacketFill}"${jacketStroke}/>`
+    : `<path d="M-24 ${SHOULDER - 6} Q0 ${SHOULDER - 16} 24 ${SHOULDER - 6} L30 ${HIP - 2} Q0 ${HIP + 8} -30 ${HIP - 2} Z" fill="${jacketFill}"${jacketStroke}/>`;
   let acc = "";
-  const hxp = hx, hyp = -262 + hy;
-  if (spec.c === "eli") acc = `<path d="M-30 ${hyp + 8} a34 34 0 0 1 60 -22" stroke="${cast.accent}" stroke-width="7" fill="none"/><line x1="-14" x2="16" y1="-222" y2="-214" stroke="${cast.accent}" stroke-width="10" stroke-linecap="round"/>`;
-  if (spec.c === "nora") acc = `<path d="M${hxp - 26} ${hyp - 8} q-34 10 -30 46" stroke="${cast.accent}" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M-6 -205 L-44 -96 L40 -96 L6 -205 Z" fill="${cast.accent}" opacity="${xray ? 0.15 : 0.85}"/>`;
-  if (spec.c === "crane") acc = `<path d="M${hxp - 28} ${hyp - 10} q28 -34 58 -6" stroke="#9aa4b4" stroke-width="10" fill="none"/><path d="M0 -222 l-7 12 l7 52 l7 -52 z" fill="${cast.accent}"/>`;
-  if (spec.c === "guard" || spec.c === "police") acc = `<rect x="${hxp - 30}" y="${hyp - 40}" width="60" height="22" rx="4" fill="${cast.accent}"/><line x1="${hxp}" x2="${hxp + 46}" y1="${hyp - 18}" y2="${hyp - 18}" stroke="${cast.accent}" stroke-width="7"/>`;
-  if (spec.c === "ruiz") acc = `<path d="M${hxp - 44} ${hyp - 22} h88 M${hxp - 26} ${hyp - 22} v-24 h52 v24" stroke="${cast.accent}" stroke-width="9" fill="${cast.accent}"/>`;
-  if (spec.c === "mayor") acc = `<path d="M-24 -214 q24 40 48 0" stroke="${cast.accent}" stroke-width="7" fill="none"/><circle cx="0" cy="-186" r="9" fill="${cast.accent}"/>`;
-  if (spec.c === "tech") acc = `<path d="M${hxp - 32} ${hyp} a32 32 0 0 1 64 0" stroke="${cast.accent}" stroke-width="6" fill="none"/><rect x="40" y="-170" width="46" height="34" rx="4" fill="#1b2a40" stroke="${cast.accent}" stroke-width="4"/>`;
-  if (spec.c === "dad") acc = `<path d="M${hxp - 4} ${hyp + 14} h22" stroke="${cast.accent}" stroke-width="6" stroke-linecap="round"/>`;
-  if (spec.c === "patient") acc = `<path d="M-8 -210 L-36 -104 L36 -104 L8 -210 Z" fill="${cast.accent}" opacity="0.6"/>`;
-  let skel = "";
-  if (xray && spec.c !== "guest") {
-    skel = `<g class="skel"><line x1="0" y1="-226" x2="0" y2="-110" stroke="${C.xray}" stroke-width="5" stroke-dasharray="7 5"/>` +
-      [0, 1, 2, 3, 4].map((k) => `<path d="M-26 ${-206 + k * 15} q26 10 52 0" stroke="${C.xray}" stroke-width="4" fill="none"/>`).join("") +
-      `<circle cx="${hxp}" cy="${hyp}" r="20" fill="none" stroke="${C.xray}" stroke-width="4"/><circle cx="${hxp - 7}" cy="${hyp - 2}" r="5" fill="${C.xray}"/><circle cx="${hxp + 7}" cy="${hyp - 2}" r="5" fill="${C.xray}"/>` +
-      `<path d="M8 -186 c-10 -14 -26 -2 -12 12 l12 12 l12 -12 c14 -14 -2 -26 -12 -12 z" fill="${C.danger}" data-pulse="0.8"/></g>`;
-  } else if (xray) {
-    skel = `<path d="M8 -186 c-10 -14 -26 -2 -12 12 l12 12 l12 -12 c14 -14 -2 -26 -12 -12 z" fill="${C.danger}" opacity="0.7" data-pulse="0.9"/>`;
+  if (!xray) {
+    if (cast.tie) acc += `<path d="M-8 ${SHOULDER - 8} L0 ${SHOULDER + 4} L8 ${SHOULDER - 8} Z" fill="#e9eef6"/><path d="M0 ${SHOULDER} l-6 10 l6 44 l6 -44 z" fill="${cast.tie}"/>`;
+    if (cast.chain) acc += `<path d="M-20 ${SHOULDER - 4} q20 40 40 0" stroke="${cast.chain}" stroke-width="6" fill="none"/><circle cx="0" cy="${SHOULDER + 32}" r="8" fill="${cast.chain}"/>`;
   }
-  const eyes = spec.c === "eli" && xray ? `<circle cx="${hxp + 9}" cy="${hyp - 4}" r="5" fill="${C.xray}" data-pulse="0.6"/>` : "";
-  const walk = spec.pose === "walk" || spec.pose === "run" ? ` data-walk="${(spec.pose === "run" ? 200 : 110) * face}"` : "";
+  let hat = "";
+  if (cast.cap) hat = `<path d="M${hx - 44} ${hy - 30} Q${hx} ${hy - 84} ${hx + 44} ${hy - 30} Z" fill="${cast.cap}"/><rect x="${hx + 10}" y="${hy - 36}" width="52" height="10" rx="5" fill="${cast.cap}"/>`;
+  if (cast.hat) hat = `<rect x="${hx - 54}" y="${hy - 44}" width="108" height="10" rx="5" fill="${cast.hat}"/><path d="M${hx - 32} ${hy - 40} v-30 q32 -12 64 0 v30 z" fill="${cast.hat}"/>`;
+  if (cast.headset) hat = `<path d="M${hx - 46} ${hy} a46 50 0 0 1 92 0" stroke="${cast.headset}" stroke-width="7" fill="none"/><rect x="${hx + 40}" y="${hy - 6}" width="12" height="22" rx="5" fill="${cast.headset}"/>`;
+  if (cast.dress) hat = `<circle cx="${hx - 46}" cy="${hy - 22}" r="18" fill="${INK}"/><path d="M${hx - 58} ${hy - 12} q-22 30 -6 62" stroke="${INK}" stroke-width="14" fill="none" stroke-linecap="round"/><circle cx="${hx - 40}" cy="${hy - 30}" r="7" fill="${cast.rim}"/>`;
+  if (spec.c === "crane") hat = `<path d="M${hx - 46} ${hy - 14} Q${hx - 20} ${hy - 72} ${hx + 44} ${hy - 30}" stroke="#4a5160" stroke-width="12" fill="none" stroke-linecap="round"/>`;
+  const mood = spec.c === "eli" && xray ? "smug" : p.face || "neutral";
+  const head = `<ellipse cx="${hx}" cy="${hy}" rx="48" ry="52" fill="${xray ? "rgba(6,10,19,0.55)" : INK}" stroke="${xray ? C.xray : HALO}" stroke-width="${xray ? 3 : 4}"/>` +
+    `<path d="M${hx - 30} ${hy - 40} A48 52 0 0 0 ${hx - 34} ${hy + 36}" stroke="${cast.rim}" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.9"/>` +
+    face(hx, hy, mood, spec.c === "eli" && xray) +
+    (cast.mustache && !xray ? `<path d="M${hx + 6} ${hy + 10} q10 -6 20 0" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>` : "");
+  let skel = "";
+  if (xray && !cast.dim) {
+    skel = `<g class="skel"><line x1="0" y1="${SHOULDER - 6}" x2="0" y2="${HIP}" stroke="${C.xray}" stroke-width="5" stroke-dasharray="7 5"/>` +
+      [0, 1, 2, 3].map((k) => `<path d="M-22 ${SHOULDER + 6 + k * 15} q22 10 44 0" stroke="${C.xray}" stroke-width="4" fill="none"/>`).join("") +
+      `<path d="M8 ${SHOULDER + 18} c-10 -14 -26 -2 -12 12 l12 12 l12 -12 c14 -14 -2 -26 -12 -12 z" fill="${C.danger}" data-pulse="0.8"/></g>`;
+  } else if (xray) {
+    skel = `<path d="M8 ${SHOULDER + 18} c-10 -14 -26 -2 -12 12 l12 12 l12 -12 c14 -14 -2 -26 -12 -12 z" fill="${C.danger}" opacity="0.7" data-pulse="0.9"/>`;
+  }
+  const walk = spec.pose === "walk" || spec.pose === "run" ? ` data-walk="${spec.pose === "run" ? 200 : 110}"` : "";
   const bob = ` data-bob="${(i % 3) * 0.3}"`;
-  const body =
-    limb(`b${uid++}`, 0, -110, 58, 56, p.lB, col, w, sw ? { ...sw, phase: 0.5 } : null) +
-    limb(`b${uid++}`, 0, -208, 56, 52, p.aB, col, w, armSwing ? { ...armSwing, phase: 0.5 } : null) +
-    `<line x1="0" y1="-228" x2="0" y2="-110" stroke="${col}" stroke-width="${w}" stroke-linecap="round"/>` +
-    `<circle cx="${hxp}" cy="${hyp}" r="30" fill="${xray ? "rgba(6,10,19,0.4)" : C.bg0}" stroke="${col}" stroke-width="${w}"/>` + eyes + acc + skel +
-    limb(`b${uid++}`, 0, -110, 58, 56, p.lF, col, w, sw) +
-    limb(`b${uid++}`, 0, -208, 56, 52, p.aF, col, w, armSwing);
-  return `<g class="char" transform="translate(${x} ${GROUND}) scale(${face * s} ${s})"><g${walk}${bob}>${body}</g></g>`;
+  // limbs: a light halo pass under everything, then the ink pass, so joints merge cleanly
+  const limbs = (col, ww) => ({
+    back: limb(-8, HIP, 52, 50, p.lB, col, ww, sw ? { ...sw, phase: 0.5 } : null) +
+      limb(0, SHOULDER, 50, 46, p.aB, col, ww * 0.9, armSwing ? { ...armSwing, phase: 0.5 } : null) +
+      limb(8, HIP, 52, 50, p.lF, col, ww, sw),
+    front: limb(0, SHOULDER, 50, 46, p.aF, col, ww * 0.9, armSwing),
+  });
+  const halo = xray ? null : limbs(HALO, w + 7);
+  const inkL = limbs(ink, w);
+  const body = (halo ? halo.back + halo.front : "") + inkL.back + torso + acc + skel + hat + head + inkL.front;
+  return `<g class="char"${op} transform="translate(${x} ${GROUND}) scale(${fc * s} ${s})"><g${walk}${bob}>${body}</g></g>`;
 }
 
 // ---------- full scene ----------
