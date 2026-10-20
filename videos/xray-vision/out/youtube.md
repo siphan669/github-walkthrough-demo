@@ -1,11 +1,20 @@
 # YouTube package — What If You Had X-Ray Vision?
 
 ## Title
-**What If You Had X-Ray Vision? (And Nobody Believed You)**
+**What If You Had X-Ray Vision?**
 
-Alternates:
+Alternates (same "What If You…?" format, short, no clickbait brackets):
 - What If You Could See Through Everything?
-- What If You Had X-Ray Vision to Save Your Sister?
+- What If You Used X-Ray Vision to Save Your Sister?
+- What If You Saw the Crack Nobody Else Could?
+
+If this becomes a series, follow the channel's part format:
+- What If You Had X-Ray Vision? (Part 1)
+- What If You Used X-Ray Vision to Take Down a Billionaire? (Part 2)
+
+## Thumbnail
+- `thumbnail.png` (recommended): **X-RAY** / *I SAW IT.* + FLOOR 31 tag
+- `thumbnail-alt.png`: **CRACKED.** / *3,000 INSIDE.* + FLOOR 31 tag
 
 ## Description
 At twelve, you saw a shadow inside your father's chest. Nobody believed you. So for ten years you hid behind lead-lined glasses.
