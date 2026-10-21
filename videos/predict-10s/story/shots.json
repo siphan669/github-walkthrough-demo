@@ -1,0 +1,1971 @@
+[
+ {
+  "chapter": "c00",
+  "id": "c00-s00",
+  "start": 0,
+  "dur": 3.963,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s01",
+  "start": 3.963,
+  "dur": 4.155,
+  "visual": {
+   "k": "obj",
+   "o": "coin"
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s02",
+  "start": 8.118,
+  "dur": 3.999,
+  "visual": {
+   "k": "obj",
+   "o": "bullet"
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s03",
+  "start": 12.117,
+  "dur": 3.345,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 34
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 60,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s04",
+  "start": 15.462,
+  "dur": 5.904,
+  "visual": {
+   "k": "obj",
+   "o": "vaultdoor",
+   "time": "02:59:50",
+   "countdown": true
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s05",
+  "start": 21.366,
+  "dur": 4.319,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "wave",
+     "x": 42
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s06",
+  "start": 25.685,
+  "dur": 3.8,
+  "visual": {
+   "k": "titlecard",
+   "big": "WHAT IF YOU COULD",
+   "hero": "SEE 10 SECONDS AHEAD?",
+   "small": true,
+   "dur": 3.4
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s00",
+  "start": 29.485,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 1,
+   "title": "Ten seconds"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s01",
+  "start": 32.085,
+  "dur": 2.711,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "walk",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s02",
+  "start": 34.796,
+  "dur": 3.195,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "flash": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 46,
+     "kid": true
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s03",
+  "start": 37.991,
+  "dur": 4.752,
+  "visual": {
+   "k": "obj",
+   "o": "ecg",
+   "flat": true,
+   "text": "0:10"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s04",
+  "start": 42.743,
+  "dur": 4.325,
+  "visual": {
+   "k": "obj",
+   "o": "ecg",
+   "text": "BACK"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s05",
+  "start": 47.068,
+  "dur": 3.792,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s06",
+  "start": 50.86,
+  "dur": 3.877,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "countdown": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "hold",
+     "x": 50,
+     "glow": "#ffb547"
+    }
+   ],
+   "ghost": [
+    {
+     "c": "kai",
+     "pose": "hold",
+     "x": 56
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s07",
+  "start": 54.737,
+  "dur": 4.005,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "guest",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 60,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ],
+   "ghost": [
+    {
+     "c": "guest",
+     "pose": "talk",
+     "x": 44
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s08",
+  "start": 58.742,
+  "dur": 4.133,
+  "visual": {
+   "k": "text",
+   "big": "NOTHING IS NEW",
+   "sub": "EVERYTHING HAPPENS TWICE"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s09",
+  "start": 62.875,
+  "dur": 6.608,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 28
+    },
+    {
+     "c": "kai",
+     "pose": "sad",
+     "x": 54
+    },
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 80,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s10",
+  "start": 69.483,
+  "dur": 5.906,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "wave",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s11",
+  "start": 75.389,
+  "dur": 3.28,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "hold",
+     "x": 40
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s12",
+  "start": 78.669,
+  "dur": 5.237,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "countdown": true,
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "hold",
+     "x": 40
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s13",
+  "start": 83.906,
+  "dur": 6.37,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "talk",
+     "x": 42
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s00",
+  "start": 90.276,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 2,
+   "title": "Sixty thousand dollars"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s01",
+  "start": 92.876,
+  "dur": 4.197,
+  "visual": {
+   "k": "scene",
+   "bg": "hospitalroom",
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "sad",
+     "x": 52
+    },
+    {
+     "c": "nurse",
+     "pose": "stand",
+     "x": 72,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s02",
+  "start": 97.073,
+  "dur": 5.543,
+  "visual": {
+   "k": "obj",
+   "o": "bill"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s03",
+  "start": 102.616,
+  "dur": 2.263,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s04",
+  "start": 104.879,
+  "dur": 3.707,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "dealer",
+     "pose": "stand",
+     "x": 50
+    },
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 30
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 70,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s05",
+  "start": 108.586,
+  "dur": 7.036,
+  "visual": {
+   "k": "obj",
+   "o": "cards"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s06",
+  "start": 115.622,
+  "dur": 4.319,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 30
+    },
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 74,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s07",
+  "start": 119.941,
+  "dur": 3.807,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 36
+    },
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s08",
+  "start": 123.748,
+  "dur": 4.938,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "thug",
+     "pose": "stand",
+     "x": 22
+    },
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 50
+    },
+    {
+     "c": "thug",
+     "pose": "stand",
+     "x": 78,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s09",
+  "start": 128.686,
+  "dur": 5.365,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 36
+    },
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s10",
+  "start": 134.051,
+  "dur": 1.681,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "talk",
+     "x": 36
+    },
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "smug"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s11",
+  "start": 135.732,
+  "dur": 4.938,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "sad",
+     "x": 36
+    },
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 62,
+     "face": -1,
+     "mood": "smug"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s12",
+  "start": 140.67,
+  "dur": 5.947,
+  "visual": {
+   "k": "scene",
+   "bg": "hallnight",
+   "chars": [
+    {
+     "c": "thug",
+     "pose": "stand",
+     "x": 74,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s13",
+  "start": 146.617,
+  "dur": 5.173,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "sad",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s00",
+  "start": 151.79,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 3,
+   "title": "The job"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s01",
+  "start": 154.39,
+  "dur": 6.544,
+  "visual": {
+   "k": "scene",
+   "bg": "exchange",
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "stand",
+     "x": 30
+    },
+    {
+     "c": "guard",
+     "pose": "stand",
+     "x": 72,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s02",
+  "start": 160.934,
+  "dur": 1.623,
+  "visual": {
+   "k": "text",
+   "big": "40 GUARDS"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s03",
+  "start": 162.557,
+  "dur": 4.112,
+  "visual": {
+   "k": "obj",
+   "o": "lasers"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s04",
+  "start": 166.669,
+  "dur": 6.693,
+  "visual": {
+   "k": "obj",
+   "o": "vaultdoor",
+   "time": "03:00:00"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s05",
+  "start": 173.362,
+  "dur": 2.47,
+  "visual": {
+   "k": "text",
+   "big": "10 SECONDS",
+   "sub": "THEN IT LOCKS UNTIL TOMORROW"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s06",
+  "start": 175.832,
+  "dur": 5.151,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 64,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s07",
+  "start": 180.983,
+  "dur": 4.773,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s08",
+  "start": 185.756,
+  "dur": 4.56,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "ST. MARY'S",
+   "msg": "incoming",
+   "label": "1 · THE WATCHER"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s09",
+  "start": 190.316,
+  "dur": 7.269,
+  "visual": {
+   "k": "text",
+   "big": "POLICE SCANNER",
+   "sub": "IF THEY MOVE · ROOM 412",
+   "bad": true
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s10",
+  "start": 197.585,
+  "dur": 5.605,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "countdown": true,
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 30,
+     "face": -1
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 64,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ],
+   "label": "3 · TWELVE SECONDS"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s11",
+  "start": 203.19,
+  "dur": 4.816,
+  "visual": {
+   "k": "text",
+   "big": "4 · EMPTY POCKET",
+   "sub": "LEFT SIDE · INSIDE"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s12",
+  "start": 208.006,
+  "dur": 11.952,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 50,
+     "mood": "smug"
+    }
+   ],
+   "label": "5 · AFTER"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s00",
+  "start": 219.958,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 4,
+   "title": "Ten seconds isn't a plan"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s01",
+  "start": 222.558,
+  "dur": 3.493,
+  "visual": {
+   "k": "text",
+   "big": "NO POLICE",
+   "bad": true
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s02",
+  "start": 226.051,
+  "dur": 4.24,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "run",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s03",
+  "start": 230.291,
+  "dur": 3.372,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s04",
+  "start": 233.663,
+  "dur": 3.423,
+  "visual": {
+   "k": "obj",
+   "o": "chess",
+   "caption": "ROSA'S KITCHEN TABLE"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s05",
+  "start": 237.086,
+  "dur": 4.447,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "flash": true,
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "talk",
+     "x": 42
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 60,
+     "face": -1,
+     "kid": true
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s06",
+  "start": 241.533,
+  "dur": 4.896,
+  "visual": {
+   "k": "obj",
+   "o": "chess",
+   "caption": "TEN MOVES AHEAD"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s00",
+  "start": 246.429,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 5,
+   "title": "The plan"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s01",
+  "start": 249.029,
+  "dur": 3.92,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "countdown": true,
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 30,
+     "face": -1
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 64,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ],
+   "label": "MOVE 1"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s02",
+  "start": 252.949,
+  "dur": 5.051,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "DET. REYES",
+   "msg": "call",
+   "timer": "00:00:09"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s03",
+  "start": 258,
+  "dur": 5.349,
+  "visual": {
+   "k": "scene",
+   "bg": "cardroom",
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 40,
+     "face": -1
+    },
+    {
+     "c": "kai",
+     "pose": "hold",
+     "x": 52,
+     "face": -1
+    }
+   ],
+   "ghost": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 66,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s04",
+  "start": 263.349,
+  "dur": 1.836,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "DET. REYES",
+   "msg": "call",
+   "timer": "00:00:14"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s05",
+  "start": 265.185,
+  "dur": 3.749,
+  "visual": {
+   "k": "text",
+   "big": "MOVE 2",
+   "sub": "LET VALE TALK"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s06",
+  "start": 268.934,
+  "dur": 2.988,
+  "visual": {
+   "k": "text",
+   "big": "MOVE 3",
+   "sub": "DO THE JOB"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s07",
+  "start": 271.922,
+  "dur": 4.555,
+  "visual": {
+   "k": "clock",
+   "time": "2:40 AM"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s00",
+  "start": 276.477,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 6,
+   "title": "The vault"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s01",
+  "start": 279.077,
+  "dur": 5.456,
+  "visual": {
+   "k": "obj",
+   "o": "lasers"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s02",
+  "start": 284.533,
+  "dur": 3.472,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "lasers": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "walk",
+     "x": 30,
+     "glow": "#ffb547"
+    }
+   ],
+   "ghost": [
+    {
+     "c": "kai",
+     "pose": "walk",
+     "x": 46
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s03",
+  "start": 288.005,
+  "dur": 5.243,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "point",
+     "x": 30
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 62,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ],
+   "ghost": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 72,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s04",
+  "start": 293.248,
+  "dur": 2.775,
+  "visual": {
+   "k": "obj",
+   "o": "vaultdoor",
+   "time": "02:59:50",
+   "countdown": true
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s05",
+  "start": 296.023,
+  "dur": 3.393,
+  "visual": {
+   "k": "obj",
+   "o": "vaultdoor",
+   "time": "03:00:00",
+   "open": true
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s06",
+  "start": 299.416,
+  "dur": 2.641,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "walk",
+     "x": 26
+    },
+    {
+     "c": "thug",
+     "pose": "walk",
+     "x": 40
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 66,
+     "face": -1,
+     "mood": "sad"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s07",
+  "start": 302.057,
+  "dur": 7.777,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "thug",
+     "pose": "stand",
+     "x": 24
+    },
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 64,
+     "face": -1,
+     "mood": "sad"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s08",
+  "start": 309.834,
+  "dur": 4.581,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "ROOM 412",
+   "msg": "photo"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s09",
+  "start": 314.415,
+  "dur": 1.51,
+  "visual": {
+   "k": "scene",
+   "bg": "hospitalroom",
+   "chars": []
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s10",
+  "start": 315.925,
+  "dur": 5.109,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 40,
+     "mood": "smug"
+    },
+    {
+     "c": "kai",
+     "pose": "sad",
+     "x": 64,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s11",
+  "start": 321.034,
+  "dur": 5.093,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s12",
+  "start": 326.127,
+  "dur": 3.6,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "point",
+     "x": 18
+    },
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 44,
+     "face": -1
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 66,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s13",
+  "start": 329.727,
+  "dur": 1.943,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "stand",
+     "x": 18
+    },
+    {
+     "c": "vale",
+     "pose": "point",
+     "x": 44,
+     "face": -1,
+     "mood": "angry"
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 66,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s14",
+  "start": 331.67,
+  "dur": 3.067,
+  "visual": {
+   "k": "obj",
+   "o": "bullet"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s15",
+  "start": 334.737,
+  "dur": 3.088,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "countdown": true,
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "stand",
+     "x": 18
+    },
+    {
+     "c": "vale",
+     "pose": "point",
+     "x": 44,
+     "face": -1
+    },
+    {
+     "c": "kai",
+     "pose": "run",
+     "x": 40,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ],
+   "ghost": [
+    {
+     "c": "kai",
+     "pose": "hold",
+     "x": 24,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s16",
+  "start": 337.825,
+  "dur": 3.749,
+  "visual": {
+   "k": "flash"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s17",
+  "start": 341.574,
+  "dur": 3.36,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "thug",
+     "pose": "hold",
+     "x": 50
+    },
+    {
+     "c": "kai",
+     "pose": "grabbed",
+     "x": 66,
+     "face": -1
+    },
+    {
+     "c": "thug",
+     "pose": "hold",
+     "x": 80,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s00",
+  "start": 344.934,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 7,
+   "title": "Three hours, twelve minutes"
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s01",
+  "start": 347.534,
+  "dur": 9.306,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "talk",
+     "x": 36,
+     "mood": "smug"
+    },
+    {
+     "c": "kai",
+     "pose": "grabbed",
+     "x": 64,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s02",
+  "start": 356.84,
+  "dur": 6.091,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "stand",
+     "x": 36
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 64,
+     "glow": "#ffb547",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s03",
+  "start": 362.931,
+  "dur": 3.265,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "vale",
+     "pose": "hold",
+     "x": 40
+    },
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 64,
+     "face": -1,
+     "mood": "smug"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s04",
+  "start": 366.196,
+  "dur": 6.737,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "DET. REYES",
+   "msg": "call",
+   "timer": "03:12:41"
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s05",
+  "start": 372.933,
+  "dur": 4.639,
+  "visual": {
+   "k": "text",
+   "big": "3H 12M",
+   "sub": "EVERY WORD · RECORDED"
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s06",
+  "start": 377.572,
+  "dur": 8.416,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "detective",
+     "pose": "stand",
+     "x": 24
+    },
+    {
+     "c": "police",
+     "pose": "hold",
+     "x": 40
+    },
+    {
+     "c": "vale",
+     "pose": "sad",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s07",
+  "start": 385.988,
+  "dur": 4.581,
+  "visual": {
+   "k": "clock",
+   "time": "2:00 AM"
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s08",
+  "start": 390.569,
+  "dur": 2.433,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "siren": true,
+   "chars": [
+    {
+     "c": "police",
+     "pose": "hold",
+     "x": 36
+    },
+    {
+     "c": "thug",
+     "pose": "cuffed",
+     "x": 54,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s09",
+  "start": 393.002,
+  "dur": 5.797,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "siren": true,
+   "chars": [
+    {
+     "c": "rosa",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "detective",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s10",
+  "start": 398.799,
+  "dur": 4.368,
+  "visual": {
+   "k": "scene",
+   "bg": "vault",
+   "open": true,
+   "chars": [
+    {
+     "c": "police",
+     "pose": "hold",
+     "x": 40
+    },
+    {
+     "c": "vale",
+     "pose": "cuffed",
+     "x": 58,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s11",
+  "start": 403.167,
+  "dur": 3.488,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s00",
+  "start": 406.655,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 8,
+   "title": "What it's for"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s01",
+  "start": 409.255,
+  "dur": 4.923,
+  "visual": {
+   "k": "text",
+   "big": "$60,000",
+   "sub": "PAID IN FULL"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s02",
+  "start": 414.178,
+  "dur": 3.6,
+  "visual": {
+   "k": "obj",
+   "o": "ecg",
+   "text": "STABLE"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s03",
+  "start": 417.778,
+  "dur": 3.856,
+  "visual": {
+   "k": "eye",
+   "state": "future"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s04",
+  "start": 421.634,
+  "dur": 4.112,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "hold",
+     "x": 46,
+     "glow": "#ffb547"
+    },
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 58,
+     "kid": true,
+     "face": -1
+    }
+   ],
+   "ghost": [
+    {
+     "c": "guest",
+     "pose": "walk",
+     "x": 66,
+     "kid": true
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s05",
+  "start": 425.746,
+  "dur": 6.352,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "siren": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "run",
+     "x": 50,
+     "glow": "#ffb547"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s06",
+  "start": 432.098,
+  "dur": 8.439,
+  "visual": {
+   "k": "obj",
+   "o": "ecg",
+   "text": "AGAIN"
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s00",
+  "start": 440.537,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 9,
+   "title": "The surprise"
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s01",
+  "start": 443.137,
+  "dur": 4.219,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "walk",
+     "x": 40
+    },
+    {
+     "c": "rosa",
+     "pose": "stand",
+     "x": 70,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s02",
+  "start": 447.356,
+  "dur": 6.012,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "countdown": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 44
+    },
+    {
+     "c": "rosa",
+     "pose": "stand",
+     "x": 66,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s03",
+  "start": 453.368,
+  "dur": 2.753,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 44
+    },
+    {
+     "c": "rosa",
+     "pose": "hold",
+     "x": 60,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s04",
+  "start": 456.121,
+  "dur": 4.176,
+  "visual": {
+   "k": "obj",
+   "o": "letter",
+   "envelope": true
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s05",
+  "start": 460.297,
+  "dur": 2.449,
+  "visual": {
+   "k": "obj",
+   "o": "letter"
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s06",
+  "start": 462.746,
+  "dur": 9.178,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "stand",
+     "x": 44
+    },
+    {
+     "c": "rosa",
+     "pose": "talk",
+     "x": 60,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s07",
+  "start": 471.924,
+  "dur": 4.746,
+  "visual": {
+   "k": "eye",
+   "state": "warm"
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s08",
+  "start": 476.67,
+  "dur": 1.467,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "talk",
+     "x": 46,
+     "mood": "happy"
+    },
+    {
+     "c": "rosa",
+     "pose": "stand",
+     "x": 58,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s09",
+  "start": 478.137,
+  "dur": 2.619,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "cake": true,
+   "chars": [
+    {
+     "c": "kai",
+     "pose": "hug",
+     "x": 47
+    },
+    {
+     "c": "rosa",
+     "pose": "hug",
+     "x": 53,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c09",
+  "id": "c09-s10",
+  "start": 480.756,
+  "dur": 7.35,
+  "visual": {
+   "k": "text",
+   "big": "WHO CAN STILL SURPRISE YOU?",
+   "sub": "TELL US IN THE COMMENTS",
+   "cta": true
+  }
+ }
+]

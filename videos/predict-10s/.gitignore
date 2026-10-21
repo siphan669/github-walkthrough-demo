@@ -1,0 +1,8 @@
+# Generated media (rebuild with tools/tts.mjs and tools/audio.py)
+assets/audio/
+renders/
+out/*.mp4
+node_modules/
+.hyperframes/
+out/work-*/
+out/.*/
