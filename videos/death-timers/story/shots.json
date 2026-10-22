@@ -1,0 +1,1638 @@
+[
+ {
+  "chapter": "c00",
+  "id": "c00-s00",
+  "start": 0,
+  "dur": 2.561,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 26,
+     "timer": "51 YRS"
+    },
+    {
+     "c": "fan",
+     "pose": "stand",
+     "x": 50,
+     "timer": "3 DAYS"
+    },
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 76,
+     "face": -1,
+     "timer": "70 YRS"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s01",
+  "start": 2.561,
+  "dur": 3.073,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s02",
+  "start": 5.634,
+  "dur": 6.715,
+  "visual": {
+   "k": "obj",
+   "o": "crowdtimers"
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s03",
+  "start": 12.349,
+  "dur": 2.598,
+  "visual": {
+   "k": "clock",
+   "time": "9:47 PM",
+   "alarm": true
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s04",
+  "start": 14.947,
+  "dur": 1.937,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "talk",
+     "x": 36,
+     "timer": "9:44 PM"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s05",
+  "start": 16.884,
+  "dur": 4.027,
+  "visual": {
+   "k": "text",
+   "big": "42 MINUTES",
+   "sub": "30 TANK CARS · 1 TRAIN"
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s06",
+  "start": 20.911,
+  "dur": 4.127,
+  "visual": {
+   "k": "scene",
+   "bg": "stadium",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "wave",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c00",
+  "id": "c00-s07",
+  "start": 25.038,
+  "dur": 3.8,
+  "visual": {
+   "k": "titlecard",
+   "big": "WHAT IF YOU KNEW",
+   "hero": "WHEN EVERYONE WOULD DIE?",
+   "small": true,
+   "dur": 3.4
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s00",
+  "start": 28.838,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 1,
+   "title": "The numbers"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s01",
+  "start": 31.438,
+  "dur": 2.327,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "walk",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s02",
+  "start": 33.765,
+  "dur": 4.475,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 24,
+     "timer": "62 YRS"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 50
+    },
+    {
+     "c": "fan",
+     "pose": "stand",
+     "x": 76,
+     "face": -1,
+     "timer": "19 YRS"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s03",
+  "start": 38.24,
+  "dur": 5.093,
+  "visual": {
+   "k": "text",
+   "big": "50 YEARS · 70 YEARS",
+   "sub": "NUMBERS YOU CAN FORGET"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s04",
+  "start": 43.333,
+  "dur": 2.113,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 50,
+     "timer": "3 DAYS",
+     "timerPulse": true
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s05",
+  "start": 45.446,
+  "dur": 4.261,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "flash": true,
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 36,
+     "kid": true,
+     "mood": "sad"
+    },
+    {
+     "c": "dad",
+     "pose": "stand",
+     "x": 60,
+     "face": -1,
+     "timer": "4 DAYS"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s06",
+  "start": 49.707,
+  "dur": 2.199,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "flash": true,
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "hold",
+     "x": 46,
+     "kid": true
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s07",
+  "start": 51.906,
+  "dur": 2.113,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "flash": true,
+   "chars": [
+    {
+     "c": "dad",
+     "pose": "walk",
+     "x": 50,
+     "timer": "4 DAYS"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s08",
+  "start": 54.019,
+  "dur": 2.625,
+  "visual": {
+   "k": "text",
+   "big": "DAY 4"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s09",
+  "start": 56.644,
+  "dur": 4.24,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s10",
+  "start": 60.884,
+  "dur": 7.676,
+  "visual": {
+   "k": "scene",
+   "bg": "diner",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "sad",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s11",
+  "start": 68.56,
+  "dur": 4.283,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "talk",
+     "x": 42
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s12",
+  "start": 72.843,
+  "dur": 2.96,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "stand",
+     "x": 42
+    },
+    {
+     "c": "lena",
+     "pose": "sad",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c01",
+  "id": "c01-s13",
+  "start": 75.803,
+  "dur": 2.983,
+  "visual": {
+   "k": "eye",
+   "state": "glasses"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s00",
+  "start": 78.786,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 2,
+   "title": "Nine forty-seven"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s01",
+  "start": 81.386,
+  "dur": 5.749,
+  "visual": {
+   "k": "scene",
+   "bg": "stadium",
+   "chars": [
+    {
+     "c": "fan",
+     "pose": "wave",
+     "x": 34
+    },
+    {
+     "c": "theo",
+     "pose": "wave",
+     "x": 50
+    },
+    {
+     "c": "fan",
+     "pose": "stand",
+     "x": 66,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s02",
+  "start": 87.135,
+  "dur": 3.701,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "THEO",
+   "msg": "voice message"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s03",
+  "start": 90.836,
+  "dur": 4.24,
+  "visual": {
+   "k": "clock",
+   "time": "9:05 PM"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s04",
+  "start": 95.076,
+  "dur": 1.58,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s05",
+  "start": 96.656,
+  "dur": 7.078,
+  "visual": {
+   "k": "obj",
+   "o": "crowdtimers"
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s06",
+  "start": 103.734,
+  "dur": 2.156,
+  "visual": {
+   "k": "text",
+   "big": "42 MINUTES",
+   "bad": true
+  }
+ },
+ {
+  "chapter": "c02",
+  "id": "c02-s07",
+  "start": 105.89,
+  "dur": 5.131,
+  "visual": {
+   "k": "scene",
+   "bg": "stadium",
+   "chars": [
+    {
+     "c": "fan",
+     "pose": "stand",
+     "x": 30,
+     "timer": "9:47 PM"
+    },
+    {
+     "c": "theo",
+     "pose": "stand",
+     "x": 50
+    },
+    {
+     "c": "fan",
+     "pose": "stand",
+     "x": 70,
+     "face": -1,
+     "timer": "9:47 PM"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s00",
+  "start": 111.021,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 3,
+   "title": "Five clues"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s01",
+  "start": 113.621,
+  "dur": 4.603,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s02",
+  "start": 118.224,
+  "dur": 4.667,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "label": "1 · THE RIVER",
+   "chars": [
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 34,
+     "timer": "44 YRS"
+    },
+    {
+     "c": "fan",
+     "pose": "stand",
+     "x": 64,
+     "face": -1,
+     "timer": "71 YRS"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s03",
+  "start": 122.891,
+  "dur": 2.86,
+  "visual": {
+   "k": "obj",
+   "o": "map",
+   "radius": true
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s04",
+  "start": 125.751,
+  "dur": 5.584,
+  "visual": {
+   "k": "scene",
+   "bg": "crossing",
+   "train": true,
+   "label": "2 · THE CROSSING"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s05",
+  "start": 131.335,
+  "dur": 5.349,
+  "visual": {
+   "k": "scene",
+   "bg": "station",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "timer": "9:44 PM",
+     "timerPulse": true
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s06",
+  "start": 136.684,
+  "dur": 4.987,
+  "visual": {
+   "k": "text",
+   "big": "9:44",
+   "sub": "THREE MINUTES EARLIER"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s07",
+  "start": 141.671,
+  "dur": 4.944,
+  "visual": {
+   "k": "scene",
+   "bg": "crossing",
+   "train": true,
+   "label": "3 · THE CARGO"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s08",
+  "start": 146.615,
+  "dur": 2.455,
+  "visual": {
+   "k": "obj",
+   "o": "placard"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s09",
+  "start": 149.07,
+  "dur": 7.762,
+  "visual": {
+   "k": "obj",
+   "o": "speed",
+   "label": "4 · THE BEND"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s10",
+  "start": 156.832,
+  "dur": 9.803,
+  "visual": {
+   "k": "obj",
+   "o": "map",
+   "radius": true,
+   "wind": true,
+   "label": "5 · THE WIND"
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s11",
+  "start": 166.635,
+  "dur": 7.952,
+  "visual": {
+   "k": "obj",
+   "o": "map",
+   "radius": true,
+   "wind": true,
+   "bend": true,
+   "train": true
+  }
+ },
+ {
+  "chapter": "c03",
+  "id": "c03-s12",
+  "start": 174.587,
+  "dur": 2.023,
+  "visual": {
+   "k": "scene",
+   "bg": "stadium",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "stand",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s00",
+  "start": 176.61,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 4,
+   "title": "Nobody believes you"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s01",
+  "start": 179.21,
+  "dur": 2.235,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "RAIL OPERATIONS",
+   "msg": "call"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s02",
+  "start": 181.445,
+  "dur": 4.618,
+  "visual": {
+   "k": "scene",
+   "bg": "office",
+   "chars": [
+    {
+     "c": "pike",
+     "pose": "phone",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s03",
+  "start": 186.063,
+  "dur": 3.771,
+  "visual": {
+   "k": "obj",
+   "o": "phone",
+   "name": "911",
+   "msg": "call"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s04",
+  "start": 189.834,
+  "dur": 3.287,
+  "visual": {
+   "k": "scene",
+   "bg": "stadium",
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "lena",
+     "pose": "talk",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s05",
+  "start": 193.121,
+  "dur": 3.323,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s06",
+  "start": 196.444,
+  "dur": 3.308,
+  "visual": {
+   "k": "obj",
+   "o": "crowdtimers"
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s07",
+  "start": 199.752,
+  "dur": 2.071,
+  "visual": {
+   "k": "text",
+   "big": "THE NUMBERS ALWAYS WIN",
+   "bad": true
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s08",
+  "start": 201.823,
+  "dur": 6.672,
+  "visual": {
+   "k": "obj",
+   "o": "map",
+   "radius": true,
+   "train": true
+  }
+ },
+ {
+  "chapter": "c04",
+  "id": "c04-s09",
+  "start": 208.495,
+  "dur": 3.047,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "run",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s00",
+  "start": 211.542,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 5,
+   "title": "The train"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s01",
+  "start": 214.142,
+  "dur": 2.647,
+  "visual": {
+   "k": "clock",
+   "time": "9:29 PM"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s02",
+  "start": 216.789,
+  "dur": 2.519,
+  "visual": {
+   "k": "scene",
+   "bg": "station",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "run",
+     "x": 36
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s03",
+  "start": 219.308,
+  "dur": 4.234,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "stand",
+     "x": 44,
+     "timer": "9:44 PM"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s04",
+  "start": 223.542,
+  "dur": 1.937,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "talk",
+     "x": 36,
+     "timer": "9:44 PM"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s05",
+  "start": 225.479,
+  "dur": 4.277,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "stand",
+     "x": 36,
+     "timer": "9:44 PM"
+    },
+    {
+     "c": "lena",
+     "pose": "point",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s06",
+  "start": 229.756,
+  "dur": 4.709,
+  "visual": {
+   "k": "obj",
+   "o": "gauge"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s07",
+  "start": 234.465,
+  "dur": 1.83,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "phone",
+     "x": 40,
+     "timer": "9:44 PM"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 64,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s08",
+  "start": 236.295,
+  "dur": 3.765,
+  "visual": {
+   "k": "scene",
+   "bg": "office",
+   "chars": [
+    {
+     "c": "pike",
+     "pose": "talk",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s09",
+  "start": 240.06,
+  "dur": 3.899,
+  "visual": {
+   "k": "scene",
+   "bg": "traintop",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 30
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s10",
+  "start": 243.959,
+  "dur": 3.451,
+  "visual": {
+   "k": "clock",
+   "time": "9:38 PM",
+   "alarm": true
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s11",
+  "start": 247.41,
+  "dur": 4.453,
+  "visual": {
+   "k": "scene",
+   "bg": "traintop",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "walk",
+     "x": 40
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s12",
+  "start": 251.863,
+  "dur": 2.177,
+  "visual": {
+   "k": "obj",
+   "o": "handbrake"
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s13",
+  "start": 254.04,
+  "dur": 5.549,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "stand",
+     "x": 50,
+     "timer": "9:44 PM",
+     "timerPulse": true
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c05",
+  "id": "c05-s14",
+  "start": 259.589,
+  "dur": 8.63,
+  "visual": {
+   "k": "scene",
+   "bg": "traintop",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "sad",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s00",
+  "start": 268.219,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 6,
+   "title": "Believe"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s01",
+  "start": 270.819,
+  "dur": 4.127,
+  "visual": {
+   "k": "clock",
+   "time": "9:42 PM",
+   "alarm": true
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s02",
+  "start": 274.946,
+  "dur": 3.274,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "talk",
+     "x": 36,
+     "timer": "9:44 PM"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s03",
+  "start": 278.22,
+  "dur": 2.177,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "stand",
+     "x": 36,
+     "timer": "9:44 PM"
+    },
+    {
+     "c": "lena",
+     "pose": "talk",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s04",
+  "start": 280.397,
+  "dur": 4.234,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "stand",
+     "x": 36,
+     "timer": "9:44 PM",
+     "timerPulse": true
+    },
+    {
+     "c": "lena",
+     "pose": "point",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s05",
+  "start": 284.631,
+  "dur": 5.208,
+  "visual": {
+   "k": "obj",
+   "o": "gauge"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s06",
+  "start": 289.839,
+  "dur": 3.643,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "sad",
+     "x": 40,
+     "timer": "9:44 PM",
+     "timerPulse": true
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s07",
+  "start": 293.482,
+  "dur": 2.561,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "hold",
+     "x": 30,
+     "timer": "9:44 PM"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s08",
+  "start": 296.043,
+  "dur": 4.304,
+  "visual": {
+   "k": "scene",
+   "bg": "crossing",
+   "train": true,
+   "impact": true
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s09",
+  "start": 300.347,
+  "dur": 3.792,
+  "visual": {
+   "k": "text",
+   "big": "200 METERS",
+   "sub": "BEFORE THE BEND"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s10",
+  "start": 304.139,
+  "dur": 1.836,
+  "visual": {
+   "k": "clock",
+   "time": "9:44 PM"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s11",
+  "start": 305.975,
+  "dur": 6.289,
+  "visual": {
+   "k": "scene",
+   "bg": "cab",
+   "chars": [
+    {
+     "c": "walt",
+     "pose": "stand",
+     "x": 40,
+     "timer": "31 YRS",
+     "timerColor": "#86efac"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s12",
+  "start": 312.264,
+  "dur": 1.985,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s13",
+  "start": 314.249,
+  "dur": 4.475,
+  "visual": {
+   "k": "obj",
+   "o": "crowdtimers",
+   "flip": true
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s14",
+  "start": 318.724,
+  "dur": 4.581,
+  "visual": {
+   "k": "text",
+   "big": "THEY CAN CHANGE",
+   "sub": "WHEN SOMEONE BELIEVES YOU"
+  }
+ },
+ {
+  "chapter": "c06",
+  "id": "c06-s15",
+  "start": 323.305,
+  "dur": 6.881,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "flash": true,
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "sad",
+     "x": 40,
+     "kid": true
+    },
+    {
+     "c": "dad",
+     "pose": "stand",
+     "x": 60,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s00",
+  "start": 330.186,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 7,
+   "title": "What it's for"
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s01",
+  "start": 332.786,
+  "dur": 5.136,
+  "visual": {
+   "k": "text",
+   "big": "31 CARS",
+   "sub": "PULLED FROM SERVICE"
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s02",
+  "start": 337.922,
+  "dur": 3.052,
+  "visual": {
+   "k": "scene",
+   "bg": "office",
+   "chars": [
+    {
+     "c": "pike",
+     "pose": "sad",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s03",
+  "start": 340.974,
+  "dur": 2.177,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s04",
+  "start": 343.151,
+  "dur": 4.048,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "timer": "2 DAYS"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s05",
+  "start": 347.199,
+  "dur": 4.048,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 40,
+     "mood": "happy"
+    },
+    {
+     "c": "guest",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "timer": "48 YRS",
+     "timerColor": "#86efac"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c07",
+  "id": "c07-s06",
+  "start": 351.247,
+  "dur": 2.065,
+  "visual": {
+   "k": "text",
+   "big": "212",
+   "sub": "NUMBERS CHANGED"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s00",
+  "start": 353.312,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 8,
+   "title": "The one number"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s01",
+  "start": 355.912,
+  "dur": 5.087,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "wave",
+     "x": 40
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s02",
+  "start": 360.999,
+  "dur": 7.429,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s03",
+  "start": 368.428,
+  "dur": 2.001,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "stand",
+     "x": 40
+    },
+    {
+     "c": "lena",
+     "pose": "sad",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s04",
+  "start": 370.429,
+  "dur": 1.425,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s05",
+  "start": 371.854,
+  "dur": 3.067,
+  "visual": {
+   "k": "eye",
+   "state": "death"
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s06",
+  "start": 374.921,
+  "dur": 4.412,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "stand",
+     "x": 36,
+     "timer": "86 YRS",
+     "timerColor": "#86efac"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 60,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s07",
+  "start": 379.333,
+  "dur": 1.702,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "talk",
+     "x": 36,
+     "timer": "86 YRS",
+     "timerColor": "#86efac"
+    },
+    {
+     "c": "lena",
+     "pose": "stand",
+     "x": 60,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s08",
+  "start": 381.035,
+  "dur": 2.89,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "theo",
+     "pose": "hug",
+     "x": 34
+    },
+    {
+     "c": "lena",
+     "pose": "hug",
+     "x": 41,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "chapter": "c08",
+  "id": "c08-s09",
+  "start": 383.925,
+  "dur": 7.67,
+  "visual": {
+   "k": "text",
+   "big": "WOULD YOU LOOK?",
+   "sub": "TELL US IN THE COMMENTS",
+   "cta": true
+  }
+ }
+]

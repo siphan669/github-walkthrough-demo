@@ -1,0 +1,920 @@
+{
+ "total": 391.595,
+ "chapters": [
+  {
+   "id": "c00",
+   "title": null,
+   "music": "tense",
+   "start": 0,
+   "dur": 28.838
+  },
+  {
+   "id": "c01",
+   "title": "The numbers",
+   "music": "calm",
+   "start": 28.838,
+   "dur": 49.948
+  },
+  {
+   "id": "c02",
+   "title": "Nine forty-seven",
+   "music": "tense",
+   "start": 78.786,
+   "dur": 32.235
+  },
+  {
+   "id": "c03",
+   "title": "Five clues",
+   "music": "tense",
+   "start": 111.021,
+   "dur": 65.589
+  },
+  {
+   "id": "c04",
+   "title": "Nobody believes you",
+   "music": "calm",
+   "start": 176.61,
+   "dur": 34.932
+  },
+  {
+   "id": "c05",
+   "title": "The train",
+   "music": "action",
+   "start": 211.542,
+   "dur": 56.677
+  },
+  {
+   "id": "c06",
+   "title": "Believe",
+   "music": "action",
+   "start": 268.219,
+   "dur": 61.967
+  },
+  {
+   "id": "c07",
+   "title": "What it's for",
+   "music": "hope",
+   "start": 330.186,
+   "dur": 23.126
+  },
+  {
+   "id": "c08",
+   "title": "The one number",
+   "music": "piano",
+   "start": 353.312,
+   "dur": 38.283
+  }
+ ],
+ "sfx": [
+  {
+   "t": 12.449,
+   "name": "tick"
+  },
+  {
+   "t": 17.034,
+   "name": "blip"
+  },
+  {
+   "t": 25.588,
+   "name": "boom"
+  },
+  {
+   "t": 28.888,
+   "name": "whoosh"
+  },
+  {
+   "t": 38.39,
+   "name": "blip"
+  },
+  {
+   "t": 54.169,
+   "name": "blip"
+  },
+  {
+   "t": 78.836,
+   "name": "whoosh"
+  },
+  {
+   "t": 90.93599999999999,
+   "name": "tick"
+  },
+  {
+   "t": 103.884,
+   "name": "blip"
+  },
+  {
+   "t": 111.071,
+   "name": "whoosh"
+  },
+  {
+   "t": 136.834,
+   "name": "blip"
+  },
+  {
+   "t": 149.37,
+   "name": "blip"
+  },
+  {
+   "t": 157.132,
+   "name": "blip"
+  },
+  {
+   "t": 176.66000000000003,
+   "name": "whoosh"
+  },
+  {
+   "t": 199.90200000000002,
+   "name": "blip"
+  },
+  {
+   "t": 211.59200000000004,
+   "name": "whoosh"
+  },
+  {
+   "t": 214.24200000000002,
+   "name": "tick"
+  },
+  {
+   "t": 244.05900000000003,
+   "name": "tick"
+  },
+  {
+   "t": 268.26900000000006,
+   "name": "whoosh"
+  },
+  {
+   "t": 270.9190000000001,
+   "name": "tick"
+  },
+  {
+   "t": 296.04300000000006,
+   "name": "zap"
+  },
+  {
+   "t": 296.1430000000001,
+   "name": "rumble"
+  },
+  {
+   "t": 300.497,
+   "name": "blip"
+  },
+  {
+   "t": 304.2390000000001,
+   "name": "tick"
+  },
+  {
+   "t": 318.874,
+   "name": "blip"
+  },
+  {
+   "t": 330.23600000000005,
+   "name": "whoosh"
+  },
+  {
+   "t": 332.93600000000004,
+   "name": "blip"
+  },
+  {
+   "t": 351.397,
+   "name": "blip"
+  },
+  {
+   "t": 353.362,
+   "name": "whoosh"
+  },
+  {
+   "t": 384.075,
+   "name": "blip"
+  }
+ ],
+ "voice": [
+  {
+   "id": "c00-00",
+   "file": "assets/audio/vo/c00-00.wav",
+   "t": 0,
+   "dur": 2.261,
+   "spk": "N"
+  },
+  {
+   "id": "c00-01",
+   "file": "assets/audio/vo/c00-01.wav",
+   "t": 2.561,
+   "dur": 2.773,
+   "spk": "N"
+  },
+  {
+   "id": "c00-02",
+   "file": "assets/audio/vo/c00-02.wav",
+   "t": 5.634,
+   "dur": 6.315,
+   "spk": "N"
+  },
+  {
+   "id": "c00-03",
+   "file": "assets/audio/vo/c00-03.wav",
+   "t": 12.349,
+   "dur": 2.048,
+   "spk": "N"
+  },
+  {
+   "id": "c00-04",
+   "file": "assets/audio/vo/c00-04.wav",
+   "t": 14.947,
+   "dur": 1.387,
+   "spk": "W"
+  },
+  {
+   "id": "c00-05",
+   "file": "assets/audio/vo/c00-05.wav",
+   "t": 16.884,
+   "dur": 3.627,
+   "spk": "N"
+  },
+  {
+   "id": "c00-06",
+   "file": "assets/audio/vo/c00-06.wav",
+   "t": 20.911,
+   "dur": 3.477,
+   "spk": "N"
+  },
+  {
+   "id": "c01-00",
+   "file": "assets/audio/vo/c01-00.wav",
+   "t": 31.438000000000002,
+   "dur": 2.027,
+   "spk": "N"
+  },
+  {
+   "id": "c01-01",
+   "file": "assets/audio/vo/c01-01.wav",
+   "t": 33.765,
+   "dur": 4.075,
+   "spk": "N"
+  },
+  {
+   "id": "c01-02",
+   "file": "assets/audio/vo/c01-02.wav",
+   "t": 38.24,
+   "dur": 4.693,
+   "spk": "N"
+  },
+  {
+   "id": "c01-03",
+   "file": "assets/audio/vo/c01-03.wav",
+   "t": 43.333,
+   "dur": 1.813,
+   "spk": "N"
+  },
+  {
+   "id": "c01-04",
+   "file": "assets/audio/vo/c01-04.wav",
+   "t": 45.446,
+   "dur": 3.861,
+   "spk": "N"
+  },
+  {
+   "id": "c01-05",
+   "file": "assets/audio/vo/c01-05.wav",
+   "t": 49.707,
+   "dur": 1.899,
+   "spk": "N"
+  },
+  {
+   "id": "c01-06",
+   "file": "assets/audio/vo/c01-06.wav",
+   "t": 51.906,
+   "dur": 1.813,
+   "spk": "N"
+  },
+  {
+   "id": "c01-07",
+   "file": "assets/audio/vo/c01-07.wav",
+   "t": 54.019,
+   "dur": 2.325,
+   "spk": "N"
+  },
+  {
+   "id": "c01-08",
+   "file": "assets/audio/vo/c01-08.wav",
+   "t": 56.644,
+   "dur": 3.84,
+   "spk": "N"
+  },
+  {
+   "id": "c01-09",
+   "file": "assets/audio/vo/c01-09.wav",
+   "t": 60.884,
+   "dur": 5.376,
+   "spk": "N"
+  },
+  {
+   "id": "c01-10",
+   "file": "assets/audio/vo/c01-10.wav",
+   "t": 66.66,
+   "dur": 1.6,
+   "spk": "N"
+  },
+  {
+   "id": "c01-11",
+   "file": "assets/audio/vo/c01-11.wav",
+   "t": 68.56,
+   "dur": 3.883,
+   "spk": "N"
+  },
+  {
+   "id": "c01-12",
+   "file": "assets/audio/vo/c01-12.wav",
+   "t": 72.843,
+   "dur": 2.56,
+   "spk": "N"
+  },
+  {
+   "id": "c01-13",
+   "file": "assets/audio/vo/c01-13.wav",
+   "t": 75.803,
+   "dur": 2.283,
+   "spk": "N"
+  },
+  {
+   "id": "c02-00",
+   "file": "assets/audio/vo/c02-00.wav",
+   "t": 81.386,
+   "dur": 5.099,
+   "spk": "N"
+  },
+  {
+   "id": "c02-01",
+   "file": "assets/audio/vo/c02-01.wav",
+   "t": 87.135,
+   "dur": 3.051,
+   "spk": "TH"
+  },
+  {
+   "id": "c02-02",
+   "file": "assets/audio/vo/c02-02.wav",
+   "t": 90.836,
+   "dur": 3.84,
+   "spk": "N"
+  },
+  {
+   "id": "c02-03",
+   "file": "assets/audio/vo/c02-03.wav",
+   "t": 95.076,
+   "dur": 1.28,
+   "spk": "N"
+  },
+  {
+   "id": "c02-04",
+   "file": "assets/audio/vo/c02-04.wav",
+   "t": 96.656,
+   "dur": 3.413,
+   "spk": "N"
+  },
+  {
+   "id": "c02-05",
+   "file": "assets/audio/vo/c02-05.wav",
+   "t": 100.469,
+   "dur": 2.965,
+   "spk": "N"
+  },
+  {
+   "id": "c02-06",
+   "file": "assets/audio/vo/c02-06.wav",
+   "t": 103.734,
+   "dur": 1.856,
+   "spk": "N"
+  },
+  {
+   "id": "c02-07",
+   "file": "assets/audio/vo/c02-07.wav",
+   "t": 105.89,
+   "dur": 4.331,
+   "spk": "N"
+  },
+  {
+   "id": "c03-00",
+   "file": "assets/audio/vo/c03-00.wav",
+   "t": 113.621,
+   "dur": 4.203,
+   "spk": "N"
+  },
+  {
+   "id": "c03-01",
+   "file": "assets/audio/vo/c03-01.wav",
+   "t": 118.224,
+   "dur": 4.267,
+   "spk": "N"
+  },
+  {
+   "id": "c03-02",
+   "file": "assets/audio/vo/c03-02.wav",
+   "t": 122.891,
+   "dur": 2.56,
+   "spk": "N"
+  },
+  {
+   "id": "c03-03",
+   "file": "assets/audio/vo/c03-03.wav",
+   "t": 125.751,
+   "dur": 5.184,
+   "spk": "N"
+  },
+  {
+   "id": "c03-04",
+   "file": "assets/audio/vo/c03-04.wav",
+   "t": 131.335,
+   "dur": 4.949,
+   "spk": "N"
+  },
+  {
+   "id": "c03-05",
+   "file": "assets/audio/vo/c03-05.wav",
+   "t": 136.684,
+   "dur": 4.587,
+   "spk": "N"
+  },
+  {
+   "id": "c03-06",
+   "file": "assets/audio/vo/c03-06.wav",
+   "t": 141.671,
+   "dur": 4.544,
+   "spk": "N"
+  },
+  {
+   "id": "c03-07",
+   "file": "assets/audio/vo/c03-07.wav",
+   "t": 146.615,
+   "dur": 2.155,
+   "spk": "N"
+  },
+  {
+   "id": "c03-08",
+   "file": "assets/audio/vo/c03-08.wav",
+   "t": 149.07,
+   "dur": 5.227,
+   "spk": "N"
+  },
+  {
+   "id": "c03-09",
+   "file": "assets/audio/vo/c03-09.wav",
+   "t": 154.697,
+   "dur": 1.835,
+   "spk": "N"
+  },
+  {
+   "id": "c03-10",
+   "file": "assets/audio/vo/c03-10.wav",
+   "t": 156.832,
+   "dur": 4.267,
+   "spk": "N"
+  },
+  {
+   "id": "c03-11",
+   "file": "assets/audio/vo/c03-11.wav",
+   "t": 161.499,
+   "dur": 4.736,
+   "spk": "N"
+  },
+  {
+   "id": "c03-12",
+   "file": "assets/audio/vo/c03-12.wav",
+   "t": 166.635,
+   "dur": 7.552,
+   "spk": "N"
+  },
+  {
+   "id": "c03-13",
+   "file": "assets/audio/vo/c03-13.wav",
+   "t": 174.587,
+   "dur": 1.323,
+   "spk": "N"
+  },
+  {
+   "id": "c04-00",
+   "file": "assets/audio/vo/c04-00.wav",
+   "t": 179.21,
+   "dur": 1.685,
+   "spk": "N"
+  },
+  {
+   "id": "c04-01",
+   "file": "assets/audio/vo/c04-01.wav",
+   "t": 181.44500000000002,
+   "dur": 3.968,
+   "spk": "P"
+  },
+  {
+   "id": "c04-02",
+   "file": "assets/audio/vo/c04-02.wav",
+   "t": 186.06300000000002,
+   "dur": 3.371,
+   "spk": "N"
+  },
+  {
+   "id": "c04-03",
+   "file": "assets/audio/vo/c04-03.wav",
+   "t": 189.834,
+   "dur": 2.987,
+   "spk": "N"
+  },
+  {
+   "id": "c04-04",
+   "file": "assets/audio/vo/c04-04.wav",
+   "t": 193.121,
+   "dur": 2.923,
+   "spk": "N"
+  },
+  {
+   "id": "c04-05",
+   "file": "assets/audio/vo/c04-05.wav",
+   "t": 196.44400000000002,
+   "dur": 3.008,
+   "spk": "N"
+  },
+  {
+   "id": "c04-06",
+   "file": "assets/audio/vo/c04-06.wav",
+   "t": 199.752,
+   "dur": 1.771,
+   "spk": "N"
+  },
+  {
+   "id": "c04-07",
+   "file": "assets/audio/vo/c04-07.wav",
+   "t": 201.823,
+   "dur": 6.272,
+   "spk": "N"
+  },
+  {
+   "id": "c04-08",
+   "file": "assets/audio/vo/c04-08.wav",
+   "t": 208.495,
+   "dur": 2.347,
+   "spk": "N"
+  },
+  {
+   "id": "c05-00",
+   "file": "assets/audio/vo/c05-00.wav",
+   "t": 214.14200000000002,
+   "dur": 2.347,
+   "spk": "N"
+  },
+  {
+   "id": "c05-01",
+   "file": "assets/audio/vo/c05-01.wav",
+   "t": 216.78900000000004,
+   "dur": 2.219,
+   "spk": "N"
+  },
+  {
+   "id": "c05-02",
+   "file": "assets/audio/vo/c05-02.wav",
+   "t": 219.30800000000002,
+   "dur": 3.584,
+   "spk": "N"
+  },
+  {
+   "id": "c05-03",
+   "file": "assets/audio/vo/c05-03.wav",
+   "t": 223.54200000000003,
+   "dur": 1.387,
+   "spk": "W"
+  },
+  {
+   "id": "c05-04",
+   "file": "assets/audio/vo/c05-04.wav",
+   "t": 225.47900000000004,
+   "dur": 3.627,
+   "spk": "L"
+  },
+  {
+   "id": "c05-05",
+   "file": "assets/audio/vo/c05-05.wav",
+   "t": 229.75600000000003,
+   "dur": 4.309,
+   "spk": "N"
+  },
+  {
+   "id": "c05-06",
+   "file": "assets/audio/vo/c05-06.wav",
+   "t": 234.46500000000003,
+   "dur": 1.28,
+   "spk": "N"
+  },
+  {
+   "id": "c05-07",
+   "file": "assets/audio/vo/c05-07.wav",
+   "t": 236.29500000000002,
+   "dur": 3.115,
+   "spk": "P"
+  },
+  {
+   "id": "c05-08",
+   "file": "assets/audio/vo/c05-08.wav",
+   "t": 240.06000000000003,
+   "dur": 3.499,
+   "spk": "N"
+  },
+  {
+   "id": "c05-09",
+   "file": "assets/audio/vo/c05-09.wav",
+   "t": 243.95900000000003,
+   "dur": 3.051,
+   "spk": "N"
+  },
+  {
+   "id": "c05-10",
+   "file": "assets/audio/vo/c05-10.wav",
+   "t": 247.41000000000003,
+   "dur": 4.053,
+   "spk": "N"
+  },
+  {
+   "id": "c05-11",
+   "file": "assets/audio/vo/c05-11.wav",
+   "t": 251.86300000000003,
+   "dur": 1.877,
+   "spk": "N"
+  },
+  {
+   "id": "c05-12",
+   "file": "assets/audio/vo/c05-12.wav",
+   "t": 254.04000000000002,
+   "dur": 2.389,
+   "spk": "N"
+  },
+  {
+   "id": "c05-13",
+   "file": "assets/audio/vo/c05-13.wav",
+   "t": 256.72900000000004,
+   "dur": 2.56,
+   "spk": "N"
+  },
+  {
+   "id": "c05-14",
+   "file": "assets/audio/vo/c05-14.wav",
+   "t": 259.58900000000006,
+   "dur": 5.525,
+   "spk": "N"
+  },
+  {
+   "id": "c05-15",
+   "file": "assets/audio/vo/c05-15.wav",
+   "t": 265.514,
+   "dur": 2.005,
+   "spk": "N"
+  },
+  {
+   "id": "c06-00",
+   "file": "assets/audio/vo/c06-00.wav",
+   "t": 270.8190000000001,
+   "dur": 3.477,
+   "spk": "N"
+  },
+  {
+   "id": "c06-01",
+   "file": "assets/audio/vo/c06-01.wav",
+   "t": 274.946,
+   "dur": 2.624,
+   "spk": "W"
+  },
+  {
+   "id": "c06-02",
+   "file": "assets/audio/vo/c06-02.wav",
+   "t": 278.22,
+   "dur": 1.877,
+   "spk": "L"
+  },
+  {
+   "id": "c06-03",
+   "file": "assets/audio/vo/c06-03.wav",
+   "t": 280.39700000000005,
+   "dur": 3.584,
+   "spk": "L"
+  },
+  {
+   "id": "c06-04",
+   "file": "assets/audio/vo/c06-04.wav",
+   "t": 284.63100000000003,
+   "dur": 2.411,
+   "spk": "N"
+  },
+  {
+   "id": "c06-05",
+   "file": "assets/audio/vo/c06-05.wav",
+   "t": 287.34200000000004,
+   "dur": 2.197,
+   "spk": "N"
+  },
+  {
+   "id": "c06-06",
+   "file": "assets/audio/vo/c06-06.wav",
+   "t": 289.83900000000006,
+   "dur": 3.243,
+   "spk": "N"
+  },
+  {
+   "id": "c06-07",
+   "file": "assets/audio/vo/c06-07.wav",
+   "t": 293.482,
+   "dur": 2.261,
+   "spk": "N"
+  },
+  {
+   "id": "c06-08",
+   "file": "assets/audio/vo/c06-08.wav",
+   "t": 296.04300000000006,
+   "dur": 3.904,
+   "spk": "N"
+  },
+  {
+   "id": "c06-09",
+   "file": "assets/audio/vo/c06-09.wav",
+   "t": 300.34700000000004,
+   "dur": 3.392,
+   "spk": "N"
+  },
+  {
+   "id": "c06-10",
+   "file": "assets/audio/vo/c06-10.wav",
+   "t": 304.13900000000007,
+   "dur": 1.536,
+   "spk": "N"
+  },
+  {
+   "id": "c06-11",
+   "file": "assets/audio/vo/c06-11.wav",
+   "t": 305.975,
+   "dur": 4.224,
+   "spk": "N"
+  },
+  {
+   "id": "c06-12",
+   "file": "assets/audio/vo/c06-12.wav",
+   "t": 310.59900000000005,
+   "dur": 1.365,
+   "spk": "N"
+  },
+  {
+   "id": "c06-13",
+   "file": "assets/audio/vo/c06-13.wav",
+   "t": 312.26400000000007,
+   "dur": 1.685,
+   "spk": "N"
+  },
+  {
+   "id": "c06-14",
+   "file": "assets/audio/vo/c06-14.wav",
+   "t": 314.249,
+   "dur": 4.075,
+   "spk": "N"
+  },
+  {
+   "id": "c06-15",
+   "file": "assets/audio/vo/c06-15.wav",
+   "t": 318.72400000000005,
+   "dur": 4.181,
+   "spk": "N"
+  },
+  {
+   "id": "c06-16",
+   "file": "assets/audio/vo/c06-16.wav",
+   "t": 323.30500000000006,
+   "dur": 4.117,
+   "spk": "N"
+  },
+  {
+   "id": "c06-17",
+   "file": "assets/audio/vo/c06-17.wav",
+   "t": 327.82200000000006,
+   "dur": 1.664,
+   "spk": "N"
+  },
+  {
+   "id": "c07-00",
+   "file": "assets/audio/vo/c07-00.wav",
+   "t": 332.78600000000006,
+   "dur": 4.736,
+   "spk": "N"
+  },
+  {
+   "id": "c07-01",
+   "file": "assets/audio/vo/c07-01.wav",
+   "t": 337.922,
+   "dur": 2.752,
+   "spk": "N"
+  },
+  {
+   "id": "c07-02",
+   "file": "assets/audio/vo/c07-02.wav",
+   "t": 340.97400000000005,
+   "dur": 1.877,
+   "spk": "N"
+  },
+  {
+   "id": "c07-03",
+   "file": "assets/audio/vo/c07-03.wav",
+   "t": 343.151,
+   "dur": 3.648,
+   "spk": "N"
+  },
+  {
+   "id": "c07-04",
+   "file": "assets/audio/vo/c07-04.wav",
+   "t": 347.199,
+   "dur": 3.648,
+   "spk": "N"
+  },
+  {
+   "id": "c07-05",
+   "file": "assets/audio/vo/c07-05.wav",
+   "t": 351.247,
+   "dur": 1.365,
+   "spk": "N"
+  },
+  {
+   "id": "c08-00",
+   "file": "assets/audio/vo/c08-00.wav",
+   "t": 355.91200000000003,
+   "dur": 4.437,
+   "spk": "N"
+  },
+  {
+   "id": "c08-01",
+   "file": "assets/audio/vo/c08-01.wav",
+   "t": 360.999,
+   "dur": 3.115,
+   "spk": "TH"
+  },
+  {
+   "id": "c08-02",
+   "file": "assets/audio/vo/c08-02.wav",
+   "t": 364.514,
+   "dur": 3.264,
+   "spk": "TH"
+  },
+  {
+   "id": "c08-03",
+   "file": "assets/audio/vo/c08-03.wav",
+   "t": 368.428,
+   "dur": 1.451,
+   "spk": "L"
+  },
+  {
+   "id": "c08-04",
+   "file": "assets/audio/vo/c08-04.wav",
+   "t": 370.42900000000003,
+   "dur": 0.875,
+   "spk": "TH"
+  },
+  {
+   "id": "c08-05",
+   "file": "assets/audio/vo/c08-05.wav",
+   "t": 371.85400000000004,
+   "dur": 2.667,
+   "spk": "N"
+  },
+  {
+   "id": "c08-06",
+   "file": "assets/audio/vo/c08-06.wav",
+   "t": 374.921,
+   "dur": 2.005,
+   "spk": "N"
+  },
+  {
+   "id": "c08-07",
+   "file": "assets/audio/vo/c08-07.wav",
+   "t": 377.226,
+   "dur": 1.557,
+   "spk": "N"
+  },
+  {
+   "id": "c08-08",
+   "file": "assets/audio/vo/c08-08.wav",
+   "t": 379.333,
+   "dur": 1.152,
+   "spk": "TH"
+  },
+  {
+   "id": "c08-09",
+   "file": "assets/audio/vo/c08-09.wav",
+   "t": 381.035,
+   "dur": 2.24,
+   "spk": "L"
+  },
+  {
+   "id": "c08-10",
+   "file": "assets/audio/vo/c08-10.wav",
+   "t": 383.925,
+   "dur": 4.949,
+   "spk": "N"
+  },
+  {
+   "id": "c08-11",
+   "file": "assets/audio/vo/c08-11.wav",
+   "t": 389.274,
+   "dur": 1.621,
+   "spk": "N"
+  }
+ ]
+}
