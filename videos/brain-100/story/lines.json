@@ -1,0 +1,447 @@
+{
+ "c00-00": {
+  "hash": "dc306beebd",
+  "file": "vo/c00-00.wav",
+  "dur": 3.221
+ },
+ "c00-01": {
+  "hash": "89c6fa4610",
+  "file": "vo/c00-01.wav",
+  "dur": 3.328
+ },
+ "c00-02": {
+  "hash": "7c9cb79ed4",
+  "file": "vo/c00-02.wav",
+  "dur": 2.24
+ },
+ "c00-03": {
+  "hash": "414ce67661",
+  "file": "vo/c00-03.wav",
+  "dur": 3.648
+ },
+ "c00-04": {
+  "hash": "011cea019c",
+  "file": "vo/c00-04.wav",
+  "dur": 5.227
+ },
+ "c00-05": {
+  "hash": "66d1a665a0",
+  "file": "vo/c00-05.wav",
+  "dur": 2.688
+ },
+ "c01-00": {
+  "hash": "37a6a30732",
+  "file": "vo/c01-00.wav",
+  "dur": 3.499
+ },
+ "c01-01": {
+  "hash": "bc49e43b6f",
+  "file": "vo/c01-01.wav",
+  "dur": 5.141
+ },
+ "c01-02": {
+  "hash": "5e64f2935c",
+  "file": "vo/c01-02.wav",
+  "dur": 3.157
+ },
+ "c01-03": {
+  "hash": "45899a7e08",
+  "file": "vo/c01-03.wav",
+  "dur": 4.907
+ },
+ "c01-04": {
+  "hash": "54cc0bc0a7",
+  "file": "vo/c01-04.wav",
+  "dur": 3.029
+ },
+ "c01-05": {
+  "hash": "172b08d93c",
+  "file": "vo/c01-05.wav",
+  "dur": 3.925
+ },
+ "c01-06": {
+  "hash": "e943a4bc74",
+  "file": "vo/c01-06.wav",
+  "dur": 7.595
+ },
+ "c01-07": {
+  "hash": "51807b2b16",
+  "file": "vo/c01-07.wav",
+  "dur": 4.011
+ },
+ "c02-00": {
+  "hash": "8aadbc1d8c",
+  "file": "vo/c02-00.wav",
+  "dur": 2.517
+ },
+ "c02-01": {
+  "hash": "6bddbce589",
+  "file": "vo/c02-01.wav",
+  "dur": 5.269
+ },
+ "c02-02": {
+  "hash": "d59e55959f",
+  "file": "vo/c02-02.wav",
+  "dur": 5.653
+ },
+ "c02-03": {
+  "hash": "d2ba325822",
+  "file": "vo/c02-03.wav",
+  "dur": 5.312
+ },
+ "c02-04": {
+  "hash": "9ea3a8d959",
+  "file": "vo/c02-04.wav",
+  "dur": 2.155
+ },
+ "c02-05": {
+  "hash": "db00b77f6a",
+  "file": "vo/c02-05.wav",
+  "dur": 2.752
+ },
+ "c02-06": {
+  "hash": "d5c9e18430",
+  "file": "vo/c02-06.wav",
+  "dur": 5.611
+ },
+ "c02-07": {
+  "hash": "4e3f948e43",
+  "file": "vo/c02-07.wav",
+  "dur": 6.379
+ },
+ "c02-08": {
+  "hash": "0810dbd66d",
+  "file": "vo/c02-08.wav",
+  "dur": 2.859
+ },
+ "c03-00": {
+  "hash": "0a2b6be584",
+  "file": "vo/c03-00.wav",
+  "dur": 2.304
+ },
+ "c03-01": {
+  "hash": "ed7397b3d4",
+  "file": "vo/c03-01.wav",
+  "dur": 3.264
+ },
+ "c03-02": {
+  "hash": "9aea1d70aa",
+  "file": "vo/c03-02.wav",
+  "dur": 6.357
+ },
+ "c03-03": {
+  "hash": "0a25f5774f",
+  "file": "vo/c03-03.wav",
+  "dur": 2.773
+ },
+ "c03-04": {
+  "hash": "01ce1cde37",
+  "file": "vo/c03-04.wav",
+  "dur": 4.352
+ },
+ "c03-05": {
+  "hash": "9c5b9dc98a",
+  "file": "vo/c03-05.wav",
+  "dur": 5.568
+ },
+ "c04-00": {
+  "hash": "97ac7aa261",
+  "file": "vo/c04-00.wav",
+  "dur": 3.947
+ },
+ "c04-01": {
+  "hash": "4cf8b7afc0",
+  "file": "vo/c04-01.wav",
+  "dur": 3.136
+ },
+ "c04-02": {
+  "hash": "d282d40b8c",
+  "file": "vo/c04-02.wav",
+  "dur": 3.328
+ },
+ "c04-03": {
+  "hash": "37b3d352dd",
+  "file": "vo/c04-03.wav",
+  "dur": 5.013
+ },
+ "c04-04": {
+  "hash": "23f21d8069",
+  "file": "vo/c04-04.wav",
+  "dur": 7.275
+ },
+ "c04-05": {
+  "hash": "3e63879dbd",
+  "file": "vo/c04-05.wav",
+  "dur": 5.675
+ },
+ "c04-06": {
+  "hash": "3a17729c2f",
+  "file": "vo/c04-06.wav",
+  "dur": 5.696
+ },
+ "c04-07": {
+  "hash": "b6a0b5cf81",
+  "file": "vo/c04-07.wav",
+  "dur": 4.693
+ },
+ "c04-08": {
+  "hash": "cfeb24540f",
+  "file": "vo/c04-08.wav",
+  "dur": 6.144
+ },
+ "c05-00": {
+  "hash": "1a6423e534",
+  "file": "vo/c05-00.wav",
+  "dur": 3.52
+ },
+ "c05-01": {
+  "hash": "9424e8bad4",
+  "file": "vo/c05-01.wav",
+  "dur": 2.389
+ },
+ "c05-02": {
+  "hash": "0275c0b6c5",
+  "file": "vo/c05-02.wav",
+  "dur": 1.92
+ },
+ "c05-03": {
+  "hash": "8c65aca917",
+  "file": "vo/c05-03.wav",
+  "dur": 4.757
+ },
+ "c05-04": {
+  "hash": "a0a67b80fd",
+  "file": "vo/c05-04.wav",
+  "dur": 4.885
+ },
+ "c05-05": {
+  "hash": "0f40047856",
+  "file": "vo/c05-05.wav",
+  "dur": 2.24
+ },
+ "c05-06": {
+  "hash": "64f549c01b",
+  "file": "vo/c05-06.wav",
+  "dur": 2.731
+ },
+ "c05-07": {
+  "hash": "c9eddcc63f",
+  "file": "vo/c05-07.wav",
+  "dur": 2.155
+ },
+ "c05-08": {
+  "hash": "9692e1d407",
+  "file": "vo/c05-08.wav",
+  "dur": 2.667
+ },
+ "c05-09": {
+  "hash": "01d4b0ec84",
+  "file": "vo/c05-09.wav",
+  "dur": 2.261
+ },
+ "c06-00": {
+  "hash": "36b5a14420",
+  "file": "vo/c06-00.wav",
+  "dur": 6.336
+ },
+ "c06-01": {
+  "hash": "7d58ffba56",
+  "file": "vo/c06-01.wav",
+  "dur": 1.557
+ },
+ "c06-02": {
+  "hash": "35dc1a449b",
+  "file": "vo/c06-02.wav",
+  "dur": 6.293
+ },
+ "c06-03": {
+  "hash": "3ecb4df629",
+  "file": "vo/c06-03.wav",
+  "dur": 3.179
+ },
+ "c06-04": {
+  "hash": "a2a332b355",
+  "file": "vo/c06-04.wav",
+  "dur": 1.899
+ },
+ "c06-05": {
+  "hash": "66509824a7",
+  "file": "vo/c06-05.wav",
+  "dur": 1.387
+ },
+ "c06-06": {
+  "hash": "f49a97d607",
+  "file": "vo/c06-06.wav",
+  "dur": 2.368
+ },
+ "c06-07": {
+  "hash": "2ba498c506",
+  "file": "vo/c06-07.wav",
+  "dur": 1.493
+ },
+ "c06-08": {
+  "hash": "2acf93cfd5",
+  "file": "vo/c06-08.wav",
+  "dur": 4.331
+ },
+ "c06-09": {
+  "hash": "619e4310f7",
+  "file": "vo/c06-09.wav",
+  "dur": 3.691
+ },
+ "c06-10": {
+  "hash": "cc57a65e1e",
+  "file": "vo/c06-10.wav",
+  "dur": 3.605
+ },
+ "c06-11": {
+  "hash": "924ccc3153",
+  "file": "vo/c06-11.wav",
+  "dur": 2.197
+ },
+ "c07-00": {
+  "hash": "41c62e49e9",
+  "file": "vo/c07-00.wav",
+  "dur": 1.429
+ },
+ "c07-01": {
+  "hash": "642f9eae2b",
+  "file": "vo/c07-01.wav",
+  "dur": 1.173
+ },
+ "c07-02": {
+  "hash": "43009fb52e",
+  "file": "vo/c07-02.wav",
+  "dur": 2.944
+ },
+ "c07-03": {
+  "hash": "71bddf1c98",
+  "file": "vo/c07-03.wav",
+  "dur": 2.859
+ },
+ "c07-04": {
+  "hash": "ca5031a9c9",
+  "file": "vo/c07-04.wav",
+  "dur": 5.653
+ },
+ "c07-05": {
+  "hash": "066c2e7fae",
+  "file": "vo/c07-05.wav",
+  "dur": 3.989
+ },
+ "c07-06": {
+  "hash": "d1f49efd0a",
+  "file": "vo/c07-06.wav",
+  "dur": 1.6
+ },
+ "c07-07": {
+  "hash": "30e3f4ded2",
+  "file": "vo/c07-07.wav",
+  "dur": 5.504
+ },
+ "c07-08": {
+  "hash": "d8b5409067",
+  "file": "vo/c07-08.wav",
+  "dur": 2.688
+ },
+ "c07-09": {
+  "hash": "2e81df1de4",
+  "file": "vo/c07-09.wav",
+  "dur": 2.944
+ },
+ "c07-10": {
+  "hash": "7bc111db34",
+  "file": "vo/c07-10.wav",
+  "dur": 4.928
+ },
+ "c07-11": {
+  "hash": "6d67e9f846",
+  "file": "vo/c07-11.wav",
+  "dur": 0.747
+ },
+ "c07-12": {
+  "hash": "a64d70d11f",
+  "file": "vo/c07-12.wav",
+  "dur": 1.387
+ },
+ "c07-13": {
+  "hash": "bc287aa7bb",
+  "file": "vo/c07-13.wav",
+  "dur": 3.392
+ },
+ "c08-00": {
+  "hash": "3554087963",
+  "file": "vo/c08-00.wav",
+  "dur": 7.595
+ },
+ "c08-01": {
+  "hash": "3dbb92ca06",
+  "file": "vo/c08-01.wav",
+  "dur": 3.904
+ },
+ "c08-02": {
+  "hash": "a3b760118c",
+  "file": "vo/c08-02.wav",
+  "dur": 2.432
+ },
+ "c08-03": {
+  "hash": "f7a93c57a1",
+  "file": "vo/c08-03.wav",
+  "dur": 5.483
+ },
+ "c08-04": {
+  "hash": "4eef913144",
+  "file": "vo/c08-04.wav",
+  "dur": 6.443
+ },
+ "c09-00": {
+  "hash": "2c658abf16",
+  "file": "vo/c09-00.wav",
+  "dur": 1.643
+ },
+ "c09-01": {
+  "hash": "56da4b8ebe",
+  "file": "vo/c09-01.wav",
+  "dur": 1.771
+ },
+ "c09-02": {
+  "hash": "0e4e04e9b6",
+  "file": "vo/c09-02.wav",
+  "dur": 1.387
+ },
+ "c09-03": {
+  "hash": "5a410c8661",
+  "file": "vo/c09-03.wav",
+  "dur": 4.693
+ },
+ "c09-04": {
+  "hash": "9e0804d684",
+  "file": "vo/c09-04.wav",
+  "dur": 3.605
+ },
+ "c09-05": {
+  "hash": "de254c88a3",
+  "file": "vo/c09-05.wav",
+  "dur": 2.325
+ },
+ "c09-06": {
+  "hash": "2c5e8c2316",
+  "file": "vo/c09-06.wav",
+  "dur": 2.133
+ },
+ "c09-07": {
+  "hash": "3bc51e2f64",
+  "file": "vo/c09-07.wav",
+  "dur": 1.749
+ },
+ "c09-08": {
+  "hash": "3058edfb50",
+  "file": "vo/c09-08.wav",
+  "dur": 4.928
+ },
+ "c09-09": {
+  "hash": "aa71e2ffe9",
+  "file": "vo/c09-09.wav",
+  "dur": 1.621
+ }
+}

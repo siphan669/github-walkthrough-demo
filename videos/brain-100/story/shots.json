@@ -1,0 +1,1325 @@
+[
+ {
+  "name": "c00-00 · brain",
+  "start": 0,
+  "dur": 3.621,
+  "visual": {
+   "k": "brain",
+   "level": 100
+  }
+ },
+ {
+  "name": "c00-01 · book",
+  "start": 3.621,
+  "dur": 3.728,
+  "visual": {
+   "k": "book"
+  }
+ },
+ {
+  "name": "c00-02 · language",
+  "start": 7.349,
+  "dur": 2.79,
+  "visual": {
+   "k": "language"
+  }
+ },
+ {
+  "name": "c00-03 · scene lab",
+  "start": 10.139,
+  "dur": 4.298,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "talk",
+     "x": 36
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "glow": "#a78bfa",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c00-04 · hours",
+  "start": 14.437,
+  "dur": 5.627,
+  "visual": {
+   "k": "hours",
+   "value": 72
+  }
+ },
+ {
+  "name": "c00-05 · scene garage",
+  "start": 20.064,
+  "dur": 3.238,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "stand",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 60,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c00-06 · titlecard",
+  "start": 23.302,
+  "dur": 3.6,
+  "visual": {
+   "k": "titlecard",
+   "big": "WHAT IF YOUR BRAIN USED",
+   "hero": "100%?",
+   "dur": 3.2
+  }
+ },
+ {
+  "name": "Chapter 1 · Ten percent",
+  "start": 26.902,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 1,
+   "title": "Ten percent"
+  }
+ },
+ {
+  "name": "c01-00 · scene street",
+  "start": 29.502,
+  "dur": 3.899,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "chars": [
+    {
+     "c": "jonah",
+     "pose": "walk",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "name": "c01-01 · scene garage",
+  "start": 33.401,
+  "dur": 5.791,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "hold",
+     "x": 44
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 64,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c01-02 · scene garage",
+  "start": 39.192,
+  "dur": 3.807,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "talk",
+     "x": 44
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 64,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c01-03 · scene mri",
+  "start": 42.999,
+  "dur": 5.307,
+  "visual": {
+   "k": "scene",
+   "bg": "mri",
+   "chars": [
+    {
+     "c": "nurse",
+     "pose": "stand",
+     "x": 30
+    }
+   ]
+  }
+ },
+ {
+  "name": "c01-04 · scene street",
+  "start": 48.306,
+  "dur": 3.429,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "lightning": true,
+   "chars": []
+  }
+ },
+ {
+  "name": "c01-05 · scene mri",
+  "start": 51.735,
+  "dur": 4.325,
+  "visual": {
+   "k": "scene",
+   "bg": "mri",
+   "impact": true,
+   "chars": [
+    {
+     "c": "nurse",
+     "pose": "sad",
+     "x": 30
+    }
+   ]
+  }
+ },
+ {
+  "name": "c01-06 · brain",
+  "start": 56.06,
+  "dur": 7.995,
+  "visual": {
+   "k": "brain",
+   "level": 10
+  }
+ },
+ {
+  "name": "c01-07 · brain",
+  "start": 64.055,
+  "dur": 4.811,
+  "visual": {
+   "k": "brain",
+   "level": 100
+  }
+ },
+ {
+  "name": "Chapter 2 · One hundred percent",
+  "start": 68.866,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 2,
+   "title": "One hundred percent"
+  }
+ },
+ {
+  "name": "c02-00 · scene hospital",
+  "start": 71.466,
+  "dur": 2.917,
+  "visual": {
+   "k": "scene",
+   "bg": "hospital",
+   "neurons": true,
+   "chars": [
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 50,
+     "glow": "#a78bfa"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c02-01 · tiles",
+  "start": 74.383,
+  "dur": 5.669,
+  "visual": {
+   "k": "tiles"
+  }
+ },
+ {
+  "name": "c02-02 · chart",
+  "start": 80.052,
+  "dur": 12.015,
+  "visual": {
+   "k": "chart"
+  }
+ },
+ {
+  "name": "c02-04 · scene hospital",
+  "start": 92.067,
+  "dur": 2.705,
+  "visual": {
+   "k": "scene",
+   "bg": "hospital",
+   "chars": [
+    {
+     "c": "jonah",
+     "pose": "point",
+     "x": 36,
+     "glow": "#a78bfa"
+    },
+    {
+     "c": "nurse",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c02-05 · scene hospital",
+  "start": 94.772,
+  "dur": 3.052,
+  "visual": {
+   "k": "scene",
+   "bg": "hospital",
+   "chars": [
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 36
+    },
+    {
+     "c": "nurse",
+     "pose": "sad",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c02-06 · language",
+  "start": 97.824,
+  "dur": 6.011,
+  "visual": {
+   "k": "language"
+  }
+ },
+ {
+  "name": "c02-07 · engine",
+  "start": 103.835,
+  "dur": 7.029,
+  "visual": {
+   "k": "engine"
+  }
+ },
+ {
+  "name": "c02-08 · scene garage",
+  "start": 110.864,
+  "dur": 3.659,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "glow": "#a78bfa",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "Chapter 3 · Seventy-two hours",
+  "start": 114.523,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 3,
+   "title": "Seventy-two hours"
+  }
+ },
+ {
+  "name": "c03-00 · scene home",
+  "start": 117.123,
+  "dur": 2.604,
+  "visual": {
+   "k": "scene",
+   "bg": "home",
+   "chars": [
+    {
+     "c": "jonah",
+     "pose": "sad",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "name": "c03-01 · scene hospital",
+  "start": 119.727,
+  "dur": 3.814,
+  "visual": {
+   "k": "scene",
+   "bg": "hospital",
+   "chars": [
+    {
+     "c": "okafor",
+     "pose": "stand",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c03-02 · thermo",
+  "start": 123.541,
+  "dur": 6.757,
+  "visual": {
+   "k": "thermo"
+  }
+ },
+ {
+  "name": "c03-03 · hours",
+  "start": 130.298,
+  "dur": 3.423,
+  "visual": {
+   "k": "hours",
+   "value": 72
+  }
+ },
+ {
+  "name": "c03-04 · damper",
+  "start": 133.721,
+  "dur": 4.752,
+  "visual": {
+   "k": "damper"
+  }
+ },
+ {
+  "name": "c03-05 · scene lab",
+  "start": 138.473,
+  "dur": 6.368,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "stand",
+     "x": 50
+    }
+   ]
+  }
+ },
+ {
+  "name": "Chapter 4 · Five things",
+  "start": 144.841,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 4,
+   "title": "Five things"
+  }
+ },
+ {
+  "name": "c04-00 · scene lab",
+  "start": 147.441,
+  "dur": 8.383,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "talk",
+     "x": 36
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "glow": "#a78bfa",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c04-02 · brain",
+  "start": 155.824,
+  "dur": 3.728,
+  "visual": {
+   "k": "brain",
+   "level": 100
+  }
+ },
+ {
+  "name": "c04-03 · scene lab",
+  "start": 159.552,
+  "dur": 5.413,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "label": "1 · HIS EYES",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "stand",
+     "x": 50,
+     "mood": "smug"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c04-04 · contract",
+  "start": 164.965,
+  "dur": 7.675,
+  "visual": {
+   "k": "contract"
+  }
+ },
+ {
+  "name": "c04-05 · keypad",
+  "start": 172.64,
+  "dur": 6.075,
+  "visual": {
+   "k": "keypad"
+  }
+ },
+ {
+  "name": "c04-06 · damper",
+  "start": 178.715,
+  "dur": 6.096,
+  "visual": {
+   "k": "damper",
+   "label": "4 · VOICE LOCK"
+  }
+ },
+ {
+  "name": "c04-07 · reflection",
+  "start": 184.811,
+  "dur": 5.093,
+  "visual": {
+   "k": "reflection"
+  }
+ },
+ {
+  "name": "c04-08 · scene lab",
+  "start": 189.904,
+  "dur": 6.944,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "stand",
+     "x": 46,
+     "mood": "smug"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Chapter 5 · The plan",
+  "start": 196.848,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 5,
+   "title": "The plan"
+  }
+ },
+ {
+  "name": "c05-00 · thermo",
+  "start": 199.448,
+  "dur": 3.92,
+  "visual": {
+   "k": "thermo",
+   "hot": true
+  }
+ },
+ {
+  "name": "c05-01 · hours",
+  "start": 203.368,
+  "dur": 2.689,
+  "visual": {
+   "k": "hours",
+   "value": 41,
+   "sub": "HOURS LEFT · FALLING FASTER"
+  }
+ },
+ {
+  "name": "c05-02 · brain",
+  "start": 206.057,
+  "dur": 2.22,
+  "visual": {
+   "k": "brain",
+   "level": 100
+  }
+ },
+ {
+  "name": "c05-03 · keypad",
+  "start": 208.277,
+  "dur": 5.157,
+  "visual": {
+   "k": "keypad",
+   "decode": true
+  }
+ },
+ {
+  "name": "c05-04 · scene lab",
+  "start": 213.434,
+  "dur": 5.285,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "okafor",
+     "pose": "hold",
+     "x": 30
+    },
+    {
+     "c": "kane",
+     "pose": "talk",
+     "x": 52
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 72,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c05-05 · scene lab",
+  "start": 218.719,
+  "dur": 2.79,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "talk",
+     "x": 62,
+     "glow": "#a78bfa",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c05-06 · splice",
+  "start": 221.509,
+  "dur": 3.031,
+  "visual": {
+   "k": "splice",
+   "word": 0
+  }
+ },
+ {
+  "name": "c05-07 · splice",
+  "start": 224.54,
+  "dur": 2.455,
+  "visual": {
+   "k": "splice",
+   "word": 1
+  }
+ },
+ {
+  "name": "c05-08 · splice",
+  "start": 226.995,
+  "dur": 2.967,
+  "visual": {
+   "k": "splice",
+   "word": 2
+  }
+ },
+ {
+  "name": "c05-09 · splice",
+  "start": 229.962,
+  "dur": 2.961,
+  "visual": {
+   "k": "splice",
+   "word": 3
+  }
+ },
+ {
+  "name": "Chapter 6 · The suite",
+  "start": 232.923,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 6,
+   "title": "The suite"
+  }
+ },
+ {
+  "name": "c06-00 · scene suite",
+  "start": 235.523,
+  "dur": 6.736,
+  "visual": {
+   "k": "scene",
+   "bg": "suite",
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "hold",
+     "x": 36
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 60,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c06-01 · hours",
+  "start": 242.259,
+  "dur": 1.857,
+  "visual": {
+   "k": "hours",
+   "value": 6
+  }
+ },
+ {
+  "name": "c06-02 · clock",
+  "start": 244.116,
+  "dur": 6.693,
+  "visual": {
+   "k": "clock",
+   "time": "12:00 AM"
+  }
+ },
+ {
+  "name": "c06-03 · keypad",
+  "start": 250.809,
+  "dur": 3.579,
+  "visual": {
+   "k": "keypad",
+   "decode": true
+  }
+ },
+ {
+  "name": "c06-04 · text",
+  "start": 254.388,
+  "dur": 2.199,
+  "visual": {
+   "k": "text",
+   "big": "7 · 2 · 9 · 1"
+  }
+ },
+ {
+  "name": "c06-05 · scene lab",
+  "start": 256.587,
+  "dur": 1.687,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "neurons": true,
+   "chars": [
+    {
+     "c": "jonah",
+     "pose": "walk",
+     "x": 40,
+     "glow": "#a78bfa"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c06-06 · damper",
+  "start": 258.274,
+  "dur": 2.668,
+  "visual": {
+   "k": "damper"
+  }
+ },
+ {
+  "name": "c06-07 · scene lab",
+  "start": 260.942,
+  "dur": 2.043,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "stand",
+     "x": 34,
+     "mood": "smug"
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 64,
+     "face": -1,
+     "mood": "sad"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c06-08 · scene lab",
+  "start": 262.985,
+  "dur": 9.072,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "talk",
+     "x": 36,
+     "mood": "smug"
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 64,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c06-10 · thermo",
+  "start": 272.057,
+  "dur": 4.005,
+  "visual": {
+   "k": "thermo",
+   "hot": true
+  }
+ },
+ {
+  "name": "c06-11 · hours",
+  "start": 276.062,
+  "dur": 2.897,
+  "visual": {
+   "k": "hours",
+   "value": 1,
+   "sub": "HOUR LEFT"
+  }
+ },
+ {
+  "name": "Chapter 7 · Five words",
+  "start": 278.959,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 7,
+   "title": "Five words"
+  }
+ },
+ {
+  "name": "c07-00 · scene lab",
+  "start": 281.559,
+  "dur": 1.979,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "stand",
+     "x": 36
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 64,
+     "glow": "#a78bfa",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c07-01 · scene lab",
+  "start": 283.538,
+  "dur": 1.723,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "talk",
+     "x": 36,
+     "mood": "smug"
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 64,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c07-02 · scene lab",
+  "start": 285.261,
+  "dur": 3.594,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "kane",
+     "pose": "stand",
+     "x": 36
+    },
+    {
+     "c": "jonah",
+     "pose": "talk",
+     "x": 64,
+     "glow": "#a78bfa",
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c07-03 · splice",
+  "start": 288.855,
+  "dur": 3.159,
+  "visual": {
+   "k": "splice",
+   "word": 4,
+   "assemble": true
+  }
+ },
+ {
+  "name": "c07-04 · splice",
+  "start": 292.014,
+  "dur": 6.053,
+  "visual": {
+   "k": "splice",
+   "word": 4,
+   "assemble": true
+  }
+ },
+ {
+  "name": "c07-05 · scene lab",
+  "start": 298.067,
+  "dur": 4.389,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "okafor",
+     "pose": "hold",
+     "x": 24
+    },
+    {
+     "c": "kane",
+     "pose": "sad",
+     "x": 46
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 70,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c07-06 · damper",
+  "start": 302.456,
+  "dur": 2.15,
+  "visual": {
+   "k": "damper",
+   "on": true
+  }
+ },
+ {
+  "name": "c07-07 · scene lab",
+  "start": 304.606,
+  "dur": 6.154,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "okafor",
+     "pose": "talk",
+     "x": 36
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c07-08 · brain",
+  "start": 310.76,
+  "dur": 6.432,
+  "visual": {
+   "k": "brain",
+   "level": 100
+  }
+ },
+ {
+  "name": "c07-10 · scene garage",
+  "start": 317.192,
+  "dur": 5.578,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "flash": true,
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "hold",
+     "x": 44
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c07-11 · scene lab",
+  "start": 322.77,
+  "dur": 1.297,
+  "visual": {
+   "k": "scene",
+   "bg": "lab",
+   "chars": [
+    {
+     "c": "okafor",
+     "pose": "stand",
+     "x": 36
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c07-12 · damper",
+  "start": 324.067,
+  "dur": 1.687,
+  "visual": {
+   "k": "damper",
+   "on": true
+  }
+ },
+ {
+  "name": "c07-13 · brain",
+  "start": 325.754,
+  "dur": 4.192,
+  "visual": {
+   "k": "brain",
+   "level": "reset"
+  }
+ },
+ {
+  "name": "Chapter 8 · What it was for",
+  "start": 329.946,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 8,
+   "title": "What it was for"
+  }
+ },
+ {
+  "name": "c08-00 · scene street",
+  "start": 332.546,
+  "dur": 7.995,
+  "visual": {
+   "k": "scene",
+   "bg": "street",
+   "siren": true,
+   "chars": [
+    {
+     "c": "guard",
+     "pose": "hold",
+     "x": 40
+    },
+    {
+     "c": "kane",
+     "pose": "cuffed",
+     "x": 58,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c08-01 · damper",
+  "start": 340.541,
+  "dur": 4.304,
+  "visual": {
+   "k": "damper",
+   "on": true
+  }
+ },
+ {
+  "name": "c08-02 · brain",
+  "start": 344.845,
+  "dur": 2.732,
+  "visual": {
+   "k": "brain",
+   "level": 10
+  }
+ },
+ {
+  "name": "c08-03 · scene hospital",
+  "start": 347.577,
+  "dur": 5.883,
+  "visual": {
+   "k": "scene",
+   "bg": "hospital",
+   "chars": [
+    {
+     "c": "guest",
+     "pose": "wave",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c08-04 · text",
+  "start": 353.46,
+  "dur": 7.243,
+  "visual": {
+   "k": "text",
+   "big": "BED FOUR",
+   "sub": "CHECK THE DECIMAL"
+  }
+ },
+ {
+  "name": "Chapter 9 · The garage",
+  "start": 360.703,
+  "dur": 2.6,
+  "visual": {
+   "k": "chapter",
+   "n": 9,
+   "title": "The garage"
+  }
+ },
+ {
+  "name": "c09-00 · scene garage",
+  "start": 363.303,
+  "dur": 2.193,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "hold",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c09-01 · scene garage",
+  "start": 365.496,
+  "dur": 2.321,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "talk",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c09-02 · scene garage",
+  "start": 367.817,
+  "dur": 1.937,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "stand",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "talk",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c09-03 · engine",
+  "start": 369.754,
+  "dur": 5.093,
+  "visual": {
+   "k": "engine",
+   "unknown": true
+  }
+ },
+ {
+  "name": "c09-04 · scene garage",
+  "start": 374.847,
+  "dur": 4.005,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "point",
+     "x": 40
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1
+    }
+   ]
+  }
+ },
+ {
+  "name": "c09-05 · scene garage",
+  "start": 378.852,
+  "dur": 5.558,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "talk",
+     "x": 40,
+     "mood": "happy"
+    },
+    {
+     "c": "jonah",
+     "pose": "stand",
+     "x": 62,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c09-07 · scene garage",
+  "start": 384.41,
+  "dur": 2.299,
+  "visual": {
+   "k": "scene",
+   "bg": "garage",
+   "chars": [
+    {
+     "c": "ray",
+     "pose": "hug",
+     "x": 46
+    },
+    {
+     "c": "jonah",
+     "pose": "hug",
+     "x": 53,
+     "face": -1,
+     "mood": "happy"
+    }
+   ]
+  }
+ },
+ {
+  "name": "c09-08 · text",
+  "start": 386.709,
+  "dur": 7.649,
+  "visual": {
+   "k": "text",
+   "big": "WOULD YOU GIVE IT UP?",
+   "sub": "TELL US IN THE COMMENTS",
+   "cta": true
+  }
+ }
+]

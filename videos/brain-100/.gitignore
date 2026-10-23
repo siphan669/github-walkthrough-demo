@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Renders and generated media (rebuild with tools/tts.mjs, tools/audio.py, remotion render)
+out/*
+!out/thumbnail.png
+!out/thumbnail-alt.png
+!out/youtube.md
+public/vo/
+public/music/
+public/sfx/
