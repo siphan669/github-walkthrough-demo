@@ -105,8 +105,6 @@ const main = async () => {
     if (format === "short" && seconds > 180) log.warn("YouTube Shorts must be 3:00 or less — mark fewer scenes with \"short\": true.");
 
     fs.writeFileSync(path.join(outDir, `plan-${format}.json`), JSON.stringify(plan, null, 2));
-    // Also feed the Studio preview (npm run studio).
-    fs.writeFileSync(path.join(ROOT, "src", "generated", "plan.json"), JSON.stringify(plan, null, 2));
 
     const suffix = preview ? `${format}-preview` : format;
     const raw = path.join(outDir, `${slug}-${suffix}.raw.mp4`);

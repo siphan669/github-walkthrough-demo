@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Free, local, automated YouTube video production with Remotion + FFmpeg",
   "scripts": {
+    "postinstall": "node scripts/ensure-plan.mjs",
     "doctor": "node scripts/doctor.mjs",
     "new": "node scripts/new-video.mjs",
     "check": "node scripts/check.mjs",
