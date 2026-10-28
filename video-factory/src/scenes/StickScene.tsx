@@ -61,7 +61,7 @@ export const StickScene: React.FC<SceneProps> = ({ scene }) => {
   const { fps } = useVideoConfig();
   const theme = useTheme();
   const { width, height, vertical, captionTop } = useLayout();
-  const groundY = captionTop - (vertical ? 40 : 60); // leaves room for name labels above the captions
+  const groundY = captionTop - (vertical ? 90 : 60); // leaves room for name labels above the captions
   const figScale = vertical ? 1.35 : 1.25;
   const figures = scene.figures?.length ? scene.figures : [{ pose: "idle" as const }];
   const ground = scene.ground ?? "land";
