@@ -169,4 +169,4 @@ videos/<name>/audio/*  ────┤
 | Video too long or short | `npm run check -- <name>` shows how many words to add or cut |
 | Voice too fast or slow | Change `"speed"` under `"voice"` (espeak words per minute) |
 
-Rendering speed depends on your CPU. On a 4-core machine, a 10-minute 1080p video takes roughly 35–45 minutes. Use `--preview` while you work.
+Rendering speed depends on your CPU. For example, the 9:47 sample took about 20 minutes per format at 1080p on a 4-core machine. Use `--preview` while you work.
