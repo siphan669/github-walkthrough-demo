@@ -1,0 +1,107 @@
+{
+  "title": "Your Video Title Here",
+  "channel": "MYSTERY FILES",
+  "theme": "mystery",
+  "description": "One or two sentences for the YouTube description.",
+  "sources": ["Book, article or documentary you used"],
+  "voice": { "engine": "auto", "espeakVoice": "en-us+m3", "speed": 165, "pitch": 38 },
+  "music": { "generate": true, "volume": 0.2, "duckedVolume": 0.06 },
+  "scenes": [
+    {
+      "type": "title",
+      "chapter": "Intro",
+      "short": true,
+      "kicker": "Unsolved mysteries",
+      "title": "The Big Title",
+      "subtitle": "Place, year",
+      "background": "ocean",
+      "narration": "Open with a hook. Mark *important words* with asterisks and they glow in the captions."
+    },
+    {
+      "type": "question",
+      "text": "What really *happened*?",
+      "transition": "iris",
+      "narration": "Ask the question the whole video will answer."
+    },
+    {
+      "type": "stickfigure",
+      "chapter": "The Story",
+      "headline": "A Short Heading",
+      "ground": "land",
+      "figures": [
+        { "pose": "point", "hat": "detective", "label": "Investigator", "x": 0.3, "say": "Look at this!" },
+        { "pose": "shock", "mood": "shocked", "x": 0.7 }
+      ],
+      "props": [{ "kind": "magnifier", "x": 0.5, "y": 0.5 }],
+      "narration": "Stick figures act out the story. Poses: idle, walk, run, point, think, shock, shrug, wave, scared, cheer."
+    },
+    {
+      "type": "map",
+      "headline": "Where It Happened",
+      "center": [-30, 40],
+      "zoom": 3,
+      "route": [[-74, 40.7], [-9.1, 38.7]],
+      "markers": [
+        { "lon": -74, "lat": 40.7, "label": "New York" },
+        { "lon": -9.1, "lat": 38.7, "label": "Lisbon" }
+      ],
+      "highlightCountries": ["Portugal"],
+      "transition": "wipe",
+      "narration": "Maps zoom from the whole world to the center you choose, draw the route and drop markers. Coordinates are longitude then latitude."
+    },
+    {
+      "type": "timeline",
+      "headline": "Timeline",
+      "events": [
+        { "date": "1900", "label": "First event" },
+        { "date": "1950", "label": "Second event" },
+        { "date": "2000", "label": "Third event" }
+      ],
+      "narration": "Timeline events appear one after another while this narration plays."
+    },
+    {
+      "type": "chart",
+      "headline": "By the Numbers",
+      "chartType": "bar",
+      "unit": "",
+      "data": [
+        { "label": "Option A", "value": 120 },
+        { "label": "Option B", "value": 45 }
+      ],
+      "narration": "Charts can be bar, line or donut."
+    },
+    {
+      "type": "stat",
+      "value": 42,
+      "prefix": "",
+      "suffix": "%",
+      "label": "What the number means",
+      "narration": "One big number that counts up."
+    },
+    {
+      "type": "list",
+      "headline": "The Clues",
+      "items": ["First clue", "Second *key* clue", "Third clue"],
+      "narration": "List items appear one by one, spread across the narration."
+    },
+    {
+      "type": "quote",
+      "text": "A real quote from a real source.",
+      "author": "Who said it",
+      "narration": "Quotes are typed out like a typewriter. Only use quotes you can source."
+    },
+    {
+      "type": "text",
+      "headline": "A Big *Statement*",
+      "body": "A smaller line underneath",
+      "narration": "Kinetic text for big moments."
+    },
+    {
+      "type": "outro",
+      "title": "Stay *Curious*",
+      "subtitle": "New mysteries every week",
+      "cta": "Subscribe",
+      "narration": "Ask viewers for their theory in the comments and to subscribe."
+    }
+  ]
+}

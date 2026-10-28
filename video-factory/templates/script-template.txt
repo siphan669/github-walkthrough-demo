@@ -1,0 +1,74 @@
+// Plain-text script format. Lines starting with // are ignored.
+// Settings go at the top as "key: value". Each scene starts with == type ==.
+// Any line without "key:" is added to that scene's narration.
+// Mark *important words* with asterisks to highlight them in the captions.
+
+title: Your Video Title Here
+channel: MYSTERY FILES
+theme: mystery
+// music: audio/music.mp3     (or "music: none"; default is a generated original track)
+// voice: auto                (auto, piper, espeak or none)
+
+== title ==
+kicker: Unsolved mysteries
+title: The Big Title
+subtitle: Place, year
+background: ocean
+chapter: Intro
+short: yes
+Open with a hook that makes people want to stay.
+It can continue over several lines.
+
+== question ==
+text: What really *happened*?
+transition: iris
+Ask the question the whole video will answer.
+
+== stickfigure ==
+headline: A Short Heading
+// figures: label:pose:hat | label:pose:hat
+figures: Investigator:point:detective | :shock:none
+// props: kind:x:scale
+props: magnifier:0.5:1
+Stick figures act out the story.
+
+== map ==
+headline: Where It Happened
+center: -30, 40
+zoom: 3
+// markers: Label@longitude,latitude
+markers: New York@-74,40.7 | Lisbon@-9.1,38.7
+// route: lon,lat > lon,lat > ...
+route: -74,40.7 > -9.1,38.7
+highlightCountries: Portugal
+The map zooms in, draws the route and drops markers.
+
+== timeline ==
+headline: Timeline
+// events: date=label | date=label
+events: 1900=First event | 1950=Second event | 2000=Third event
+Events appear one after another.
+
+== chart ==
+headline: By the Numbers
+chartType: bar
+// data: label=value | label=value
+data: Option A=120 | Option B=45
+Charts can be bar, line or donut.
+
+== stat ==
+value: 42
+suffix: %
+label: What the number means
+One big number that counts up.
+
+== list ==
+headline: The Clues
+items: First clue | Second *key* clue | Third clue
+List items appear one by one.
+
+== outro ==
+title: Stay *Curious*
+subtitle: New mysteries every week
+cta: Subscribe
+Tell us your theory in the comments, and subscribe for more.

@@ -1,0 +1,38 @@
+{
+  "name": "video-factory",
+  "version": "1.0.0",
+  "description": "Free, local, automated YouTube video production with Remotion + FFmpeg",
+  "scripts": {
+    "doctor": "node scripts/doctor.mjs",
+    "new": "node scripts/new-video.mjs",
+    "check": "node scripts/check.mjs",
+    "make": "node scripts/render.mjs",
+    "preview": "node scripts/render.mjs --preview",
+    "studio": "node scripts/studio.mjs",
+    "typecheck": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/bebas-neue": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@remotion/bundler": "^4.0.539",
+    "@remotion/cli": "^4.0.539",
+    "@remotion/media-utils": "^4.0.539",
+    "@remotion/renderer": "^4.0.539",
+    "@remotion/transitions": "^4.0.539",
+    "d3-geo": "^3.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.539",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/react": "^19.2.2",
+    "@types/topojson-client": "^3.1.5",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}

@@ -1,0 +1,414 @@
+{
+  "title": "The Ghost Ship: What Really Happened to the Mary Celeste?",
+  "channel": "MYSTERY FILES",
+  "theme": "mystery",
+  "description": "In 1872 a ship was found sailing the Atlantic with no one aboard. We follow the evidence, test every famous theory, and separate fact from legend in the story of the Mary Celeste.",
+  "sources": [
+    "Report of the Vice-Admiralty Court salvage hearing, Gibraltar, 1873",
+    "Paul Begg, 'Mary Celeste: The Greatest Mystery of the Sea' (2007)",
+    "Brian Hicks, 'Ghost Ship' (2004)",
+    "Smithsonian Channel, 'The True Story of the Mary Celeste' (2007)"
+  ],
+  "voice": { "engine": "auto", "espeakVoice": "en-us+m3", "speed": 165, "pitch": 38 },
+  "music": { "generate": true, "volume": 0.2, "duckedVolume": 0.06 },
+  "scenes": [
+    {
+      "type": "title",
+      "chapter": "Intro",
+      "short": true,
+      "kicker": "Unsolved mysteries of the sea",
+      "title": "The Ghost Ship",
+      "subtitle": "The Mary Celeste, 1872",
+      "background": "ocean",
+      "props": [{ "kind": "ship", "x": 0.8, "scale": 0.55 }],
+      "narration": "On a cold December afternoon in 1872, sailors in the middle of the Atlantic spotted a ship drifting strangely across the waves. Her sails were torn. Her wheel was unattended. And when they climbed aboard, they found a mystery that is still *unsolved* more than one hundred and fifty years later."
+    },
+    {
+      "type": "stickfigure",
+      "short": true,
+      "headline": "December 4, 1872",
+      "ground": "water",
+      "background": "ocean",
+      "figures": [
+        { "pose": "point", "hat": "sailor", "x": 0.22, "facing": "right", "mood": "worried", "say": "There's no one at the wheel!" }
+      ],
+      "props": [{ "kind": "ship", "x": 0.68, "scale": 0.75 }],
+      "narration": "The ship was the *Mary Celeste*. She was sturdy, seaworthy, and full of cargo. But there was *not a single person aboard*. No captain. No crew. No passengers. Just an empty ship, sailing itself across the ocean."
+    },
+    {
+      "type": "question",
+      "short": true,
+      "text": "Where did ten people *vanish*?",
+      "transition": "iris",
+      "narration": "So what happened to the ten people who were supposed to be on board? Today we follow the clues, look at the evidence, and test the most famous theories, one by one."
+    },
+    {
+      "type": "timeline",
+      "chapter": "The Ship",
+      "headline": "A Troubled Ship",
+      "transition": "wipe",
+      "events": [
+        { "date": "1861", "label": "Built in Nova Scotia as the Amazon" },
+        { "date": "1868", "label": "Rebuilt and renamed Mary Celeste" },
+        { "date": "Nov 7, 1872", "label": "Leaves New York for Genoa" },
+        { "date": "Nov 25, 1872", "label": "Last log entry, near the Azores" },
+        { "date": "Dec 4, 1872", "label": "Found adrift and empty" }
+      ],
+      "narration": "Her story began in 1861, on Spencer's Island in Nova Scotia, where she was built under a different name: the *Amazon*. After running aground and being rebuilt, she was sold, registered in America, and renamed the Mary Celeste. In November 1872 she left New York, bound for Genoa, Italy. Her crew made their final log entry near the Azores islands. Nine days later, she was found adrift."
+    },
+    {
+      "type": "stickfigure",
+      "chapter": "The Crew",
+      "headline": "The Briggs Family",
+      "ground": "deck",
+      "transition": "slide",
+      "figures": [
+        { "pose": "wave", "hat": "captain", "mood": "happy", "label": "Benjamin", "x": 0.3 },
+        { "pose": "idle", "mood": "happy", "label": "Sarah", "x": 0.52, "color": "#ffd6e0" },
+        { "pose": "cheer", "hat": "bow", "mood": "happy", "label": "Sophia", "x": 0.7, "scale": 0.6 }
+      ],
+      "narration": "Her captain was *Benjamin Briggs*, a thirty-seven year old sailor from Massachusetts, known as careful, religious, and fair. He brought his wife, *Sarah*, and their two-year-old daughter, *Sophia*. Their seven-year-old son stayed home with his grandmother, so he would not miss school."
+    },
+    {
+      "type": "stat",
+      "value": 10,
+      "label": "people on board",
+      "transition": "fade",
+      "narration": "With seven crew members, that made *ten people* in total. The first mate, Albert Richardson, was an experienced and trusted officer. Before leaving, Captain Briggs wrote to his mother that he seemed to have a very good crew, and hoped for a pleasant passage."
+    },
+    {
+      "type": "chart",
+      "chapter": "The Cargo",
+      "headline": "The Cargo: Barrels of Alcohol",
+      "chartType": "bar",
+      "data": [
+        { "label": "Barrels loaded", "value": 1701 },
+        { "label": "Found empty", "value": 9, "color": "#e5484d" }
+      ],
+      "narration": "In her hold, the Mary Celeste carried *1,701 barrels* of raw industrial alcohol, bound for Italy, where it would be used to fortify wine. Remember this cargo. It may be the most important clue of all. Because when the barrels were finally unloaded, *nine of them were empty*."
+    },
+    {
+      "type": "map",
+      "chapter": "The Voyage",
+      "headline": "The Final Voyage",
+      "center": [-34, 40],
+      "zoom": 2.3,
+      "route": [[-74.0, 40.6], [-50, 41], [-25.1, 36.95]],
+      "markers": [
+        { "lon": -74.0, "lat": 40.7, "label": "New York" },
+        { "lon": -25.1, "lat": 36.95, "label": "Santa Maria" },
+        { "lon": 8.93, "lat": 44.41, "label": "Genoa" }
+      ],
+      "highlightCountries": ["Italy"],
+      "transition": "wipe",
+      "narration": "On November 7th, 1872, the ship left New York and headed east across the Atlantic. For more than two weeks, everything seemed normal. The last entry on the ship's log was written on the morning of November 25th, when the island of *Santa Maria*, in the Azores, was in sight."
+    },
+    {
+      "type": "map",
+      "headline": "Nine Days Later",
+      "center": [-17, 37.5],
+      "zoom": 7,
+      "route": [[-25.1, 36.95], [-21, 37.8], [-17.25, 38.33]],
+      "markers": [
+        { "lon": -25.1, "lat": 36.95, "label": "Last log entry" },
+        { "lon": -17.25, "lat": 38.33, "label": "Found adrift" },
+        { "lon": -5.35, "lat": 36.14, "label": "Gibraltar" }
+      ],
+      "highlightCountries": ["Portugal"],
+      "transition": "fade",
+      "narration": "Then, silence. On December 4th, the British ship *Dei Gratia* found her about four hundred nautical miles east of the Azores, heading toward the coast of Portugal. With no one at the wheel, the empty ship had kept sailing for days."
+    },
+    {
+      "type": "stickfigure",
+      "chapter": "The Discovery",
+      "headline": "The Dei Gratia",
+      "ground": "deck",
+      "background": "ocean",
+      "figures": [
+        { "pose": "point", "hat": "captain", "label": "Capt. Morehouse", "x": 0.3, "facing": "right", "mood": "worried" },
+        { "pose": "think", "hat": "sailor", "x": 0.55, "facing": "right" }
+      ],
+      "props": [{ "kind": "ship", "x": 0.86, "y": 0.62, "scale": 0.35 }],
+      "narration": "The Dei Gratia's captain, *David Morehouse*, knew Captain Briggs. Some accounts even say they dined together in New York before both ships sailed. Watching through his telescope, Morehouse could see that something was wrong. The ship was moving erratically, and no one was on deck."
+    },
+    {
+      "type": "stickfigure",
+      "ground": "water",
+      "background": "ocean",
+      "transition": "slide",
+      "figures": [
+        { "pose": "walk", "hat": "sailor", "label": "Oliver Deveau", "x": 0.4, "enter": "pop" }
+      ],
+      "props": [
+        { "kind": "lifeboat", "x": 0.4, "scale": 1.1 },
+        { "kind": "ship", "x": 0.8, "scale": 0.6 }
+      ],
+      "narration": "He sent his first mate, *Oliver Deveau*, and two sailors across in a small boat to investigate. What they found on board would puzzle investigators, journalists, and historians for the next century and a half."
+    },
+    {
+      "type": "list",
+      "chapter": "The Evidence",
+      "short": true,
+      "headline": "What They Found",
+      "items": [
+        "Six months of *food and water*",
+        "Clothes, boots and pipes left behind",
+        "About 3.5 feet of water in the hold",
+        "The *lifeboat was gone*",
+        "Navigation tools and most papers missing"
+      ],
+      "narration": "Here is what the boarding party found. Six months' worth of food and fresh water. The crew's clothes, boots, and even their pipes were still in their quarters. There was water in the hold, about three and a half feet deep, but the hull was sound. The ship's only *lifeboat was missing*. And so were the captain's navigation instruments and most of the ship's papers."
+    },
+    {
+      "type": "text",
+      "headline": "No Sign of a *Struggle*",
+      "body": "No blood. No damage. No message.",
+      "background": "storm",
+      "narration": "Just as important was what they did not find. There was no sign of violence. Nothing broken, nothing to suggest a fight. Whoever left the Mary Celeste seemed to have left in a hurry, and never came back."
+    },
+    {
+      "type": "stickfigure",
+      "headline": "Strange Details",
+      "figures": [
+        { "pose": "think", "hat": "detective", "x": 0.3, "facing": "right" }
+      ],
+      "props": [
+        { "kind": "magnifier", "x": 0.55, "y": 0.55, "scale": 1.2 },
+        { "kind": "compass", "x": 0.78, "scale": 1.1 }
+      ],
+      "narration": "There were a few strange details. Two of the hatches were open. A *sounding rod*, used to measure water in the hold, was lying on the deck. And the compass housing had been knocked out of place. Small clues, but each one points toward a story."
+    },
+    {
+      "type": "text",
+      "chapter": "The Inquiry",
+      "headline": "A *Salvage* Hearing",
+      "body": "Gibraltar, December 1872",
+      "background": "paper",
+      "transition": "flip",
+      "narration": "Deveau and two men sailed the Mary Celeste to *Gibraltar*, where a court held a salvage hearing. The Dei Gratia's crew expected a large reward for saving a valuable ship and cargo. Instead, they found themselves under suspicion."
+    },
+    {
+      "type": "stickfigure",
+      "headline": "Suspicion",
+      "background": "storm",
+      "figures": [
+        { "pose": "point", "hat": "detective", "label": "Solly-Flood", "x": 0.3, "facing": "right", "mood": "worried" },
+        { "pose": "shrug", "hat": "sailor", "x": 0.7, "facing": "left", "say": "We just found her!" }
+      ],
+      "narration": "The court's chief official, *Frederick Solly-Flood*, was convinced something sinister had happened. He suspected foul play, either by the Dei Gratia's crew or by the missing sailors themselves. He pointed to marks on the ship's rail, and to stains on a sword found in the captain's cabin."
+    },
+    {
+      "type": "stat",
+      "value": 1700,
+      "prefix": "£",
+      "label": "Salvage award — about one fifth of the value",
+      "narration": "But tests found the stains were *not blood*. No evidence of a crime was ever found. The court awarded the salvors about *seventeen hundred pounds*, only around one fifth of the value of ship and cargo. Many saw this as a sign the judges still had their doubts."
+    },
+    {
+      "type": "question",
+      "chapter": "The Theories",
+      "text": "So what *really* happened?",
+      "transition": "clock",
+      "narration": "With no survivors and no confession, the story was left wide open. And over the years, people have filled the silence with every theory imaginable. Let's look at the main ones."
+    },
+    {
+      "type": "stickfigure",
+      "headline": "Theory 1: Pirates",
+      "figures": [
+        { "pose": "point", "x": 0.3, "facing": "right", "color": "#e5484d", "mood": "neutral", "label": "Pirate?" },
+        { "pose": "scared", "hat": "sailor", "x": 0.68, "facing": "left", "mood": "shocked" }
+      ],
+      "props": [{ "kind": "skull", "x": 0.5, "y": 0.42, "scale": 0.7 }],
+      "narration": "Theory one: *pirates*. It sounds exciting, but it falls apart quickly. Pirates would have taken the cargo, the money, and the crew's belongings. Instead, almost everything of value was left untouched."
+    },
+    {
+      "type": "stickfigure",
+      "headline": "Theory 2: Mutiny",
+      "transition": "slide",
+      "figures": [
+        { "pose": "shock", "hat": "captain", "x": 0.25, "facing": "right", "mood": "shocked" },
+        { "pose": "point", "hat": "sailor", "x": 0.6, "facing": "left", "mood": "worried" },
+        { "pose": "point", "hat": "sailor", "x": 0.78, "facing": "left", "mood": "worried" }
+      ],
+      "props": [{ "kind": "barrel", "x": 0.45 }],
+      "narration": "Theory two: *mutiny*. Perhaps the crew turned on their captain, got drunk on the cargo, and fled. But the alcohol was undrinkable industrial spirit, the crew had good records, and again, there was no sign of a struggle."
+    },
+    {
+      "type": "stickfigure",
+      "headline": "Theory 3: Monsters & Seaquakes",
+      "background": "storm",
+      "ground": "water",
+      "figures": [
+        { "pose": "shock", "hat": "sailor", "x": 0.3, "facing": "right", "mood": "shocked" }
+      ],
+      "props": [
+        { "kind": "question", "x": 0.68, "y": 0.6, "scale": 1.1 },
+        { "kind": "lightning", "x": 0.85, "y": 0.4 }
+      ],
+      "narration": "Theory three goes further out. People have blamed *giant squid*, sea monsters, and even the Bermuda Triangle, which is thousands of miles away. A more serious version suggests an undersea earthquake, which can shake a ship violently. But that would not explain why the crew never returned."
+    },
+    {
+      "type": "stickfigure",
+      "headline": "Theory 4: Insurance Fraud",
+      "transition": "flip",
+      "figures": [
+        { "pose": "shrug", "hat": "captain", "x": 0.35, "label": "Briggs", "facing": "right" },
+        { "pose": "think", "hat": "captain", "x": 0.65, "label": "Morehouse", "facing": "left" }
+      ],
+      "props": [{ "kind": "scroll", "x": 0.5, "y": 0.45, "scale": 0.6 }],
+      "narration": "Theory four: *insurance fraud*. Some claimed Briggs and Morehouse staged the whole thing to split the reward. But Briggs owned part of the ship, and his wife and young daughter were aboard. Vanishing forever for a share of a salvage award makes very little sense."
+    },
+    {
+      "type": "text",
+      "headline": "Follow the *Clues*",
+      "body": "A hurried exit · navigation tools taken · a sound ship left behind",
+      "narration": "To get closer to the truth, we need the clues that really matter. The crew left in the lifeboat, in a hurry. The captain took his navigation tools, so he planned to steer somewhere. And they abandoned a perfectly good ship. What could make an experienced captain do that?"
+    },
+    {
+      "type": "stickfigure",
+      "headline": "Theory 5: A False Alarm",
+      "ground": "deck",
+      "figures": [
+        { "pose": "think", "hat": "captain", "x": 0.3, "facing": "right", "mood": "worried" },
+        { "pose": "scared", "hat": "sailor", "x": 0.62, "facing": "left", "mood": "worried", "say": "We're taking on water!" }
+      ],
+      "props": [{ "kind": "barrel", "x": 0.85, "scale": 0.9 }],
+      "narration": "Theory five: a *false alarm about sinking*. One of the ship's pumps was found taken apart. If the pumps were failing, Briggs may have measured the water in the hold, believed the ship was sinking fast, and ordered everyone into the lifeboat, while land was still nearby. A small navigation error could have made things worse."
+    },
+    {
+      "type": "stickfigure",
+      "short": true,
+      "headline": "Theory 6: The Alcohol",
+      "background": "embers",
+      "figures": [
+        { "pose": "scared", "hat": "sailor", "x": 0.22, "facing": "right", "mood": "shocked" }
+      ],
+      "props": [
+        { "kind": "barrel", "x": 0.5 },
+        { "kind": "barrel", "x": 0.62, "scale": 0.9 },
+        { "kind": "barrel", "x": 0.74 },
+        { "kind": "lightning", "x": 0.62, "y": 0.45, "scale": 0.9 }
+      ],
+      "narration": "Theory six is the one many experts favor today: the *alcohol*. Those nine empty barrels were made of red oak, which is more porous than the white oak used for the others. Alcohol could have leaked, filling the hold with fumes. With the hatches closed, those fumes may have built up, and even ignited."
+    },
+    {
+      "type": "stickfigure",
+      "short": true,
+      "headline": "The Experiment",
+      "background": "grid",
+      "figures": [
+        { "pose": "point", "hat": "detective", "x": 0.3, "facing": "right", "mood": "happy", "label": "Chemist" }
+      ],
+      "props": [
+        { "kind": "lightbulb", "x": 0.62, "y": 0.6 },
+        { "kind": "book", "x": 0.8, "scale": 0.8 }
+      ],
+      "narration": "In 2006, chemist *Andrea Sella* of University College London tested this idea with a model of the hold. When he ignited the vapor, there was a frightening burst of flame, but it was so cool and quick that it left *no scorch marks*. A blast like that could have terrified the crew without leaving any evidence."
+    },
+    {
+      "type": "chart",
+      "headline": "Our Evidence Scorecard",
+      "chartType": "bar",
+      "unit": "/10",
+      "data": [
+        { "label": "Pirates", "value": 1 },
+        { "label": "Sea monster", "value": 1 },
+        { "label": "Mutiny", "value": 2 },
+        { "label": "Insurance fraud", "value": 2 },
+        { "label": "False alarm", "value": 7 },
+        { "label": "Alcohol fumes", "value": 8 }
+      ],
+      "transition": "wipe",
+      "narration": "So how do the theories stack up? Here is our own scorecard, rating each one by how well it fits the evidence. Pirates, monsters, mutiny, and fraud all score low. A false alarm about sinking, or a scare caused by alcohol fumes, fit the clues far better."
+    },
+    {
+      "type": "stickfigure",
+      "chapter": "What Probably Happened",
+      "headline": "The Most Likely Story",
+      "ground": "water",
+      "background": "storm",
+      "figures": [
+        { "pose": "scared", "hat": "captain", "x": 0.25, "facing": "right", "mood": "worried", "enter": "pop" }
+      ],
+      "props": [
+        { "kind": "lifeboat", "x": 0.25, "scale": 1.1 },
+        { "kind": "ship", "x": 0.78, "scale": 0.55 }
+      ],
+      "narration": "Put the pieces together, and a likely story appears. Something, perhaps fumes, perhaps fear of sinking, convinced Captain Briggs to abandon ship. Everyone climbed into the lifeboat, maybe planning to follow at a safe distance. Then the wind picked up, and the Mary Celeste sailed away without them."
+    },
+    {
+      "type": "text",
+      "headline": "*Lost* at Sea",
+      "body": "Ten people · one small boat · the open Atlantic in winter",
+      "background": "ocean",
+      "transition": "fade",
+      "narration": "If that is what happened, the end would have come quietly. Ten people, in one small boat, on the open Atlantic in winter. No trace of them, or of the lifeboat, was ever found."
+    },
+    {
+      "type": "stickfigure",
+      "chapter": "The Legend",
+      "headline": "Enter Arthur Conan Doyle",
+      "background": "paper",
+      "figures": [
+        { "pose": "think", "hat": "detective", "x": 0.3, "facing": "right", "label": "Conan Doyle" }
+      ],
+      "props": [{ "kind": "book", "x": 0.65, "scale": 1.1 }],
+      "narration": "The story might have faded away, if not for a young doctor named *Arthur Conan Doyle*. In 1884, a few years before he created Sherlock Holmes, he published a short story about the ship, which he called the *Marie Celeste*. It was fiction, but many readers believed it was true."
+    },
+    {
+      "type": "list",
+      "headline": "Myth vs. Fact",
+      "items": [
+        "Myth: warm tea and breakfast on the table",
+        "Myth: the lifeboat was still on board",
+        "*Fact:* food was stored, not served",
+        "*Fact:* the lifeboat was missing"
+      ],
+      "narration": "Doyle's tale added details that never happened, like warm tea still sitting on the table, and the lifeboat still on board. These myths spread so widely that they are repeated even today. In reality, there was no half-eaten breakfast. Just a quiet, empty ship."
+    },
+    {
+      "type": "timeline",
+      "chapter": "The Ship's Fate",
+      "headline": "After the Mystery",
+      "background": "paper",
+      "events": [
+        { "date": "1873", "label": "Back at sea with a new crew" },
+        { "date": "1873–1884", "label": "Changes owners again and again" },
+        { "date": "1885", "label": "Wrecked on purpose off Haiti" },
+        { "date": "2001", "label": "Explorers claim to find the wreck" }
+      ],
+      "narration": "And the Mary Celeste herself? She sailed on for another twelve years, passing through the hands of many owners. Her story ended in 1885, when her final captain deliberately ran her onto a reef off Haiti, in an attempt at *insurance fraud*. The scheme was discovered, and he was put on trial."
+    },
+    {
+      "type": "map",
+      "headline": "Her Final Resting Place?",
+      "center": [-73, 19],
+      "zoom": 14,
+      "markers": [{ "lon": -73.2, "lat": 18.6, "label": "Rochelais Reef" }],
+      "highlightCountries": ["Haiti"],
+      "transition": "iris",
+      "narration": "In 2001, a team of explorers announced that they had found her remains on that reef. But later tests on the wood suggested it may have come from a different ship. Even her wreck, it seems, refuses to give a clear answer."
+    },
+    {
+      "type": "stickfigure",
+      "chapter": "Conclusion",
+      "headline": "A Split-Second Decision",
+      "background": "ocean",
+      "ground": "none",
+      "figures": [
+        { "pose": "think", "hat": "captain", "x": 0.35, "facing": "right", "mood": "sad" }
+      ],
+      "props": [{ "kind": "question", "x": 0.68, "y": 0.62 }],
+      "narration": "More than a century and a half later, the *Mary Celeste* remains one of the most famous mysteries of the sea. We may never know exactly what happened. But the clues point to a story that is less about monsters or murder, and more about a split-second decision, made by a careful captain who believed he was saving his family."
+    },
+    {
+      "type": "outro",
+      "title": "Stay *Curious*",
+      "subtitle": "New true mysteries every week",
+      "cta": "Subscribe",
+      "background": "stars",
+      "transition": "fade",
+      "narration": "What do you think happened aboard the Mary Celeste? Tell us your theory in the comments, and subscribe for more true mysteries from history. Thanks for watching."
+    }
+  ]
+}

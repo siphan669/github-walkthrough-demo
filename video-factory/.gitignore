@@ -1,0 +1,7 @@
+node_modules/
+out/
+.cache/
+voices/*.onnx
+voices/*.onnx.json
+videos/*/audio/voiceover/
+videos/*/audio/generated/
